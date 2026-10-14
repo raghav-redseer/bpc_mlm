@@ -1,0 +1,742 @@
+:root {
+  --bg: #f3f5f9;
+  --card-bg: #ffffff;
+  --border: #e3e7ef;
+  --text: #1a1d29;
+  --text-muted: #6b7280;
+
+  --primary: #0f766e;
+  --primary-dark: #0b5c56;
+  --primary-light: #ccfbf1;
+
+  --accent: #db2777;
+  --accent-light: #fce7f3;
+
+  --gold: #b45309;
+  --gold-light: #fef3c7;
+
+  --blue: #dbeafe;
+  --blue-border: #93c5fd;
+  --blue-text: #1d4ed8;
+
+  --green-bg: #dcfce7;
+  --green-border: #86efac;
+  --green-text: #15803d;
+
+  --amber-bg: #fef3c7;
+  --amber-border: #fcd34d;
+  --amber-text: #92400e;
+
+  --red-bg: #fee2e2;
+  --red-border: #fca5a5;
+  --red-text: #b91c1c;
+
+  --pending-bg: #ffe4e4;
+  --pending-border: #e89d9d;
+
+  --shadow-sm: 0 1px 2px rgba(16, 24, 40, 0.06);
+  --shadow-md: 0 4px 14px rgba(16, 24, 40, 0.08);
+  --shadow-lg: 0 12px 32px rgba(16, 24, 40, 0.14);
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  font-family: "Segoe UI", -apple-system, BlinkMacSystemFont, Roboto, sans-serif;
+  background:
+    radial-gradient(circle at 15% 0%, rgba(15, 118, 110, 0.06), transparent 45%),
+    radial-gradient(circle at 85% 10%, rgba(219, 39, 119, 0.05), transparent 40%),
+    var(--bg);
+  color: var(--text);
+  min-height: 100vh;
+}
+
+/* Header */
+.app-header {
+  background: linear-gradient(120deg, var(--primary-dark) 0%, var(--primary) 55%, #0d9488 100%);
+  padding: 9px 28px;
+  box-shadow: var(--shadow-md);
+}
+.app-header-inner {
+  display: flex;
+  align-items: center;
+  gap: 11px;
+  max-width: 1240px;
+  margin: 0 auto;
+}
+.brand-badge {
+  flex: none;
+  width: 32px;
+  height: 32px;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.16);
+  backdrop-filter: blur(4px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 17px;
+  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.25);
+  overflow: hidden;
+}
+.brand-badge img { width: 100%; height: 100%; object-fit: contain; padding: 3px; }
+.app-header h1 {
+  margin: 0;
+  font-size: 15.5px;
+  color: #ffffff;
+  letter-spacing: 0.2px;
+  line-height: 1.2;
+}
+.app-header .subtitle {
+  margin: 0;
+  color: rgba(255, 255, 255, 0.85);
+  font-size: 11px;
+  max-width: 640px;
+}
+
+/* Tabs */
+.tabs {
+  display: flex;
+  gap: 4px;
+  padding: 0 32px;
+  background: var(--card-bg);
+  border-bottom: 1px solid var(--border);
+  flex-wrap: wrap;
+  max-width: 1240px;
+  margin: 0 auto;
+}
+.tab-btn {
+  background: none;
+  border: none;
+  padding: 13px 18px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--text-muted);
+  border-bottom: 3px solid transparent;
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  transition: color 0.15s ease, border-color 0.15s ease, background 0.15s ease;
+  border-radius: 8px 8px 0 0;
+}
+.tab-icon { font-size: 15px; }
+.tab-btn:hover { color: var(--primary-dark); background: var(--primary-light); }
+.tab-btn.active {
+  color: var(--primary-dark);
+  border-bottom-color: var(--accent);
+  font-weight: 700;
+}
+
+main { padding: 18px 28px 40px; max-width: 1240px; margin: 0 auto; }
+
+.tab-panel { display: none; }
+.tab-panel.active { display: block; animation: fadeIn 0.2s ease; }
+@keyframes fadeIn { from { opacity: 0; transform: translateY(4px); } to { opacity: 1; transform: none; } }
+
+.card {
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  padding: 15px 18px;
+  margin-bottom: 13px;
+  box-shadow: var(--shadow-sm);
+}
+.card.error { background: var(--red-bg); border-color: var(--red-border); color: var(--red-text); }
+.hidden { display: none !important; }
+
+.row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+.row.space-between { justify-content: space-between; }
+
+input[type="text"], input[type="password"], select, textarea {
+  padding: 7px 10px;
+  border: 1.5px solid var(--border);
+  border-radius: 8px;
+  font-size: 13.5px;
+  font-family: inherit;
+  background: #fafbfc;
+  transition: border-color 0.15s ease, box-shadow 0.15s ease;
+}
+input[type="text"]:focus, input[type="password"]:focus, select:focus, textarea:focus {
+  outline: none;
+  border-color: var(--primary);
+  box-shadow: 0 0 0 3px var(--primary-light);
+  background: #fff;
+}
+#product-input { flex: 1; min-width: 240px; }
+#save-folder { flex: 1; min-width: 320px; }
+
+/* Password show/hide toggle - every password input on the page is wrapped in this span with an
+   eye button overlaid on its right edge (see app.js's wrapPasswordInput). */
+.pw-wrap { position: relative; display: inline-flex; align-items: center; }
+.pw-wrap input[type="password"], .pw-wrap input[type="text"] { padding-right: 26px; }
+.pw-toggle {
+  position: absolute; right: 2px; top: 50%; transform: translateY(-50%);
+  background: none; border: none; cursor: pointer; font-size: 12px; line-height: 1;
+  padding: 3px; color: var(--text-muted);
+}
+.pw-toggle:hover { color: var(--primary); }
+
+/* Grouped save-options block on the Bulk Tag card - visually separates "where does this
+   file go" from the upload/name fields above it, without needing paragraphs of hint text. */
+.option-panel {
+  background: var(--blue);
+  border: 1px solid var(--blue-border);
+  border-radius: 10px;
+  padding: 14px 16px;
+  margin: 14px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.option-panel .row:last-child { margin-bottom: 0; }
+.option-panel label { color: var(--blue-text); font-weight: 600; }
+.option-panel input[type="text"] { background: #fff; }
+.switch-label { display: flex; align-items: center; gap: 8px; cursor: pointer; }
+.switch-label input[type="checkbox"] { width: 16px; height: 16px; accent-color: var(--primary); cursor: pointer; }
+
+.preview-card { border-top: 3px solid var(--accent); }
+.preview-card h3::before { content: "👁️"; margin-right: 8px; }
+#glossary-search { flex: 1; min-width: 200px; }
+#bsc-search { flex: 1; min-width: 320px; }
+
+button {
+  padding: 7px 14px;
+  border-radius: 8px;
+  border: 1.5px solid var(--border);
+  background: #fff;
+  cursor: pointer;
+  font-size: 13.5px;
+  font-weight: 500;
+  color: var(--text);
+  transition: transform 0.08s ease, box-shadow 0.15s ease, background 0.15s ease;
+}
+button:hover { background: #f5f6f9; box-shadow: var(--shadow-sm); }
+button:active { transform: translateY(1px); }
+button.primary {
+  background: linear-gradient(135deg, var(--primary) 0%, var(--primary-dark) 100%);
+  color: #fff;
+  border-color: transparent;
+  font-weight: 600;
+  box-shadow: var(--shadow-sm);
+}
+button.primary:hover { box-shadow: var(--shadow-md); filter: brightness(1.05); }
+button:disabled { opacity: 0.5; cursor: not-allowed; box-shadow: none; }
+
+.button-link {
+  display: inline-block;
+  text-decoration: none;
+  margin-top: 12px;
+}
+
+.hint { color: var(--text-muted); font-size: 12.5px; margin: 8px 0 0; line-height: 1.5; }
+.hint.warn-text { color: #b45309; font-weight: 600; }
+.warn-text { color: var(--amber-text); font-weight: 600; }
+
+.suggest-card { border-top: 3px solid var(--gold); }
+.term-defs {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  background: var(--gold-light);
+  border: 1px solid #fcd34d;
+  border-radius: 10px;
+  padding: 10px 14px;
+  margin-bottom: 14px;
+  font-size: 13px;
+  color: var(--gold);
+}
+.sub-card {
+  background: var(--bg);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 12px 16px;
+  margin-top: 10px;
+  font-size: 13.5px;
+}
+.sub-card p { margin: 4px 0; }
+.sr-reason-input { flex: 1; min-width: 280px; }
+code {
+  background: var(--primary-light);
+  color: var(--primary-dark);
+  padding: 1px 6px;
+  border-radius: 5px;
+  font-size: 12.5px;
+}
+
+/* Tab 1 scratchpad */
+.scratchpad { display: flex; flex-direction: column; gap: 10px; }
+.result-item {
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-left: 5px solid var(--primary);
+  border-radius: 10px;
+  padding: 14px 18px;
+  box-shadow: var(--shadow-sm);
+  animation: fadeIn 0.2s ease;
+}
+.result-item.unmapped { border-left-color: var(--red-text); }
+.result-item .name { font-weight: 600; margin-bottom: 4px; }
+.result-item .path { font-size: 15.5px; font-weight: 500; }
+.result-item .meta { color: var(--text-muted); font-size: 12.5px; margin-top: 4px; }
+
+/* Tab 2 */
+.dropzone {
+  border: 2px dashed var(--blue-border);
+  border-radius: 12px;
+  padding: 28px;
+  text-align: center;
+  margin-bottom: 16px;
+  background: var(--blue);
+  transition: border-color 0.15s ease, background 0.15s ease;
+}
+.dropzone.dragover { border-color: var(--primary); background: var(--primary-light); }
+.dropzone p { margin: 0 0 10px; color: var(--text); }
+
+.progress-bar {
+  height: 12px;
+  background: var(--border);
+  border-radius: 6px;
+  overflow: hidden;
+  margin-top: 10px;
+}
+.progress-fill {
+  height: 100%;
+  width: 0%;
+  background: linear-gradient(90deg, var(--primary) 0%, var(--accent) 100%);
+  transition: width 0.25s ease;
+}
+
+#bulk-summary-body { display: flex; gap: 12px; flex-wrap: wrap; margin: 12px 0; }
+#bulk-summary-body .stat {
+  text-align: center;
+  padding: 12px 16px;
+  border-radius: 10px;
+  min-width: 110px;
+  border: 1px solid var(--border);
+  background: #fafbfc;
+}
+#bulk-summary-body .stat .n { font-size: 24px; font-weight: 800; }
+#bulk-summary-body .stat .l { font-size: 11.5px; color: var(--text-muted); margin-top: 2px; }
+.stat-good { background: var(--green-bg); border-color: var(--green-border); }
+.stat-good .n { color: var(--green-text); }
+.stat-warn { background: var(--amber-bg); border-color: var(--amber-border); }
+.stat-warn .n { color: var(--amber-text); }
+.stat-info { background: var(--blue); border-color: var(--blue-border); }
+.stat-info .n { color: var(--blue-text); }
+.stat-neutral .n { color: var(--text); }
+
+/* Tables (glossary + regression + pending) */
+/* padding: 0 overrides .card's own padding specifically for scrollable table containers - with
+   any padding here, browsers clip horizontal overflow at the padding EDGE (not the content
+   edge), so a scrolled-past cell can still render inside that padding strip. A sticky first
+   column sits at the padding edge too (that's what 'left: 0' sticks to), so it never covers that
+   strip - the scrolled content peeks through in exactly a padding-width sliver. Zero padding
+   here removes the strip entirely; cell-level padding (see th, td below) still gives the table
+   its spacing. */
+.table-card { overflow-x: auto; padding: 0; }
+
+/* Category Topline specifically gets a genuine, independently-scrolling box (not just the page
+   itself scrolling) so its frozen header rows actually work: setting overflow-x alone makes the
+   browser also COMPUTE overflow-y as auto (a CSS quirk - a lone overflow-x/overflow-y keeps the
+   other axis from defaulting to plain "visible"), which quietly makes .table-card itself the
+   sticky positioning container for its <th> elements - but with no height constraint, this card
+   never scrolls internally (the PAGE scrolls instead), so "position: sticky; top: 0" inside it
+   never actually engages; confirmed directly - scrolling the page moved the header rows away with
+   everything else instead of freezing them. A real max-height + overflow-y: auto makes this card
+   the one true scrolling box for both axes, so the existing sticky column (left) and the newly
+   added sticky header rows (top) both work the way they're meant to. */
+#topline-normal-view .table-card { max-height: calc(100vh - 230px); overflow-y: auto; }
+table { width: 100%; border-collapse: collapse; font-size: 12.5px; }
+th, td { text-align: center; padding: 6px 10px; border-bottom: 1px solid var(--border); white-space: nowrap; }
+/* Every table's first column is a row label (category, rule, platform name, ...) - centering
+   those along with the data columns makes them harder to scan, so they stay left-aligned while
+   every data column centers. */
+tr > th:first-child, tr > td:first-child { text-align: left; }
+/* Without a cap, a long comma-joined value (e.g. the Bundle Marker rows' full keyword list, or a
+   verbose auto-verification reason) forces its whole column to one unbroken line's width - which
+   can push every column after it off-screen even though wrap is already turned on for it. */
+td.wrap, th.wrap { white-space: normal; max-width: 320px; }
+#glossary-table td:nth-child(2) { max-width: 240px; }
+th {
+  cursor: pointer;
+  user-select: none;
+  color: var(--text-muted);
+  font-weight: 700;
+  font-size: 11.5px;
+  text-transform: uppercase;
+  letter-spacing: 0.4px;
+  background: #fafbfc;
+  position: sticky;
+  top: 0;
+}
+th:hover { color: var(--primary-dark); }
+tbody tr:hover { background: var(--primary-light); }
+
+tr[data-rule-type="Context Matrix"] { background: var(--blue); }
+tr[data-rule-type="Bundle Marker (Strong)"], tr[data-rule-type="Bundle Marker (Weak)"] { background: var(--blue); }
+tr[data-rule-type="Low Priority Keyword"] { background: var(--gold-light); }
+tr[data-rule-type="PENDING REVIEW"] { background: var(--pending-bg); }
+
+/* Report tabs: Category Topline / Brand Share Cons / Master Data */
+#topline-table td, #bsc-table td, #md-table td { white-space: nowrap; }
+#topline-table th:first-child, #topline-table td:first-child,
+#bsc-table th:first-child, #bsc-table td:first-child { white-space: nowrap; }
+
+/* border-collapse: collapse does not composite correctly with position: sticky in any browser
+   engine - collapsed borders sit "between" cells in a shared layer that a sticky cell's own
+   background doesn't fully paint over, so the adjacent (scrolled) cell's content/border can
+   peek through right at the sticky boundary. separate + border-spacing: 0 avoids that shared
+   border layer entirely; harmless here since these tables only ever set border-bottom (no
+   vertical borders), so there's no double-border to introduce. */
+#topline-table, #bsc-table { border-collapse: separate; border-spacing: 0; }
+
+/* Auto table-layout sizes each column to its tightest-fitting content, so a wider value further
+   right (e.g. "1,003.49") can end up in a column barely wider than a plain "559.35" - that
+   column's number then overflows its own box width-wise, and once horizontal scroll is in play
+   the overflow visually reads as "peeking out from behind" the sticky category column just to
+   its right. Explicit min-widths give every number room, so nothing needs to overflow at all. */
+#topline-table th, #topline-table td, #bsc-table th, #bsc-table td { min-width: 90px; }
+#topline-table th:first-child, #topline-table td:first-child,
+#bsc-table th:first-child, #bsc-table td:first-child { min-width: 220px; }
+
+/* The category/brand label column stays put while the many month columns scroll underneath it -
+   needs an opaque background (not transparent) or the scrolling cells behind it show through. */
+#topline-table th:first-child, #topline-table td:first-child,
+#bsc-table th:first-child, #bsc-table td:first-child {
+  position: sticky;
+  left: 0;
+  z-index: 2;
+  background: var(--card-bg);
+  box-shadow: 2px 0 4px rgba(16, 24, 40, 0.06);
+}
+#topline-table th:first-child, #bsc-table th:first-child { z-index: 3; background: #fafbfc; }
+
+/* Row color coding by hierarchy level - Total BPC darkest, fading to L2. The first-child
+   (sticky) cell needs its own #id-qualified override, or the earlier ID-selector sticky-column
+   rule above (higher specificity than a plain class) would always win and paint it white
+   regardless of row color, breaking the sticky column's color match with the rest of the row. */
+tr.row-total td { background: #bec4d1; }
+tr.row-l0 td { background: #d9dee6; }
+tr.row-l1 td { background: #f9d8a8; }
+tr.row-l2 td { background: #cde8fb; }
+/* Bold stays on the category/brand label only - the numbers themselves are plain weight,
+   regardless of hierarchy level. */
+tr.row-total td:first-child { font-weight: 800; }
+tr.row-l0 td:first-child { font-weight: 700; }
+tr.row-l1 td:first-child { font-weight: 600; }
+#topline-table tr.row-total td:first-child, #bsc-table tr.row-total td:first-child { background: #bec4d1; }
+#topline-table tr.row-l0 td:first-child, #bsc-table tr.row-l0 td:first-child { background: #d9dee6; }
+#topline-table tr.row-l1 td:first-child, #bsc-table tr.row-l1 td:first-child { background: #f9d8a8; }
+#topline-table tr.row-l2 td:first-child, #bsc-table tr.row-l2 td:first-child { background: #cde8fb; }
+
+/* Month header cells bold, but the numeric data cells underneath them stay plain weight.
+   :not(:first-child) so this never has to out-specificity the label-bold rules above - they
+   target different cells entirely instead of competing over the same one. */
+/* The month header row uses the same muted grey as every other table's header by default - too
+   faint against its own header background to read comfortably at a glance. Darkened just for the
+   report tables (Topline/BSC), where that row is the primary thing being scanned left-to-right. */
+#topline-table th, #bsc-table th { font-weight: 800; color: var(--text); }
+#topline-table td:not(:first-child), #bsc-table td:not(:first-child) { font-weight: 400; }
+
+/* Compressed layout for Category Topline's normal (read-only) view - 29+ month columns x
+   dozens of category rows was unmanageable to scroll/scan at the default table density. */
+#topline-table th, #topline-table td { padding: 3px 8px; font-size: 11px; }
+#topline-table th:first-child, #topline-table td:first-child { min-width: 170px; }
+#topline-table th, #topline-table td { min-width: 62px; }
+
+/* Columns are grouped by metric (all GMV, then all MS, then all MoM, then all YoY) rather than
+   by month - a left border on each group's first month column marks where one metric block
+   ends and the next begins, since the plain min-width columns alone give no visual separation. */
+#topline-table td.metric-group-start, #topline-table th.metric-group-start { border-left: 2px solid #8a93a3; }
+
+/* A MoM swing over 100% in either direction is flagged, not hidden - almost always either a
+   data artifact (a near-zero prior month exploding the ratio) or a real move worth a second
+   look, and silently showing "780%" with no visual cue made it too easy to miss either way. */
+#topline-table td.mom-flag {
+  background: var(--red-bg, #fdecea);
+  color: var(--red-text, #92251b);
+  font-weight: 700;
+}
+
+/* Brand Validation: compact + color-coded, deliberately NOT reusing Topline/BSC's grey .row-l0
+   hierarchy shading (that grey means "an L0 category row" there, not "an L'Oreal brand" here) -
+   L'Oreal/Pareto brands get their own warm gold treatment so they actually stand out at the top
+   of the table instead of blending into the same neutral grey every other row would read as. */
+#bv-table th, #bv-table td { padding: 4px 9px; font-size: 11.5px; }
+#bv-table th { font-weight: 800; color: var(--text); }
+#bv-table td:not(:first-child):not(:nth-child(2)) { font-weight: 400; }
+#bv-table td.metric-group-start, #bv-table th.metric-group-start { border-left: 2px solid #8a93a3; }
+
+#bv-table tbody tr:nth-child(even):not(.bv-row-lo) { background: #f7f8fb; }
+
+/* table-layout: fixed makes every column's width come solely from <colgroup> (set in app.js),
+   not from content or the two-row header's colspans - with the default auto layout, a long
+   brand name like "L'Oreal Professionnel" forced the Brand column wider than its declared width
+   regardless of max-width, which then threw off the Tier column's sticky "left" offset (it
+   assumed the Brand column's width, so the two drifted apart/overlapped once a wide value
+   appeared). Fixed layout + an explicit <col> per column removes that ambiguity entirely - the
+   same border-collapse/sticky composition issue as Topline/BSC (see their own comment above)
+   still applies, hence separate + border-spacing: 0 here too. The table's own width is set
+   inline in app.js (to the colgroup's own pixel sum) rather than left as "auto" here - table-
+   layout: fixed still computes an "auto"-width table's overall width from cell content before
+   distributing it across columns, which silently overrides the colgroup's pixel values once
+   content needs more room than the nominal sum; an explicit width removes that computation
+   entirely, leaving the colgroup as the sole source of truth. */
+#bv-table { border-collapse: separate; border-spacing: 0; table-layout: fixed; }
+#bv-table th:first-child, #bv-table td:first-child {
+  overflow: hidden; text-overflow: ellipsis;
+  position: sticky; left: 0; z-index: 2; background: var(--card-bg);
+}
+#bv-table th:nth-child(2), #bv-table td:nth-child(2) {
+  overflow: hidden; text-overflow: ellipsis;
+  position: sticky; left: 190px; z-index: 2; background: var(--card-bg);
+  box-shadow: 2px 0 4px rgba(16, 24, 40, 0.06);
+}
+#bv-table th:first-child, #bv-table th:nth-child(2) { z-index: 3; background: #fafbfc; }
+
+/* Scrolling to a position that isn't exactly on a month-group boundary leaves a thin sliver of
+   the previous month's last (non-sticky) column peeking out from under the sticky Tier column -
+   confusing to read, not a structural bug (Brand/Tier themselves stay correctly pinned either
+   way). scroll-snap forces mouse/trackpad/scrollbar scrolling to always settle on a full month
+   boundary, so that sliver can never be left half-visible. scroll-snap-align on its own aligns a
+   month's start edge with the scroll container's own raw edge (viewport x=0) - it has no idea the
+   310px-wide sticky Brand+Tier columns are sitting on top of that edge, so a plain "start" align
+   still left Jan mostly hidden and Feb half-sliced. scroll-padding-left shifts where "start"
+   actually lands by exactly the sticky region's width, so a snapped month's first column clears
+   the sticky columns completely instead of landing underneath them. */
+#tab-brandvalidation .table-card { scroll-snap-type: x mandatory; scroll-padding-left: 310px; }
+#bv-table td.metric-group-start, #bv-table th.metric-group-start { scroll-snap-align: start; }
+
+tr.bv-row-lo td {
+  background: linear-gradient(90deg, var(--gold-light) 0%, #fffaf0 100%);
+  border-left: 3px solid var(--gold);
+}
+tr.bv-row-lo td:first-child, tr.bv-row-lo td:nth-child(2) {
+  background: var(--gold-light);
+  border-left: 3px solid var(--gold);
+}
+tr.bv-row-lo td:first-child {
+  font-weight: 700;
+  color: var(--gold);
+}
+
+/* Tier/TM Brand shown as a small colored pill rather than plain text - color picked
+   deterministically per brand name (see tmBrandBadgeClass in app.js) so the same parent company
+   always reads the same color across platforms, with no manual color-to-brand mapping to keep
+   up to date. */
+.tm-badge {
+  display: inline-block;
+  padding: 1px 9px;
+  border-radius: 999px;
+  font-size: 10.5px;
+  font-weight: 700;
+  white-space: nowrap;
+}
+.tm-badge-0 { background: var(--blue); color: var(--blue-text); }
+.tm-badge-1 { background: var(--accent-light); color: var(--accent); }
+.tm-badge-2 { background: var(--green-bg); color: var(--green-text); }
+.tm-badge-3 { background: var(--amber-bg); color: var(--amber-text); }
+.tm-badge-4 { background: var(--primary-light); color: var(--primary-dark); }
+.tm-badge-5 { background: #ede9fe; color: #6d28d9; }
+
+#bv-table td.mom-flag {
+  background: var(--red-bg, #fdecea);
+  color: var(--red-text, #92251b);
+  font-weight: 700;
+}
+
+/* MoM/YoY: growth direction at a glance - each side (BSC/Expert) colored independently, since
+   they can disagree in sign, not just magnitude. */
+#bv-table .pct-pos { color: var(--green-text); font-weight: 700; }
+#bv-table .pct-neg { color: var(--red-text); font-weight: 700; }
+
+/* Months multi-select: a toggle button + dropdown panel of checkboxes (All/None + one per
+   month), replacing the old From/To range pickers so the user can show exactly the months they
+   want instead of scrolling a contiguous block. Kept deliberately small/dense - this sits in
+   the filter row next to Platform and shouldn't dominate it. */
+.month-multiselect { position: relative; display: inline-block; }
+.month-multiselect-btn { min-width: 0; padding: 3px 8px; font-size: 12px; text-align: left; }
+.month-multiselect-panel {
+  position: absolute; top: calc(100% + 4px); left: 0; z-index: 20;
+  background: var(--card-bg); border: 1px solid #c7cdd6; border-radius: 6px;
+  box-shadow: 0 4px 14px rgba(16, 24, 40, 0.14);
+  padding: 6px; width: 110px; max-height: 240px; overflow-y: auto;
+}
+.month-multiselect-actions { display: flex; gap: 4px; margin-bottom: 4px; }
+.month-multiselect-actions button { flex: 1 1 auto; padding: 1px 0; font-size: 10px; }
+.month-multiselect-list { display: flex; flex-direction: column; gap: 1px; }
+.month-multiselect-item { display: flex; align-items: center; gap: 4px; font-size: 11px; font-weight: 400; white-space: nowrap; padding: 1px 2px; }
+.month-multiselect-item input { margin: 0; }
+
+#md-brand { min-width: 180px; }
+#topline-platform, #bsc-platform,
+#md-platform, #md-l0, #md-l1, #md-l2, #md-month { min-width: 130px; }
+
+h3 { margin-top: 0; }
+
+#app-footer {
+  max-width: 1240px;
+  margin: 0 auto;
+  padding: 10px 28px 24px;
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  font-size: 11.5px;
+  color: var(--text-muted);
+}
+#footer-stale-warning {
+  color: var(--amber-text);
+  font-weight: 700;
+  background: var(--amber-bg);
+  border: 1px solid var(--amber-border);
+  border-radius: 8px;
+  padding: 4px 10px;
+}
+
+/* Scrollbar polish */
+::-webkit-scrollbar { height: 10px; width: 10px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: #cbd2df; border-radius: 6px; }
+::-webkit-scrollbar-thumb:hover { background: #a9b2c3; }
+
+/* Filter cards were the biggest source of dead whitespace on the report tabs - a filter row
+   rarely needs the same generous padding as a content card. */
+.card.compact-filters { padding: 8px 14px; margin-bottom: 8px; }
+.filter-spacer { flex: 1 1 auto; }
+.manual-toggle { margin-left: auto; font-weight: 700; color: var(--accent); }
+
+/* Category Topline's filter card now also holds the per-platform GMV/MoM%/YoY% hard input row
+   right below the platform/month filters - keep both rows tight so the card doesn't dominate
+   the tab above the actual data. */
+#tab-topline .compact-filters .row { gap: 6px; row-gap: 4px; }
+#tab-topline .compact-filters .row + .row { margin-top: 4px; }
+#tab-topline .compact-filters label { font-size: 12px; }
+#topline-gmv-input-row:empty { display: none; }
+#topline-gmv-input-row { padding-top: 4px; border-top: 1px dashed var(--border); }
+
+/* Category Topline: manual YoY/MoM override table - small, auxiliary, not the main data grid. */
+.compact-table { width: 100%; margin-top: 8px; border-collapse: collapse; font-size: 12px; }
+.compact-table th, .compact-table td { padding: 4px 10px; text-align: left; border-bottom: 1px solid var(--border); }
+#topline-yoy-override-card .hint { font-size: 12px; color: var(--text-muted); }
+
+/* Category Topline: Manual Change mode - this table can run 40-50+ rows on one screen, so it
+   gets its own tighter row height/font on top of the general table compaction above. */
+.edit-status { color: var(--text-muted); font-size: 12px; font-style: italic; }
+#topline-edit-table th, #topline-edit-table td { padding: 4px 10px; font-size: 12px; }
+.share-cell-wrap { display: flex; align-items: center; gap: 2px; }
+.share-input { width: 92px; padding: 3px 6px; font-size: 12px; }
+.revert-icon {
+  border: none; background: transparent; padding: 2px 5px; margin: 0; cursor: pointer;
+  font-size: 14px; line-height: 1; color: var(--accent); border-radius: 6px;
+}
+.revert-icon:hover { background: var(--primary-light); }
+.locked-share { color: var(--text-muted); font-size: 12px; white-space: nowrap; }
+.context-share { color: var(--text-muted); font-size: 12px; white-space: nowrap; font-style: italic; }
+.l123-input { width: 130px; padding: 3px 6px; font-size: 12px; }
+.rollup-ok { color: var(--green-text); font-weight: 700; }
+.rollup-bad { color: var(--red-text); font-weight: 700; }
+.preview-table { width: 100%; margin-bottom: 8px; }
+.preview-table th, .preview-table td { padding: 4px 10px; font-size: 12px; }
+
+/* Tab 0: Monthly Setup */
+#tab-monthly .card { margin-bottom: 22px; }
+#tab-monthly h3 { font-size: 14.5px; }
+.monthly-row-gap { margin-top: 12px; }
+
+.monthly-pref-list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 8px;
+  margin: 10px 0;
+  max-width: 460px;
+}
+@media (max-width: 460px) {
+  .monthly-pref-list { grid-template-columns: repeat(2, 1fr); }
+}
+.monthly-pref-tile {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  padding: 10px 8px;
+  border: 2px solid var(--border);
+  border-radius: 10px;
+  background: #fafbfc;
+  font-weight: 600;
+  font-size: 12px;
+  text-align: center;
+  cursor: pointer;
+  user-select: none;
+  transition: border-color 0.15s ease, background 0.15s ease, color 0.15s ease;
+}
+.monthly-pref-tile:hover { border-color: var(--primary); background: var(--primary-light); }
+.monthly-pref-tile.selected { border-color: var(--primary); background: var(--primary-light); color: var(--primary-dark); }
+.monthly-pref-tile input[type="checkbox"] { position: absolute; opacity: 0; width: 0; height: 0; }
+.monthly-pref-tile .check-icon { display: none; color: var(--primary); font-weight: 800; }
+.monthly-pref-tile.selected .check-icon { display: inline; }
+.monthly-pref-tile.disabled {
+  cursor: not-allowed;
+  opacity: 0.55;
+  background: var(--bg);
+}
+.monthly-pref-tile.disabled:hover { border-color: var(--border); background: var(--bg); }
+.monthly-pref-tile.disabled.selected { border-color: var(--border); background: var(--bg); color: var(--text-muted); }
+.monthly-pref-tile.disabled.selected .check-icon { color: var(--text-muted); }
+/* Compressed - with Category Topline's own section gone from this card (moved to its own tab,
+   see monthly-status-row below for the compact status equivalent), there's no reason for these
+   cards to take full default .card padding/margin any more. */
+.monthly-platform-card { border-left: 5px solid var(--border); padding: 10px 14px; margin-bottom: 8px; }
+.monthly-platform-card h3 { font-size: 14px; }
+.monthly-platform-card .row { gap: 6px; }
+.monthly-platform-card .hint { margin: 4px 0; font-size: 12px; }
+.monthly-badge {
+  display: inline-block;
+  padding: 3px 10px;
+  border-radius: 999px;
+  font-size: 11.5px;
+  font-weight: 700;
+  white-space: nowrap;
+  background: var(--border);
+  color: var(--text-muted);
+}
+.monthly-badge-skip { background: #e5e7eb; color: var(--text-muted); }
+.monthly-badge-pending { background: var(--amber-bg); color: var(--amber-text); border: 1px solid var(--amber-border); }
+.monthly-badge-draft { background: var(--blue); color: var(--blue-text); border: 1px solid var(--blue-border); }
+.monthly-badge-final { background: var(--accent-light); color: var(--accent); border: 1px solid var(--accent); }
+.monthly-badge-review { background: var(--gold-light); color: var(--gold); border: 1px solid #fcd34d; }
+.monthly-badge-manager-review { background: var(--blue); color: var(--blue-text); border: 1px solid var(--blue-border); }
+.monthly-badge-done { background: var(--green-bg); color: var(--green-text); border: 1px solid var(--green-border); }
+.monthly-platform-card:has(.monthly-badge-pending) { border-left-color: var(--amber-border); }
+.monthly-platform-card:has(.monthly-badge-draft) { border-left-color: var(--blue-border); }
+.monthly-platform-card:has(.monthly-badge-final) { border-left-color: var(--accent); }
+.monthly-platform-card:has(.monthly-badge-review) { border-left-color: var(--gold); }
+.monthly-platform-card:has(.monthly-badge-done) { border-left-color: var(--green-border); }
+
+/* Monthly Setup's own per-platform status board - one column per workflow step (Expert Data,
+   Category Topline, ...) instead of two badges run together in a row, so which badge belongs to
+   which step is never ambiguous. Deliberately its own compact table, not a reuse of the general
+   report-table styling (#topline-table etc.) - this one is a handful of rows meant to be scanned
+   whole, never scrolled, with every cell centered except the platform name. */
+#monthly-status-table { width: 100%; border-collapse: separate; border-spacing: 0; }
+#monthly-status-table th {
+  text-align: center; font-size: 11px; font-weight: 800; color: var(--text-muted);
+  text-transform: uppercase; letter-spacing: 0.4px; padding: 6px 10px; border-bottom: 2px solid var(--border);
+}
+#monthly-status-table td { text-align: center; padding: 7px 10px; font-size: 12.5px; border-bottom: 1px solid var(--border); }
+#monthly-status-table tr:last-child td { border-bottom: none; }
+#monthly-status-table tbody tr:nth-child(even) { background: #f7f8fb; }
+#monthly-status-table tbody tr:hover { background: var(--primary-light); }
+.status-table-name { text-align: left !important; font-weight: 700; }
+#monthly-status-board:empty { display: none; padding: 0; margin: 0; border: none; box-shadow: none; }
+
+.monthly-history { margin-top: 10px; font-size: 12px; color: var(--text-muted); }
+.monthly-history summary { cursor: pointer; font-weight: 600; }
+.monthly-history ul { margin: 6px 0 0; padding-left: 18px; }
+.monthly-history li { margin-bottom: 2px; }
+.monthly-history-time { font-variant-numeric: tabular-nums; color: var(--text); font-weight: 600; }
