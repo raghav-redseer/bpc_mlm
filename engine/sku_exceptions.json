@@ -1,0 +1,1073 @@
+{
+  "_comment": "Last-resort, manually-curated overrides for SKUs with no generalizable keyword signal. Key = lowercased, normalized product name (as produced by normalize_compounds(sku_name.lower())). Checked ONLY after every rule in tag_sku() has failed. Add an entry here only when a product genuinely cannot be handled by a keyword/context rule without risking false positives elsewhere - if a new keyword rule would work, add it to pipeline_v6.py/keyword_repo.py instead.",
+  "m.a.c studio fix every wear all over face pen": {
+    "L1": "Make up",
+    "L2": "Face make-up",
+    "L3": "Concealer"
+  },
+  "morphe cheek thrills multi finish face trio": {
+    "L1": "Make up",
+    "L2": "Make up Others",
+    "L3": "Make-Up Palettes"
+  },
+  "l.a girl hd pro conceal": {
+    "L1": "Make up",
+    "L2": "Face make-up",
+    "L3": "Concealer"
+  },
+  "dior backstage rosy glow": {
+    "L1": "Make up",
+    "L2": "Face make-up",
+    "L3": "Blushes"
+  },
+  "charlotte tilbury cheek to chic": {
+    "L1": "Make up",
+    "L2": "Face make-up",
+    "L3": "Blushes"
+  },
+  "dior backstage rosy glow stick": {
+    "L1": "Make up",
+    "L2": "Face make-up",
+    "L3": "Blushes"
+  },
+  "nudestix mini nudies": {
+    "L1": "Make up",
+    "L2": "Lip make-up",
+    "L3": "Lip & Cheek Stains & Tints"
+  },
+  "insight cosmetics all things good kit": {
+    "L1": "Make up",
+    "L2": "Make up Others",
+    "L3": "Make-Up Kits"
+  },
+  "daily life forever52 two way cake": {
+    "L1": "Make up",
+    "L2": "Face make-up",
+    "L3": "Compact Powder"
+  },
+  "chanel les beiges water fresh complexion touch even illuminate & hydrate": {
+    "L1": "Make up",
+    "L2": "Face make-up",
+    "L3": "Tinted Moisturisers"
+  },
+  "blue heaven hd all in one make up stick": {
+    "L1": "Make up",
+    "L2": "Face make-up",
+    "L3": "Foundation"
+  },
+  "renee cosmetics shiner gloss stick": {
+    "L1": "Make up",
+    "L2": "Face make-up",
+    "L3": "Highlighters & Illuminators"
+  },
+  "swiss beauty glow and fix combo": {
+    "L1": "Others",
+    "L2": "Others Others",
+    "L3": "Mixed Sets"
+  },
+  "milk makeup lip cheek": {
+    "L1": "Make up",
+    "L2": "Lip make-up",
+    "L3": "Lip & Cheek Stains & Tints"
+  },
+  "charlotte tilbury glowgasm beauty light wand": {
+    "L1": "Make up",
+    "L2": "Face make-up",
+    "L3": "Highlighters & Illuminators"
+  },
+  "bobbi brown pot rouge for lips & cheeks": {
+    "L1": "Make up",
+    "L2": "Lip make-up",
+    "L3": "Lip & Cheek Stains & Tints"
+  },
+  "insight cosmetics hd conceal": {
+    "L1": "Make up",
+    "L2": "Face make-up",
+    "L3": "Concealer"
+  },
+  "nars the multiple": {
+    "L1": "Make up",
+    "L2": "Lip make-up",
+    "L3": "Lip & Cheek Stains & Tints"
+  },
+  "clinique take the day off charcoal balm": {
+    "L1": "Make up",
+    "L2": "Make-up cleansing",
+    "L3": "Makeup Cleansing Oils"
+  },
+  "recode life line makeup mixer": {
+    "L1": "Make up",
+    "L2": "Face make-up",
+    "L3": "Primers"
+  },
+  "milk makeup sculpt stick": {
+    "L1": "Make up",
+    "L2": "Face make-up",
+    "L3": "Contour"
+  },
+  "charlotte tilbury wonderglow": {
+    "L1": "Make up",
+    "L2": "Face make-up",
+    "L3": "Primers"
+  },
+  "nudestix nudies bloom all over dewy color": {
+    "L1": "Make up",
+    "L2": "Lip make-up",
+    "L3": "Lip & Cheek Stains & Tints"
+  },
+  "staze cheek me out intense color blendable multi purpose stick": {
+    "L1": "Make up",
+    "L2": "Lip make-up",
+    "L3": "Lip & Cheek Stains & Tints"
+  },
+  "typsy beauty blended blonzer": {
+    "L1": "Make up",
+    "L2": "Face make-up",
+    "L3": "Blushes"
+  },
+  "morphe cloudlight soft glow veil": {
+    "L1": "Make up",
+    "L2": "Face make-up",
+    "L3": "Setting Powder/Loose Powder"
+  },
+  "clinique chubby stick cheek color balm": {
+    "L1": "Make up",
+    "L2": "Face make-up",
+    "L3": "Blushes"
+  },
+  "milk makeup watermelon jelly glow": {
+    "L1": "Make up",
+    "L2": "Face make-up",
+    "L3": "Highlighters & Illuminators"
+  },
+  "daily life forever52 sheer nude glow enhancer": {
+    "L1": "Make up",
+    "L2": "Face make-up",
+    "L3": "Highlighters & Illuminators"
+  },
+  "huda beauty easy bake duocherry": {
+    "L1": "Make up",
+    "L2": "Face make-up",
+    "L3": "Setting Powder/Loose Powder"
+  },
+  "make up for ever hd skin blush & glow palet": {
+    "L1": "Make up",
+    "L2": "Make up Others",
+    "L3": "Make-Up Palettes"
+  },
+  "typsy beauty foundcealer flex 3 in 1 base": {
+    "L1": "Make up",
+    "L2": "Face make-up",
+    "L3": "Foundation"
+  },
+  "too faced chocolate soleil melting bronzing & sculpting stick": {
+    "L1": "Make up",
+    "L2": "Face make-up",
+    "L3": "Bronzers"
+  },
+  "makeup revolution relove colour play blushed duo": {
+    "L1": "Make up",
+    "L2": "Face make-up",
+    "L3": "Blushes"
+  },
+  "pixi h2o skintint": {
+    "L1": "Make up",
+    "L2": "Face make-up",
+    "L3": "Tinted Moisturisers"
+  },
+  "pixi on the glow bronze": {
+    "L1": "Make up",
+    "L2": "Face make-up",
+    "L3": "Bronzers"
+  },
+  "makeup revolution highlight reloaded": {
+    "L1": "Make up",
+    "L2": "Face make-up",
+    "L3": "Highlighters & Illuminators"
+  },
+  "nudestix nudies glow all over face color": {
+    "L1": "Make up",
+    "L2": "Lip make-up",
+    "L3": "Lip & Cheek Stains & Tints"
+  },
+  "charlotte tilbury hollywood beauty light wand spotlight": {
+    "L1": "Make up",
+    "L2": "Face make-up",
+    "L3": "Highlighters & Illuminators"
+  },
+  "recode prep set glow": {
+    "L1": "Make up",
+    "L2": "Face make-up",
+    "L3": "Primers"
+  },
+  "e.l.f. cosmetics halo glow highlight beauty wand": {
+    "L1": "Make up",
+    "L2": "Face make-up",
+    "L3": "Highlighters & Illuminators"
+  },
+  "charlotte tilbury filmstar bronze & glow": {
+    "L1": "Make up",
+    "L2": "Face make-up",
+    "L3": "Contour"
+  },
+  "etude face blur smoothing": {
+    "L1": "Make up",
+    "L2": "Face make-up",
+    "L3": "Primers"
+  },
+  "revlon touch & glow moisturising makeup": {
+    "L1": "Make up",
+    "L2": "Face make-up",
+    "L3": "Tinted Moisturisers"
+  },
+  "charlotte tilbury unisex healthy glow": {
+    "L1": "Make up",
+    "L2": "Face make-up",
+    "L3": "Bronzers"
+  },
+  "charlotte tilbury pillow talk beauty light wand": {
+    "L1": "Make up",
+    "L2": "Face make-up",
+    "L3": "Highlighters & Illuminators"
+  },
+  "nudestix nudies bronze all over face color": {
+    "L1": "Make up",
+    "L2": "Face make-up",
+    "L3": "Bronzers"
+  },
+  "nars the multiple sculpting stick": {
+    "L1": "Make up",
+    "L2": "Face make-up",
+    "L3": "Contour"
+  },
+  "e.l.f. cosmetics bronzing drops": {
+    "L1": "Make up",
+    "L2": "Face make-up",
+    "L3": "Bronzers"
+  },
+  "milk makeup cooling water jelly shimmer": {
+    "L1": "Make up",
+    "L2": "Face make-up",
+    "L3": "Highlighters & Illuminators"
+  },
+  "nyx professional makeup pore filler": {
+    "L1": "Make up",
+    "L2": "Face make-up",
+    "L3": "Primers"
+  },
+  "milk makeup cooling water jelly ice": {
+    "L1": "Make up",
+    "L2": "Face make-up",
+    "L3": "Highlighters & Illuminators"
+  },
+  "nudestix soft & warm 3 pc mini kit": {
+    "L1": "Make up",
+    "L2": "Make up Others",
+    "L3": "Make-Up Kits"
+  },
+  "bring green super lemon glutathione sleeping pack": {
+    "L1": "Face Skin",
+    "L2": "Face care",
+    "L3": "Face Serums/Essence"
+  },
+  "suroskie glow drip shimmer for radiant & luminous skin": {
+    "L1": "Make up",
+    "L2": "Face make-up",
+    "L3": "Highlighters & Illuminators"
+  },
+  "nyx professional makeup the marshmellow": {
+    "L1": "Make up",
+    "L2": "Face make-up",
+    "L3": "Primers"
+  },
+  "bobbi brown extra illuminating moisture balm": {
+    "L1": "Make up",
+    "L2": "Face make-up",
+    "L3": "Highlighters & Illuminators"
+  },
+  "smashbox photo finish hydrating primerizer": {
+    "L1": "Make up",
+    "L2": "Face make-up",
+    "L3": "Primers"
+  },
+  "clinique chubby stick sculpting highlight": {
+    "L1": "Make up",
+    "L2": "Face make-up",
+    "L3": "Highlighters & Illuminators"
+  },
+  "kay beauty blush & glow combo": {
+    "L1": "Others",
+    "L2": "Others Others",
+    "L3": "Mixed Sets"
+  },
+  "kiro colour shifter pigment drops": {
+    "L1": "Make up",
+    "L2": "Face make-up",
+    "L3": "Highlighters & Illuminators"
+  },
+  "chantecaille cheek shade": {
+    "L1": "Make up",
+    "L2": "Face make-up",
+    "L3": "Blushes"
+  },
+  "stila cosmetics one step correct": {
+    "L1": "Make up",
+    "L2": "Face make-up",
+    "L3": "Colour Corrector"
+  },
+  "c2p pro duraone makeup mixing liquid solution | fix broken makeup": {
+    "L1": "Make up",
+    "L2": "Face make-up",
+    "L3": "Primers"
+  },
+  "makeup revolution bronze icon": {
+    "L1": "Make up",
+    "L2": "Face make-up",
+    "L3": "Bronzers"
+  },
+  "revlon colorstay whipped crã¨me make up": {
+    "L1": "Make up",
+    "L2": "Face make-up",
+    "L3": "Foundation"
+  },
+  "nudestix tinted blur sculpt stick": {
+    "L1": "Make up",
+    "L2": "Face make-up",
+    "L3": "Contour"
+  },
+  "charlotte tilbury airbrush brightening flawless finish (refillable)": {
+    "L1": "Make up",
+    "L2": "Face make-up",
+    "L3": "Setting Powder/Loose Powder"
+  },
+  "smashbox x becca shimmering skin perfector pressed": {
+    "L1": "Make up",
+    "L2": "Face make-up",
+    "L3": "Highlighters & Illuminators"
+  },
+  "mars makeup melting microfiber wipe": {
+    "L1": "Make up",
+    "L2": "Make-up cleansing",
+    "L3": "Makeup Cleansing Wipes"
+  },
+  "nuse liquid care cheek": {
+    "L1": "Make up",
+    "L2": "Face make-up",
+    "L3": "Blushes"
+  },
+  "nars monoi body glow body glow": {
+    "L1": "Body Skin",
+    "L2": "Body care",
+    "L3": "Body Oils"
+  },
+  "blue heaven festive make up kit fair tone combo fair tone pack of 8": {
+    "L1": "Make up",
+    "L2": "Make up Others",
+    "L3": "Make-Up Kits"
+  },
+  "nudestix tinted blur": {
+    "L1": "Make up",
+    "L2": "Face make-up",
+    "L3": "Primers"
+  },
+  "nudestix roses n honey nudes": {
+    "L1": "Make up",
+    "L2": "Lip make-up",
+    "L3": "Lip & Cheek Stains & Tints"
+  },
+  "miss claire rainbow baked shimmer bricks": {
+    "L1": "Make up",
+    "L2": "Face make-up",
+    "L3": "Highlighters & Illuminators"
+  },
+  "nuse care tone up": {
+    "L1": "Make up",
+    "L2": "Face make-up",
+    "L3": "Tinted Moisturisers"
+  },
+  "lovechild masaba mini masaba bloominator stick": {
+    "L1": "Make up",
+    "L2": "Face make-up",
+    "L3": "Blushes"
+  },
+  "iba makeup gift set dusky": {
+    "L1": "Make up",
+    "L2": "Make up Others",
+    "L3": "Make-Up Kits"
+  },
+  "revolution relove super highlight": {
+    "L1": "Make up",
+    "L2": "Face make-up",
+    "L3": "Highlighters & Illuminators"
+  },
+  "daily life forever52 all matte base amb001": {
+    "L1": "Make up",
+    "L2": "Face make-up",
+    "L3": "Primers"
+  },
+  "just herbs born to shine stick": {
+    "L1": "Make up",
+    "L2": "Face make-up",
+    "L3": "Highlighters & Illuminators"
+  },
+  "charmacy milano cheek enhancer": {
+    "L1": "Make up",
+    "L2": "Face make-up",
+    "L3": "Blushes"
+  },
+  "iba must have complete makeup box dusky": {
+    "L1": "Make up",
+    "L2": "Make up Others",
+    "L3": "Make-Up Kits"
+  },
+  "benefit cosmetics dew la la liquid glow": {
+    "L1": "Make up",
+    "L2": "Face make-up",
+    "L3": "Highlighters & Illuminators"
+  },
+  "guerlain parure gold skin matte": {
+    "L1": "Make up",
+    "L2": "Face make-up",
+    "L3": "Foundation"
+  },
+  "hilary rhoda concealing & contouring": {
+    "L1": "Make up",
+    "L2": "Face make-up",
+    "L3": "Concealer"
+  },
+  "clarins instant smooth perfecting touch": {
+    "L1": "Make up",
+    "L2": "Face make-up",
+    "L3": "Primers"
+  },
+  "colorbar full cover makeup stick": {
+    "L1": "Make up",
+    "L2": "Face make-up",
+    "L3": "Foundation"
+  },
+  "nudestix bloom lilac love": {
+    "L1": "Make up",
+    "L2": "Lip make-up",
+    "L3": "Lip & Cheek Stains & Tints"
+  },
+  "pixi tintfix": {
+    "L1": "Make up",
+    "L2": "Face make-up",
+    "L3": "Makeup Setting Spray"
+  },
+  "paese cosmetics hydrobase under makeup white": {
+    "L1": "Make up",
+    "L2": "Face make-up",
+    "L3": "Primers"
+  },
+  "anastasia beverly hills sun dipped glow kit": {
+    "L1": "Make up",
+    "L2": "Make up Others",
+    "L3": "Make-Up Palettes"
+  },
+  "renee cosmetics face gloss with hyaluronic acid": {
+    "L1": "Make up",
+    "L2": "Face make-up",
+    "L3": "Highlighters & Illuminators"
+  },
+  "makeup revolution correct and transform": {
+    "L1": "Make up",
+    "L2": "Face make-up",
+    "L3": "Colour Corrector"
+  },
+  "tulips bandage absorbent cotton wool": {
+    "L1": "Others",
+    "L2": "Others Others",
+    "L3": "Others"
+  },
+  "nudestix beachy nudes": {
+    "L1": "Make up",
+    "L2": "Lip make-up",
+    "L3": "Lip & Cheek Stains & Tints"
+  },
+  "iba makeup gift set medium": {
+    "L1": "Make up",
+    "L2": "Make up Others",
+    "L3": "Make-Up Kits"
+  },
+  "renee cosmetics face gloss with hyaluronic acid rose gold": {
+    "L1": "Make up",
+    "L2": "Face make-up",
+    "L3": "Highlighters & Illuminators"
+  },
+  "swiss beauty perfect match panstick": {
+    "L1": "Make up",
+    "L2": "Face make-up",
+    "L3": "Foundation"
+  },
+  "clarins skin illusion full coverage": {
+    "L1": "Make up",
+    "L2": "Face make-up",
+    "L3": "Foundation"
+  },
+  "iconic london radiance booster": {
+    "L1": "Make up",
+    "L2": "Face make-up",
+    "L3": "Highlighters & Illuminators"
+  },
+  "makeup eraser disney princess 7 day set": {
+    "L1": "Make up",
+    "L2": "Make-up cleansing",
+    "L3": "Makeup Cleansing Wipes"
+  },
+  "urban decay hydromaniac tinted glow hydrator": {
+    "L1": "Make up",
+    "L2": "Face make-up",
+    "L3": "Tinted Moisturisers"
+  },
+  "ariul the perfect cleansing tissue plus, gently removes makeup & refreshes skin korean": {
+    "L1": "Make up",
+    "L2": "Make-up cleansing",
+    "L3": "Makeup Cleansing Wipes"
+  },
+  "makeup revolution relove fix stick glow": {
+    "L1": "Make up",
+    "L2": "Face make-up",
+    "L3": "Highlighters & Illuminators"
+  },
+  "gubb microfiber face towel": {
+    "L1": "Others",
+    "L2": "Others Others",
+    "L3": "Others"
+  },
+  "simihaze beauty skin suede melting bronze balm": {
+    "L1": "Make up",
+    "L2": "Face make-up",
+    "L3": "Bronzers"
+  },
+  "nudestix blot & blur matte stick": {
+    "L1": "Make up",
+    "L2": "Face make-up",
+    "L3": "Primers"
+  },
+  "clarins fix make up": {
+    "L1": "Make up",
+    "L2": "Face make-up",
+    "L3": "Makeup Setting Spray"
+  },
+  "elle 18 blushbomb": {
+    "L1": "Make up",
+    "L2": "Face make-up",
+    "L3": "Blushes"
+  },
+  "smashbox photo finish anti redness": {
+    "L1": "Make up",
+    "L2": "Face make-up",
+    "L3": "Colour Corrector"
+  },
+  "makeup eraser i heart you 7 day set": {
+    "L1": "Make up",
+    "L2": "Make-up cleansing",
+    "L3": "Makeup Cleansing Wipes"
+  },
+  "mamaearth hydra glow illuminating drops with vitamin c & hyaluronic acid": {
+    "L1": "Make up",
+    "L2": "Face make-up",
+    "L3": "Highlighters & Illuminators"
+  },
+  "nudestix glow i dew": {
+    "L1": "Make up",
+    "L2": "Lip make-up",
+    "L3": "Lip & Cheek Stains & Tints"
+  },
+  "milagro beauty on the go 4 in 1 makeup pen": {
+    "L1": "Make up",
+    "L2": "Face make-up",
+    "L3": "Concealer"
+  },
+  "daily life forever52 layered pore refine": {
+    "L1": "Make up",
+    "L2": "Face make-up",
+    "L3": "Primers"
+  },
+  "miss claire super summer cake": {
+    "L1": "Make up",
+    "L2": "Face make-up",
+    "L3": "Compact Powder"
+  },
+  "m.a.c night fix fix duo": {
+    "L1": "Make up",
+    "L2": "Face make-up",
+    "L3": "Makeup Setting Spray"
+  },
+  "pac studio pen stick": {
+    "L1": "Make up",
+    "L2": "Face make-up",
+    "L3": "Concealer"
+  },
+  "stila cosmetics convertible color": {
+    "L1": "Make up",
+    "L2": "Lip make-up",
+    "L3": "Lip & Cheek Stains & Tints"
+  },
+  "clarins everlasting concealor 01 light": {
+    "L1": "Make up",
+    "L2": "Face make-up",
+    "L3": "Concealer"
+  },
+  "miss claire prestige real base": {
+    "L1": "Make up",
+    "L2": "Face make-up",
+    "L3": "Foundation"
+  },
+  "character two in one cheeks & lips": {
+    "L1": "Make up",
+    "L2": "Lip make-up",
+    "L3": "Lip & Cheek Stains & Tints"
+  },
+  "makeup eraser disney villains 7 day set": {
+    "L1": "Make up",
+    "L2": "Make-up cleansing",
+    "L3": "Makeup Cleansing Wipes"
+  },
+  "makeup eraser let's get physical gym set": {
+    "L1": "Make up",
+    "L2": "Make-up cleansing",
+    "L3": "Makeup Cleansing Wipes"
+  },
+  "fashion colour platinum glow shine liquid high lighter": {
+    "L1": "Make up",
+    "L2": "Face make-up",
+    "L3": "Highlighters & Illuminators"
+  },
+  "lotus make up proedit hyaluronic acid enriched makeup removing balm": {
+    "L1": "Make up",
+    "L2": "Make-up cleansing",
+    "L3": "Makeup Cleansing Oils"
+  },
+  "olivia skinsync pan cake": {
+    "L1": "Make up",
+    "L2": "Face make-up",
+    "L3": "Compact Powder"
+  },
+  "revolution pro goddess glow shimmer brick deserted": {
+    "L1": "Make up",
+    "L2": "Face make-up",
+    "L3": "Highlighters & Illuminators"
+  },
+  "rhe cosmetics cosmetics fix set": {
+    "L1": "Make up",
+    "L2": "Face make-up",
+    "L3": "Makeup Setting Spray"
+  },
+  "makeup revolution mix 'n' match medium f7 and f12": {
+    "L1": "Make up",
+    "L2": "Face make-up",
+    "L3": "Foundation"
+  },
+  "thalgo perfect matte fluid": {
+    "L1": "Make up",
+    "L2": "Face make-up",
+    "L3": "Primers"
+  },
+  "character lip tone": {
+    "L1": "Make up",
+    "L2": "Lip make-up",
+    "L3": "Lip & Cheek Stains & Tints"
+  },
+  "nudestix nudeskin citrus clean balm & make up melt": {
+    "L1": "Make up",
+    "L2": "Make-up cleansing",
+    "L3": "Makeup Cleansing Oils"
+  },
+  "smashbox blushlighter": {
+    "L1": "Make up",
+    "L2": "Face make-up",
+    "L3": "Highlighters & Illuminators"
+  },
+  "stila cosmetics heaven's hue hydro luminator": {
+    "L1": "Make up",
+    "L2": "Face make-up",
+    "L3": "Highlighters & Illuminators"
+  },
+  "c2p pro galactic glow skin gloss": {
+    "L1": "Make up",
+    "L2": "Face make-up",
+    "L3": "Highlighters & Illuminators"
+  },
+  "makeup revolution bright light face glow": {
+    "L1": "Make up",
+    "L2": "Face make-up",
+    "L3": "Highlighters & Illuminators"
+  },
+  "inglot beautifier": {
+    "L1": "Make up",
+    "L2": "Face make-up",
+    "L3": "Highlighters & Illuminators"
+  },
+  "majestique make up blender sponge": {
+    "L1": "Make up",
+    "L2": "Make up Others",
+    "L3": "Make up Sponges/ Beauty Blenders"
+  },
+  "purearth sitara crème strobelighter": {
+    "L1": "Make up",
+    "L2": "Face make-up",
+    "L3": "Highlighters & Illuminators"
+  },
+  "blue heaven flawless stick": {
+    "L1": "Make up",
+    "L2": "Face make-up",
+    "L3": "Foundation"
+  },
+  "swiss beauty perfect match penstick": {
+    "L1": "Make up",
+    "L2": "Face make-up",
+    "L3": "Foundation"
+  },
+  "anastasia beverly hills sugar glow kit": {
+    "L1": "Make up",
+    "L2": "Make up Others",
+    "L3": "Make-Up Palettes"
+  },
+  "lotus make up ecostay spot cover all in one make up stick spf20": {
+    "L1": "Make up",
+    "L2": "Face make-up",
+    "L3": "Concealer"
+  },
+  "make up for ever hd skin blush & glow palet holi": {
+    "L1": "Make up",
+    "L2": "Make up Others",
+    "L3": "Make-Up Palettes"
+  },
+  "revolution pro goddess glow shimmer brick sublime": {
+    "L1": "Make up",
+    "L2": "Face make-up",
+    "L3": "Highlighters & Illuminators"
+  },
+  "charlotte tilbury take it all off": {
+    "L1": "Make up",
+    "L2": "Make-up cleansing",
+    "L3": "Makeup Cleansing Oils"
+  },
+  "character glow kit": {
+    "L1": "Make up",
+    "L2": "Make up Others",
+    "L3": "Make-Up Kits"
+  },
+  "charlotte tilbury wonderglow retail travel": {
+    "L1": "Make up",
+    "L2": "Face make-up",
+    "L3": "Primers"
+  },
+  "charlotte tilbury hollywood filter": {
+    "L1": "Make up",
+    "L2": "Face make-up",
+    "L3": "Highlighters & Illuminators"
+  },
+  "m.a.c studio fix fluid mini": {
+    "L1": "Make up",
+    "L2": "Face make-up",
+    "L3": "Foundation"
+  },
+  "charlotte tilbury airbrush flawless finish refillable": {
+    "L1": "Make up",
+    "L2": "Face make-up",
+    "L3": "Setting Powder/Loose Powder"
+  },
+  "charlotte tilbury airbrush flawless finish mini": {
+    "L1": "Make up",
+    "L2": "Face make-up",
+    "L3": "Setting Powder/Loose Powder"
+  },
+  "rom&nd best velvet lip combo": {
+    "L1": "Make up",
+    "L2": "Lip make-up",
+    "L3": "Lipsticks"
+  },
+  "rom&nd best evening lip combo": {
+    "L1": "Make up",
+    "L2": "Lip make-up",
+    "L3": "Lipsticks"
+  },
+  "cottsberry organic cotton perforated pleats": {
+    "L1": "Others",
+    "L2": "Others Others",
+    "L3": "Others"
+  },
+  "cottsberry organic cotton square facial pads with aloevera": {
+    "L1": "Others",
+    "L2": "Others Others",
+    "L3": "Others"
+  },
+  "cottsberry organic cotton round eye pads with aloevera": {
+    "L1": "Others",
+    "L2": "Others Others",
+    "L3": "Others"
+  },
+  "beautiliss soft cotton round pads for gentle makeup removal cleansing and skincare routine": {
+    "L1": "Make up",
+    "L2": "Make-up cleansing",
+    "L3": "Makeup Cleansing Wipes"
+  },
+  "philips oneblade replaceable blade (qp220/51)": {
+    "L1": "Others",
+    "L2": "Others Others",
+    "L3": "All electric Appliances - Hair Dryers, Straighteners, Electric Razors"
+  },
+  "philips oneblade replaceable blade (qp210/51)": {
+    "L1": "Others",
+    "L2": "Others Others",
+    "L3": "All electric Appliances - Hair Dryers, Straighteners, Electric Razors"
+  },
+  "philips showerproof body groomer for men (bg1025/15)": {
+    "L1": "Others",
+    "L2": "Others Others",
+    "L3": "All electric Appliances - Hair Dryers, Straighteners, Electric Razors"
+  },
+  "vega hot curl super small (h1 prsn)": {
+    "L1": "Others",
+    "L2": "Others Others",
+    "L3": "All electric Appliances - Hair Dryers, Straighteners, Electric Razors"
+  },
+  "ghd chronos styler gift set": {
+    "L1": "Others",
+    "L2": "Others Others",
+    "L3": "All electric Appliances - Hair Dryers, Straighteners, Electric Razors"
+  },
+  "fyoli stick tong curler for tight and loose curls": {
+    "L1": "Others",
+    "L2": "Others Others",
+    "L3": "All electric Appliances - Hair Dryers, Straighteners, Electric Razors"
+  },
+  "agaro best selling duo styler set": {
+    "L1": "Others",
+    "L2": "Others Others",
+    "L3": "All electric Appliances - Hair Dryers, Straighteners, Electric Razors"
+  },
+  "havells hc4045 5 in 1 multi styling kit turquoise": {
+    "L1": "Others",
+    "L2": "Others Others",
+    "L3": "All electric Appliances - Hair Dryers, Straighteners, Electric Razors"
+  },
+  "vega bak 01 bath sponge": {
+    "L1": "Others",
+    "L2": "Others Others",
+    "L3": "Bath Accessories (Loofahs, Body Scrubbers etc.)"
+  },
+  "vega vhss 01 miss perfect styling kit": {
+    "L1": "Others",
+    "L2": "Others Others",
+    "L3": "Hair Accessories"
+  },
+  "vega handcrafted black (hmbc 121)": {
+    "L1": "Others",
+    "L2": "Others Others",
+    "L3": "Hair Accessories"
+  },
+  "vega style perfect kit": {
+    "L1": "Others",
+    "L2": "Others Others",
+    "L3": "Hair Accessories"
+  },
+  "rhe cosmetics elephant head wooden massager": {
+    "L1": "Others",
+    "L2": "Others Others",
+    "L3": "Hair Accessories"
+  },
+  "stasia street straight pony tail": {
+    "L1": "Others",
+    "L2": "Others Others",
+    "L3": "Hair Accessories"
+  },
+  "stasia street semi curls pony tail": {
+    "L1": "Others",
+    "L2": "Others Others",
+    "L3": "Hair Accessories"
+  },
+  "gubb pearl head pins multicolor": {
+    "L1": "Others",
+    "L2": "Others Others",
+    "L3": "Hair Accessories"
+  },
+  "h&m ruffled alice soft band": {
+    "L1": "Others",
+    "L2": "Others Others",
+    "L3": "Hair Accessories"
+  },
+  "makeup by siti bun baja baarat": {
+    "L1": "Others",
+    "L2": "Others Others",
+    "L3": "Hair Accessories"
+  },
+  "invisibobble wrapstar snake it off 2 1 slim crystal clear band and soft ribbon": {
+    "L1": "Others",
+    "L2": "Others Others",
+    "L3": "Hair Accessories"
+  },
+  "turrbands celestial band": {
+    "L1": "Others",
+    "L2": "Others Others",
+    "L3": "Hair Accessories"
+  },
+  "zaveri pearls combo of 4 antique gold tone wedding collection maangtikka zpfk6262": {
+    "L1": "Others",
+    "L2": "Others Others",
+    "L3": "Hair Accessories"
+  },
+  "soho boho studio earthy bloom": {
+    "L1": "Others",
+    "L2": "Others Others",
+    "L3": "Hair Accessories"
+  },
+  "diya aswani yellow candy fossils toddler tieround": {
+    "L1": "Others",
+    "L2": "Others Others",
+    "L3": "Hair Accessories"
+  },
+  "bodyherbals dressing coms hand made with design in gift box": {
+    "L1": "Others",
+    "L2": "Others Others",
+    "L3": "Hair Accessories"
+  },
+  "zaveri pearls gold tone kundan & multistrand pearls bridal ring bracelet zpfk9442": {
+    "L1": "Others",
+    "L2": "Others Others",
+    "L3": "Others"
+  },
+  "zaveri pearls kundan & green beads wedding collection jhumki earring zpfk8666": {
+    "L1": "Others",
+    "L2": "Others Others",
+    "L3": "Others"
+  },
+  "gatsby mat lift texturizing clay": {
+    "L1": "Hair Care Others",
+    "L2": "Styling",
+    "L3": "Waxes"
+  },
+  "gatsby japan's no. 1 water gloss soft": {
+    "L1": "Hair Care Others",
+    "L2": "Styling",
+    "L3": "Waxes"
+  },
+  "gatsby japan's no. 1 water gloss hyper solid": {
+    "L1": "Hair Care Others",
+    "L2": "Styling",
+    "L3": "Waxes"
+  },
+  "gatsby japan's no. 1 fiber clay": {
+    "L1": "Hair Care Others",
+    "L2": "Styling",
+    "L3": "Waxes"
+  },
+  "yves rocher disciplining balm tube": {
+    "L1": "Hair Care Others",
+    "L2": "Styling",
+    "L3": "Hair Lotions & Tonics"
+  },
+  "yves rocher shine rinsing vinegar": {
+    "L1": "Hair Care Others",
+    "L2": "Styling",
+    "L3": "Hair Lotions & Tonics"
+  },
+  "yves rocher purifying vinegar bottle": {
+    "L1": "Hair Care Others",
+    "L2": "Styling",
+    "L3": "Hair Lotions & Tonics"
+  },
+  "bblunt hot shot shine trio": {
+    "L1": "Hair Care Others",
+    "L2": "Styling",
+    "L3": "Hair Lotions & Tonics"
+  },
+  "shea moisture hydrating curl care kit": {
+    "L1": "Hair Care Others",
+    "L2": "Styling",
+    "L3": "Hair Lotions & Tonics"
+  },
+  "plum coconut & peptides strength & shine combo": {
+    "L1": "Hair Care Others",
+    "L2": "Styling",
+    "L3": "Hair Lotions & Tonics"
+  },
+  "3tenx ultimaterevitalize kit pink": {
+    "L1": "Hair Care Others",
+    "L2": "Styling",
+    "L3": "Hair Lotions & Tonics"
+  },
+  "l'oreal paris total repair 5 damage repair combo": {
+    "L1": "Hair Care Others",
+    "L2": "Styling",
+    "L3": "Hair Lotions & Tonics"
+  },
+  "amright root stimulating elixir with rootbitec": {
+    "L1": "Hair Care",
+    "L2": "Hair Serums",
+    "L3": "Hair Serums"
+  },
+  "bigen men's speedy colour": {
+    "L1": "Hair colour",
+    "L2": "Hair colour Others",
+    "L3": "Crème"
+  },
+  "epitight fakeit grey covering starch natural": {
+    "L1": "Hair colour",
+    "L2": "Hair colour Others",
+    "L3": "Hair Mascaras & Root Touch Ups"
+  },
+  "epitight fakeit grey covering starch natural brown black": {
+    "L1": "Hair colour",
+    "L2": "Hair colour Others",
+    "L3": "Hair Mascaras & Root Touch Ups"
+  },
+  "epitight fakeit grey covering starch natural dark brown": {
+    "L1": "Hair colour",
+    "L2": "Hair colour Others",
+    "L3": "Hair Mascaras & Root Touch Ups"
+  },
+  "argatin naturalis developer with pro vitamin b5": {
+    "L1": "Hair colour",
+    "L2": "Hair colour Others",
+    "L3": "Crème"
+  },
+  "dermalogica antioxidant hydramist": {
+    "L1": "Face Skin",
+    "L2": "Face care",
+    "L3": "Face Mists"
+  },
+  "the face shop rice & ceramide moisturizing emulsion, locks skin moisture & strengthens skin barrier": {
+    "L1": "Face Skin",
+    "L2": "Face care",
+    "L3": "Moisturisers"
+  },
+  "orossentials 3 in 1 body care body cleansing kit": {
+    "L1": "Hygiene",
+    "L2": "Body wash",
+    "L3": "Body washes (generic/cream-based)"
+  },
+  "majestique luxury portable baby care kit": {
+    "L1": "Others",
+    "L2": "Others Others",
+    "L3": "Baby Care"
+  },
+  "majestique baby grooming set for baby girl": {
+    "L1": "Others",
+    "L2": "Others Others",
+    "L3": "Baby Care"
+  },
+  "inlife bhringraja 500mg extract (60 veg. capsules)": {
+    "L1": "Others",
+    "L2": "Others Others",
+    "L3": "Others"
+  },
+  "mypro sport nutrition 100% plant based biotin10000 mcg extracted from natural sesbania": {
+    "L1": "Others",
+    "L2": "Others Others",
+    "L3": "Others"
+  },
+  "vlado's himalayan organics skin vitamin with silybum extract for skin glow & hydration tablets": {
+    "L1": "Others",
+    "L2": "Others Others",
+    "L3": "Others"
+  },
+  "vlado's himalayan organics naturally sourced astaxanthin 4mg antioxidant skin,eye & energy capsules": {
+    "L1": "Others",
+    "L2": "Others Others",
+    "L3": "Others"
+  }
+}
