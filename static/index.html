@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>L'Oreal</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%F0%9F%8F%B7%EF%B8%8F%3C/text%3E%3C/svg%3E">
+<link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+<header class="app-header">
+  <div class="app-header-inner">
+    <div class="brand-badge">🏷️</div>
+    <div>
+      <h1>L'Oreal</h1>
+      <p class="subtitle">Automated Mechanism for Workstreams</p>
+    </div>
+  </div>
+</header>
+
+<nav class="tabs">
+  <button class="tab-btn active" data-tab="monthly"><span class="tab-icon">🗓️</span>Monthly Setup</button>
+  <button class="tab-btn" data-tab="tagging"><span class="tab-icon">🏷️</span>Expert Data Tagging</button>
+  <button class="tab-btn" data-tab="topline"><span class="tab-icon">📊</span>Category Topline</button>
+  <button class="tab-btn" data-tab="bsc"><span class="tab-icon">🧴</span>Brand Share Cons</button>
+  <button class="tab-btn" data-tab="brandvalidation"><span class="tab-icon">✅</span>Brand Validation</button>
+  <button class="tab-btn" data-tab="masterdata"><span class="tab-icon">🗄️</span>Master Data</button>
+  <button class="tab-btn" data-tab="glossary"><span class="tab-icon">📖</span>Glossary</button>
+</nav>
+
+<main>
+
+  <!-- Tab 0: Monthly Setup (per-month platform expert-data gating) -->
+  <section id="tab-monthly" class="tab-panel active">
+    <div class="card">
+      <h3>Month</h3>
+      <div class="row">
+        <label for="monthly-month-new">Month:</label>
+        <select id="monthly-month-new"><option value="">- select -</option></select>
+        <button id="monthly-month-create" class="primary">Open / Create</button>
+      </div>
+      <div class="row monthly-row-gap hidden" id="monthly-month-active-row">
+        <span class="hint" style="margin:0;">Currently working on: <strong id="monthly-active-month-label"></strong></span>
+        <button id="monthly-month-change-btn">Change month</button>
+      </div>
+      <p class="hint">Lists any month you've already started, plus the single next month once every started month is Complete - you can't build next month's no-expert-data forecast before this month is actually done, so it's never offered early.</p>
+    </div>
+
+    <div id="monthly-prefs-card" class="card">
+      <div class="row space-between">
+        <h3 style="margin:0;">Which platforms have expert data?</h3>
+        <div class="row hidden" id="monthly-edit-prefs-row" style="gap:6px;">
+          <input type="password" id="monthly-edit-prefs-password" placeholder="SL password" style="max-width:150px;">
+          <button id="monthly-edit-prefs-btn">Edit platform preferences</button>
+        </div>
+      </div>
+      <p class="hint" id="monthly-prefs-hint">Open or create a month above to enable this.</p>
+      <div id="monthly-prefs-list" class="monthly-pref-list"></div>
+      <div class="row">
+        <input type="password" id="monthly-lock-password" placeholder="SL password" style="max-width:150px;" disabled>
+        <button id="monthly-lock-btn" class="primary" disabled>Start tagging for this month</button>
+        <span id="monthly-prefs-status" class="edit-status"></span>
+      </div>
+    </div>
+
+    <div class="card hidden" id="monthly-locked-pointer">
+      <p class="hint" style="margin:0;" id="monthly-locked-pointer-text">In progress. Head to the <strong>Expert Data Tagging</strong> tab to upload/review/finalize each platform's file.</p>
+      <div class="row">
+        <button id="monthly-goto-tagging-btn">Go to Expert Data Tagging</button>
+      </div>
+    </div>
+
+    <div class="card" id="monthly-status-board"></div>
+  </section>
+
+  <!-- Tab 1: Expert Data Tagging (test a single product + bulk-tag a file) -->
+  <section id="tab-tagging" class="tab-panel">
+    <div id="expert-progress-card" class="card hidden">
+      <div class="row space-between">
+        <h3 style="margin:0;">Expert-Data Platforms</h3>
+        <div class="row" style="gap:6px;">
+          <label for="expert-month-select" class="hint" style="margin:0;">Month:</label>
+          <select id="expert-month-select"></select>
+        </div>
+      </div>
+      <p class="hint" id="expert-progress-hint">Lock a month's platform preferences in Monthly Setup to see them here.</p>
+      <div class="row" style="margin-bottom:10px;">
+        <span class="hint" style="margin:0;">Default month shown on open: <strong id="expert-active-month-label">(none set)</strong></span>
+        <input type="password" id="expert-set-active-password" placeholder="Admin password" style="max-width:150px;">
+        <button id="expert-set-active-btn">Set current month as default</button>
+        <span id="expert-set-active-status" class="edit-status"></span>
+      </div>
+      <div id="expert-platform-board"></div>
+      <div id="expert-complete-row" class="row hidden" style="margin-top:14px;">
+        <span class="hint" style="margin:0;">Every platform is finalized -</span>
+        <input type="password" id="expert-complete-password" placeholder="Admin password" style="max-width:160px;">
+        <button id="expert-complete-btn" class="primary">Mark Month Complete</button>
+        <span id="expert-complete-status" class="edit-status"></span>
+      </div>
+      <div id="expert-complete-banner" class="card hidden" style="background:var(--green-bg);border-color:var(--green-border);margin-top:14px;">
+        <p style="margin:0;font-weight:700;color:var(--green-text);">&#9989; <span id="expert-complete-month-label"></span> is marked Complete and archived - ready for the next month.</p>
+        <div class="row" style="margin-top:8px;">
+          <input type="password" id="expert-reopen-password" placeholder="Admin password" style="max-width:160px;">
+          <button id="expert-reopen-btn">Reopen month (admin)</button>
+          <span id="expert-reopen-status" class="edit-status"></span>
+        </div>
+      </div>
+    </div>
+
+    <div class="card">
+      <h3>Test a product</h3>
+      <div class="row">
+        <input id="product-input" type="text" placeholder="Type a product name, e.g. Bikini Wax Powder" autocomplete="off">
+        <button id="tag-btn" class="primary">Tag it</button>
+      </div>
+      <p class="hint">Press Enter to tag. Results stack below like a scratchpad so you can try several in a row.</p>
+    </div>
+    <div id="test-results" class="scratchpad"></div>
+
+    <div class="card">
+      <h3>Bulk tag a file</h3>
+      <div id="dropzone" class="dropzone">
+        <p><strong>Drag &amp; drop</strong> a .xlsx or .csv file here, or</p>
+        <input id="file-input" type="file" accept=".xlsx,.csv">
+      </div>
+      <div class="row">
+        <label for="platform-name">Tagged File Name:</label>
+        <input id="platform-name" type="text" placeholder="e.g. Blinkit, Myntra, Nykaa, Zepto, Swiggy Instamart"
+               title="Becomes the saved file's name, e.g. typing Blinkit saves Blinkit_Tagged.xlsx">
+        <label for="column-name">Product column:</label>
+        <input id="column-name" type="text" value="product_name"
+               title="The exact column header in your file that holds the product name text">
+      </div>
+
+      <div id="category-level-fields" class="option-panel hidden">
+        <p class="hint">This platform's expert data arrives pre-aggregated by category, not per-product -
+          so instead of a product name column, point to the Category/Sub-category columns and the data sheet.</p>
+        <div class="row">
+          <label for="sheet-name">Data sheet name:</label>
+          <input id="sheet-name" type="text" placeholder="e.g. Aug Raw Data (blank = first sheet)">
+        </div>
+        <div class="row">
+          <label for="category-col">Category column:</label>
+          <input id="category-col" type="text" value="Category">
+          <label for="subcat1-col">Sub cat 1 column:</label>
+          <input id="subcat1-col" type="text" placeholder="blank = same as Category">
+          <label for="subcat2-col">Sub cat 2 column:</label>
+          <input id="subcat2-col" type="text" placeholder="blank = same as Category">
+          <label for="brand-col">Brand column:</label>
+          <input id="brand-col" type="text" value="brand">
+        </div>
+      </div>
+
+      <div class="option-panel">
+        <div class="row">
+          <label class="switch-label"><input id="save-to-disk" type="checkbox"> Also save a copy to disk</label>
+        </div>
+        <div class="row" id="save-folder-row">
+          <label for="save-folder">Save to folder:</label>
+          <input id="save-folder" type="text" placeholder="Loading default...">
+        </div>
+        <div class="row" id="overwrite-row">
+          <label class="switch-label"><input id="overwrite-existing" type="checkbox"
+                 title="Off = a timestamp is added instead of erasing a previous run with the same name"> Overwrite existing file</label>
+        </div>
+      </div>
+
+      <div class="row">
+        <button id="bulk-btn" class="primary" disabled>Tag All</button>
+      </div>
+      <p id="bulk-file-label" class="hint"></p>
+    </div>
+
+    <div id="bulk-progress" class="card hidden">
+      <p id="bulk-progress-label">Processing...</p>
+      <div class="progress-bar"><div id="bulk-progress-fill" class="progress-fill"></div></div>
+    </div>
+
+    <div id="bulk-summary" class="card hidden">
+      <h3>Summary</h3>
+      <div id="bulk-summary-body"></div>
+      <a id="bulk-download-link" class="primary button-link" href="#">Download tagged file</a>
+      <p id="bulk-saved-path" class="hint"></p>
+    </div>
+
+    <div id="bulk-error" class="card error hidden"></div>
+
+    <div class="card preview-card">
+      <h3>Preview</h3>
+      <p id="bulk-preview-empty" class="hint">Tag a file above to see every unique SKU and what it was tagged as here.</p>
+      <div id="bulk-preview-controls" class="row hidden">
+        <input id="bulk-preview-search" type="text" placeholder="Search product name / L1 / L2 / L3...">
+        <button id="bulk-preview-search-clear" type="button" hidden>Clear filter</button>
+        <select id="bulk-preview-method-filter"><option value="">All tag methods</option></select>
+        <select id="bulk-preview-review-filter">
+          <option value="">All rows</option>
+          <option value="Yes">Manual review required</option>
+          <option value="No">No review needed</option>
+        </select>
+        <span id="bulk-preview-count" class="hint" style="margin:0;"></span>
+      </div>
+      <div id="bulk-preview-wrap" class="table-card hidden"><table id="bulk-preview-table"></table></div>
+    </div>
+  </section>
+
+  <!-- Tab 2: Glossary -->
+  <section id="tab-glossary" class="tab-panel">
+    <div class="card suggest-card">
+      <h3>Suggest a rule</h3>
+      <div class="term-defs">
+        <span><strong>Rule Type</strong> - the kind of match this rule uses.</span>
+        <span><strong>Keyword</strong> - the base word to look for (e.g. "cream").</span>
+        <span><strong>Modifier</strong> - a second word that narrows it (e.g. "face" &rarr; Face Creams). Leave blank if the keyword alone is enough.</span>
+      </div>
+      <div class="row">
+        <label for="sr-rule-type">Rule Type:</label>
+        <select id="sr-rule-type">
+          <option>Direct Keyword</option>
+          <option>Context Matrix</option>
+          <option>Low Priority Keyword</option>
+          <option>SKU Memory</option>
+        </select>
+        <label for="sr-keyword">Keyword:</label>
+        <input id="sr-keyword" type="text" placeholder="e.g. cream">
+        <label for="sr-modifier">Modifier:</label>
+        <input id="sr-modifier" type="text" placeholder="optional, e.g. face">
+      </div>
+      <div class="row">
+        <label for="sr-l1">L1:</label>
+        <input id="sr-l1" type="text">
+        <label for="sr-l2">L2:</label>
+        <input id="sr-l2" type="text">
+        <label for="sr-l3">L3:</label>
+        <input id="sr-l3" type="text">
+      </div>
+      <div class="row">
+        <input id="sr-reason" type="text" placeholder="Why this rule is needed..." class="sr-reason-input">
+      </div>
+      <div class="row">
+        <button id="sr-check-btn">Check</button>
+        <button id="sr-submit-btn" class="primary" disabled>Submit for review</button>
+      </div>
+      <div id="sr-result" class="card sub-card hidden"></div>
+    </div>
+
+    <div class="card compact-filters">
+      <div class="row">
+        <input id="glossary-search" type="text" placeholder="Search keyword, modifier, L1/L2/L3, notes...">
+        <select id="glossary-type-filter"><option value="">All rule types</option></select>
+        <button id="glossary-refresh">Refresh</button>
+        <span class="filter-spacer"></span>
+        <button id="glossary-pending-toggle">Pending Review (<span id="glossary-pending-count">0</span>)</button>
+      </div>
+      <div class="row hidden" id="glossary-bulk-actions">
+        <label class="switch-label"><input type="checkbox" id="glossary-select-all"> Select all shown</label>
+        <button id="glossary-approve-btn" class="primary" disabled>Approve selected</button>
+        <button id="glossary-reject-btn" disabled>Reject selected</button>
+        <span id="glossary-bulk-status" class="edit-status"></span>
+      </div>
+    </div>
+    <div class="card table-card">
+      <table id="glossary-table">
+        <thead><tr id="glossary-head"></tr></thead>
+        <tbody id="glossary-body"></tbody>
+      </table>
+    </div>
+    <p id="glossary-hint" class="hint">Rows marked <strong>PENDING REVIEW</strong> aren't live yet - bulk tagging never uses them until they're approved (or wired in by hand). Approving a rule takes effect immediately, without touching the engine's source code.</p>
+  </section>
+
+  <!-- Tab 3: Category Topline -->
+  <section id="tab-topline" class="tab-panel">
+    <div class="card compact-filters">
+      <div class="row">
+        <label for="topline-platform">Platform:</label>
+        <select id="topline-platform"></select>
+        <label>Months:</label>
+        <div class="month-multiselect" id="topline-month-select">
+          <button type="button" id="topline-month-btn" class="month-multiselect-btn">All months &#9662;</button>
+          <div id="topline-month-panel" class="month-multiselect-panel hidden">
+            <div class="month-multiselect-actions">
+              <button type="button" id="topline-month-all">All</button>
+              <button type="button" id="topline-month-none">None</button>
+            </div>
+            <div id="topline-month-list" class="month-multiselect-list"></div>
+          </div>
+        </div>
+        <button id="topline-refresh">Refresh</button>
+        <label for="topline-view-select">View:</label>
+        <select id="topline-view-select">
+          <option value="2" selected>View 2 (Full)</option>
+          <option value="1">View 1 (Total/L0/L1 only)</option>
+        </select>
+        <span class="filter-spacer"></span>
+        <div class="row" id="topline-ct-review" style="gap:6px;"></div>
+        <label class="switch-label manual-toggle"><input type="checkbox" id="topline-manual-toggle"> Manual Change</label>
+      </div>
+      <div class="row" id="topline-gmv-input-row"></div>
+    </div>
+
+    <div class="card" id="topline-yoy-override-card">
+      <div class="row" style="align-items:center; gap:8px;">
+        <strong>Manual YoY/MoM targets</strong>
+        <span class="hint">for categories Expert data doesn't cover - same guardrail as real Expert data</span>
+      </div>
+      <div class="row" style="gap:8px; margin-top:6px;">
+        <label for="topline-override-month">Month:</label>
+        <select id="topline-override-month"></select>
+        <label for="topline-override-category">Category:</label>
+        <select id="topline-override-category"></select>
+        <label for="topline-override-type">Type:</label>
+        <select id="topline-override-type">
+          <option value="yoy" selected>YoY %</option>
+          <option value="mom">MoM %</option>
+        </select>
+        <input type="number" step="0.1" id="topline-override-value" placeholder="e.g. -22" style="width:90px;">
+        <button id="topline-override-save">Save target</button>
+        <span id="topline-override-status" class="edit-status"></span>
+      </div>
+      <table id="topline-override-table" class="compact-table">
+        <thead><tr><th>Category</th><th>Type</th><th>Value</th><th></th></tr></thead>
+        <tbody id="topline-override-body"></tbody>
+      </table>
+    </div>
+
+    <div id="topline-normal-view">
+      <div class="card table-card">
+        <table id="topline-table">
+          <thead><tr id="topline-head"></tr><tr id="topline-subhead"></tr></thead>
+          <tbody id="topline-body"></tbody>
+        </table>
+      </div>
+    </div>
+
+    <div id="topline-edit-view" class="hidden">
+      <div class="card compact-filters">
+        <div class="row">
+          <label for="topline-edit-month">Month to edit:</label>
+          <select id="topline-edit-month"></select>
+          <button id="topline-edit-preview-btn">Preview changes</button>
+          <button id="topline-edit-confirm-btn" class="primary" disabled>Confirm &amp; save</button>
+          <span id="topline-edit-status" class="edit-status"></span>
+        </div>
+      </div>
+      <div class="card table-card">
+        <table id="topline-edit-table">
+          <thead>
+            <tr>
+              <th>Category</th><th>GMV (Cr.)</th><th>Market Share</th>
+              <th>MoM (prev)</th><th>MoM (latest)</th><th>YoY</th><th>Roll-up</th>
+              <th>Exp ABS</th><th>Exp MoM</th><th>Exp YoY</th>
+            </tr>
+          </thead>
+          <tbody id="topline-edit-body"></tbody>
+        </table>
+      </div>
+      <div id="topline-edit-preview-card" class="card hidden">
+        <h3>Preview</h3>
+        <div id="topline-edit-preview-body"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Tab 4: Brand Share Cons -->
+  <section id="tab-bsc" class="tab-panel">
+    <div class="card compact-filters">
+      <div class="row">
+        <label for="bsc-platform">Platform:</label>
+        <select id="bsc-platform"></select>
+        <label for="bsc-metric">Metric:</label>
+        <select id="bsc-metric">
+          <option value="gmv">GMV (INR Cr.)</option>
+          <option value="share">Market Share</option>
+          <option value="growth">MoM Growth</option>
+          <option value="units">Units</option>
+          <option value="asp">ASP (INR)</option>
+        </select>
+        <label for="bsc-from">From:</label>
+        <select id="bsc-from"></select>
+        <label for="bsc-to">To:</label>
+        <select id="bsc-to"></select>
+        <button id="bsc-refresh">Refresh</button>
+        <span class="filter-spacer"></span>
+        <label class="switch-label manual-toggle"><input type="checkbox" id="bsc-manual-toggle"> Manual Change</label>
+      </div>
+      <div class="row">
+        <input id="bsc-search" type="text" placeholder="Filter rows by brand / category name...">
+        <button id="bsc-search-clear" type="button" hidden>Clear filter</button>
+      </div>
+    </div>
+
+    <div id="bsc-normal-view">
+      <p class="hint" style="margin: -6px 0 10px;">Every brand row, plus each L2's "Others" long-tail and the flat L0 "Others" bucket. Share/Growth/ASP are recomputed here from GMV/Units, not read from Excel's cached formulas.</p>
+      <div class="card table-card">
+        <table id="bsc-table">
+          <thead><tr id="bsc-head"></tr></thead>
+          <tbody id="bsc-body"></tbody>
+        </table>
+      </div>
+    </div>
+
+    <div id="bsc-edit-view" class="hidden">
+      <div class="card compact-filters">
+        <div class="row">
+          <label for="bsc-edit-month">Month to edit:</label>
+          <select id="bsc-edit-month"></select>
+          <button id="bsc-edit-preview-btn">Preview changes</button>
+          <button id="bsc-edit-confirm-btn" class="primary" disabled>Confirm &amp; save</button>
+          <span id="bsc-edit-status" class="edit-status"></span>
+        </div>
+      </div>
+      <p class="hint" style="margin: -6px 0 10px;">Total/L0/L1/L2 rows are read-only context here - they're owned by Category Topline. Only brand rows are editable, and only within a category that has an "Others" brand to absorb the change.</p>
+      <div class="card table-card">
+        <table id="bsc-edit-table">
+          <thead>
+            <tr>
+              <th>Category / Brand</th><th>GMV (Cr.)</th><th>Market Share</th>
+              <th>MoM (prev)</th><th>MoM (latest)</th><th>YoY</th><th>Roll-up</th>
+            </tr>
+          </thead>
+          <tbody id="bsc-edit-body"></tbody>
+        </table>
+      </div>
+      <div id="bsc-edit-preview-card" class="card hidden">
+        <h3>Preview</h3>
+        <div id="bsc-edit-preview-body"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Tab: Brand Validation (Brand Share Cons step 3) -->
+  <section id="tab-brandvalidation" class="tab-panel">
+    <div class="card compact-filters">
+      <div class="row">
+        <label for="bv-platform">Platform:</label>
+        <select id="bv-platform"></select>
+        <label for="bv-from">From:</label>
+        <select id="bv-from"></select>
+        <label for="bv-to">To:</label>
+        <select id="bv-to"></select>
+        <button id="bv-refresh">Refresh</button>
+      </div>
+      <div class="row">
+        <input id="bv-search" type="text" placeholder="Filter by brand name...">
+        <button id="bv-search-clear" type="button" hidden>Clear filter</button>
+      </div>
+    </div>
+    <p class="hint" style="margin: -6px 0 10px;">A holistic, whole-brand view - each brand's GMV summed across every category it appears in (not broken out by category), compared against what the Raw expert data file says. Read-only: reflects whatever is currently committed in Brand Share Cons, including any Manual Change edits made there (refresh this tab after editing to see it). L'Or&eacute;al brands sort first, then everyone else by GMV - the Tier column shows each brand's real parent company (Master Data's own "TM Brand" field).</p>
+    <div id="bv-no-expert-note" class="card hidden" style="padding:10px 14px;"></div>
+    <div class="card table-card">
+      <table id="bv-table">
+        <colgroup id="bv-colgroup"></colgroup>
+        <thead><tr id="bv-head"></tr><tr id="bv-subhead"></tr></thead>
+        <tbody id="bv-body"></tbody>
+      </table>
+    </div>
+  </section>
+
+  <!-- Tab 5: Master Data -->
+  <section id="tab-masterdata" class="tab-panel">
+    <div class="card">
+      <div class="row">
+        <select id="md-platform"><option value="">All platforms</option></select>
+        <select id="md-l0"><option value="">All L0</option></select>
+        <select id="md-l1"><option value="">All L1</option></select>
+        <select id="md-l2"><option value="">All L2</option></select>
+        <select id="md-month"><option value="">All months</option></select>
+        <input id="md-brand" type="text" placeholder="Search brand...">
+        <button id="md-refresh">Search</button>
+      </div>
+      <p id="md-count" class="hint"></p>
+    </div>
+    <div class="card table-card">
+      <table id="md-table">
+        <thead>
+          <tr>
+            <th>Month</th><th>Quarter</th><th>Year</th><th>Archetypes</th><th>Platform</th>
+            <th>L0</th><th>L1</th><th>L2</th><th>Sell Out</th><th>BMS</th>
+            <th>LO Brand</th><th>TM Brand</th><th>Brand</th>
+            <th>GMV (Cr.)</th><th>Units</th><th>ASP</th><th>Legacy</th>
+          </tr>
+        </thead>
+        <tbody id="md-body"></tbody>
+      </table>
+    </div>
+    <div class="card row space-between">
+      <button id="md-prev">&larr; Previous</button>
+      <span id="md-page-label" class="hint"></span>
+      <button id="md-next">Next &rarr;</button>
+    </div>
+  </section>
+
+</main>
+
+<footer id="app-footer">
+  <span id="footer-version"></span>
+  <span id="footer-stale-warning" class="hidden">&#9888; This tab looks out of date - reload the page (Ctrl+Shift+R) to pick up recent changes.</span>
+</footer>
+
+<script src="/static/app.js"></script>
+</body>
+</html>
