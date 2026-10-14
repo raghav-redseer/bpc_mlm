@@ -1,0 +1,20 @@
+Portal Data/
+Master Data/
+Expert Data/
+Brandshare Cons/
+Category Topline/
+Change Log/
+Report Backups/
+approved_rules.json
+pending_category_rules.json
+pending_rules.json
+pending_rules.backup_*.json
+sku_tag_history.json
+golden_tests.json
+portal_log.txt
+portal_stdout.txt
+portal_stderr.txt
+__pycache__/
+*.pyc
+.pytest_cache/
+engine/__pycache__/
