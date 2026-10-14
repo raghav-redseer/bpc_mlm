@@ -1,0 +1,2981 @@
+{
+  "platform": "Amazon",
+  "source": "Amazon.xlsx consolidated raw data, AZ Expert Data tag - RSC L0/L1/L2 already pre-baked per row historically; this table is the deduped/normalized distillation of that, extracted 2026-10-12. Entries with L2=null are deliberately unresolved (lumped/ambiguous source tags - see conversation notes) so Category Topline's existing Forecast+Trend fallback + proportional reconciliation handles them, rather than guessing a single L2.",
+  "mappings": {
+    "groomingaccessoriesatennasandremotecontrols||groomingaccessoriesatennasandremotecontrols||groomingaccessoriesatennasandremotecontrols": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "groomingaccessorieskeyboardsandpianosaccessories||groomingaccessorieskeyboardsandpianosaccessories||groomingaccessorieskeyboardsandpianosaccessories": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "groomingadultcraftartsandcrafts||groomingadultcraftartsandcrafts||groomingadultcraftartsandcrafts": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "groomingallotherfashionroleplayandaccessories||groomingallotherfashionroleplayandaccessories||groomingallotherfashionroleplayandaccessories": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "groomingallothermakeup||groomingallothermakeup||groomingallothermakeup": {
+      "L0": "Makeup and Fragrance",
+      "L1": "Make up",
+      "L2": "Make up Others"
+    },
+    "groomingallotherspinningtopsandaccessories||groomingallotherspinningtopsandaccessories||groomingallotherspinningtopsandaccessories": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "groomingartscraftsandschoolsuppliesstationery||groomingartscraftsandschoolsuppliesstationery||groomingartscraftsandschoolsuppliesstationery": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "groomingartscraftsandsewingartscraftsandsewingother||groomingartscraftsandsewingartscraftsandsewingother||groomingartscraftsandsewingartscraftsandsewingother": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "groomingartscraftsandsewingcraftsupplies||groomingartscraftsandsewingcraftsupplies||groomingartscraftsandsewingcraftsupplies": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "groomingartscraftsandsewingembroiderymachines||groomingartscraftsandsewingembroiderymachines||groomingartscraftsandsewingembroiderymachines": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "groomingartscraftsandsewingjewelrymaking||groomingartscraftsandsewingjewelrymaking||groomingartscraftsandsewingjewelrymaking": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "groomingartscraftsandsewingneedlearts||groomingartscraftsandsewingneedlearts||groomingartscraftsandsewingneedlearts": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "groomingartscraftsandsewingpapercrafts||groomingartscraftsandsewingpapercrafts||groomingartscraftsandsewingpapercrafts": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "groomingartscraftsandsewingprintmakingandetching||groomingartscraftsandsewingprintmakingandetching||groomingartscraftsandsewingprintmakingandetching": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "groomingartscraftsandsewingsewingmachineaccessories||groomingartscraftsandsewingsewingmachineaccessories||groomingartscraftsandsewingsewingmachineaccessories": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "groomingartscraftsandsewingsewingmachines||groomingartscraftsandsewingsewingmachines||groomingartscraftsandsewingsewingmachines": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "groomingautomotiveaccessorieslightingandelectrical||groomingautomotiveaccessorieslightingandelectrical||groomingautomotiveaccessorieslightingandelectrical": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "groomingautomotiveaccessoriesroofboxesandcarriers||groomingautomotiveaccessoriesroofboxesandcarriers||groomingautomotiveaccessoriesroofboxesandcarriers": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "groomingautomotiveaccessoriesstowingandtidying||groomingautomotiveaccessoriesstowingandtidying||groomingautomotiveaccessoriesstowingandtidying": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "groomingautomotiveaccessoriessunscreensandcooling||groomingautomotiveaccessoriessunscreensandcooling||groomingautomotiveaccessoriessunscreensandcooling": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "groomingautomotiveequipmentandtoolsvehicletools||groomingautomotiveequipmentandtoolsvehicletools||groomingautomotiveequipmentandtoolsvehicletools": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "groomingautomotiveequipmentandtoolsvehicleworkshopequipment||groomingautomotiveequipmentandtoolsvehicleworkshopequipment||groomingautomotiveequipmentandtoolsvehicleworkshopequipment": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "groomingbabygirlsaccessoriesna||groomingbabygirlsaccessoriesna||groomingbabygirlsaccessoriesna": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "groomingbackpacksandcasesunknown||groomingbackpacksandcasesunknown||groomingbackpacksandcasesunknown": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "groomingbakewarebakewaredishesplatesandbowlsmettalic||groomingbakewarebakewaredishesplatesandbowlsmettalic||groomingbakewarebakewaredishesplatesandbowlsmettalic": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "groomingbakewaremoldsandplaques||groomingbakewaremoldsandplaques||groomingbakewaremoldsandplaques": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "groomingbakingsuppliescannedandpowderedmilk||groomingbakingsuppliescannedandpowderedmilk||groomingbakingsuppliescannedandpowderedmilk": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "groomingbakingsuppliescasesandcrusts||groomingbakingsuppliescasesandcrusts||groomingbakingsuppliescasesandcrusts": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "groomingbakingsuppliesicingsanddecorations||groomingbakingsuppliesicingsanddecorations||groomingbakingsuppliesicingsanddecorations": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "groomingbakingsuppliessyrupssweetenersextractsandvanilla||groomingbakingsuppliessyrupssweetenersextractsandvanilla||groomingbakingsuppliessyrupssweetenersextractsandvanilla": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "groomingbathandshowerbathadditives||groomingbathandshowerbathadditives||groomingbathandshowerbathadditives": {
+      "L0": "Grooming",
+      "L1": "Hygiene",
+      "L2": "Body wash"
+    },
+    "groomingbathandshowerbathingaccessories||groomingbathandshowerbathingaccessories||groomingbathandshowerbathingaccessories": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "groomingbathandshowerbody||groomingbathandshowerbody||groomingbathandshowerbody": {
+      "L0": "Grooming",
+      "L1": "Hygiene",
+      "L2": "Body wash"
+    },
+    "groomingbathandshowercleansers||groomingbathandshowercleansers||groomingbathandshowercleansers": {
+      "L0": "Grooming",
+      "L1": "Hygiene",
+      "L2": "Body wash"
+    },
+    "groomingbathandshowergiftsets||groomingbathandshowergiftsets||groomingbathandshowergiftsets": {
+      "L0": "Grooming",
+      "L1": "Hygiene",
+      "L2": "Body wash"
+    },
+    "groomingbathandshowerscrubsandbodytreatments||groomingbathandshowerscrubsandbodytreatments||groomingbathandshowerscrubsandbodytreatments": {
+      "L0": "Grooming",
+      "L1": "Hygiene",
+      "L2": "Body scrub"
+    },
+    "groomingbathandshowersoaps||groomingbathandshowersoaps||groomingbathandshowersoaps": {
+      "L0": "Grooming",
+      "L1": "Hygiene",
+      "L2": "Soaps"
+    },
+    "groomingbathingandskincareaccessoriesbathmatsbathseats||groomingbathingandskincareaccessoriesbathmatsbathseats||groomingbathingandskincareaccessoriesbathmatsbathseats": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "groomingbathingandskincareaccessoriesbaththermometersscales||groomingbathingandskincareaccessoriesbaththermometersscales||groomingbathingandskincareaccessoriesbaththermometersscales": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "groomingbathingskincareaccessoriesbathmatsbathseats||groomingbathingskincareaccessoriesbathmatsbathseats||groomingbathingskincareaccessoriesbathmatsbathseats": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "groomingbathingskincareaccessoriesbaththermometersscales||groomingbathingskincareaccessoriesbaththermometersscales||groomingbathingskincareaccessoriesbaththermometersscales": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "groomingbathingskincarebathingtubsseats||groomingbathingskincarebathingtubsseats||groomingbathingskincarebathingtubsseats": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "groomingbathshowerbathadditives||groomingbathshowerbathadditives||groomingbathshowerbathadditives": {
+      "L0": "Grooming",
+      "L1": "Hygiene",
+      "L2": "Body wash"
+    },
+    "groomingbathshowerbathingaccessories||groomingbathshowerbathingaccessories||groomingbathshowerbathingaccessories": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "groomingbathshowercleansers||groomingbathshowercleansers||groomingbathshowercleansers": {
+      "L0": "Grooming",
+      "L1": "Hygiene",
+      "L2": "Body wash"
+    },
+    "groomingbathshowergiftsets||groomingbathshowergiftsets||groomingbathshowergiftsets": {
+      "L0": "Grooming",
+      "L1": "Hygiene",
+      "L2": "Body wash"
+    },
+    "groomingbathshowerscrubsbodytreatments||groomingbathshowerscrubsbodytreatments||groomingbathshowerscrubsbodytreatments": {
+      "L0": "Grooming",
+      "L1": "Hygiene",
+      "L2": "Body scrub"
+    },
+    "groomingbathshowersoaps||groomingbathshowersoaps||groomingbathshowersoaps": {
+      "L0": "Grooming",
+      "L1": "Hygiene",
+      "L2": "Soaps"
+    },
+    "groomingbeautyapplianceshaircombs||groomingbeautyapplianceshaircombs||groomingbeautyapplianceshaircombs": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "groomingbeddingbedsheetsandpillowcovers||groomingbeddingbedsheetsandpillowcovers||groomingbeddingbedsheetsandpillowcovers": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "groomingbeveragesnonfizzysoftdrinksandmixers||groomingbeveragesnonfizzysoftdrinksandmixers||groomingbeveragesnonfizzysoftdrinksandmixers": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "groomingbodytrimandcrashpartsconvertibletopsunroofmechanicalsnew||groomingbodytrimandcrashpartsconvertibletopsunroofmechanicalsnew||groomingbodytrimandcrashpartsconvertibletopsunroofmechanicalsnew": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "groomingbodytrimandcrashpartsexteriorfittings||groomingbodytrimandcrashpartsexteriorfittings||groomingbodytrimandcrashpartsexteriorfittings": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "groomingbodytrimandcrashpartsglassmirrors||groomingbodytrimandcrashpartsglassmirrors||groomingbodytrimandcrashpartsglassmirrors": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "groomingbodytrimandcrashpartsgrillsbumpers||groomingbodytrimandcrashpartsgrillsbumpers||groomingbodytrimandcrashpartsgrillsbumpers": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "groomingbodytrimandcrashpartsinteriortrimmolding||groomingbodytrimandcrashpartsinteriortrimmolding||groomingbodytrimandcrashpartsinteriortrimmolding": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "groomingbodytrimandcrashpartsseatsseatbelts||groomingbodytrimandcrashpartsseatsseatbelts||groomingbodytrimandcrashpartsseatsseatbelts": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "groomingbodytrimandcrashpartsspoilersairdams||groomingbodytrimandcrashpartsspoilersairdams||groomingbodytrimandcrashpartsspoilersairdams": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "groomingbuildingmaterialsandladderscabinets||groomingbuildingmaterialsandladderscabinets||groomingbuildingmaterialsandladderscabinets": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "groomingbuildingmaterialsandladdersdeckingandfencing||groomingbuildingmaterialsandladdersdeckingandfencing||groomingbuildingmaterialsandladdersdeckingandfencing": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "groomingbuildingmaterialsandladdersflooring||groomingbuildingmaterialsandladdersflooring||groomingbuildingmaterialsandladdersflooring": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "groomingbuildingmaterialsandladdersotherbuildingmaterials||groomingbuildingmaterialsandladdersotherbuildingmaterials||groomingbuildingmaterialsandladdersotherbuildingmaterials": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "groomingbuildingmaterialsandladdersroofing||groomingbuildingmaterialsandladdersroofing||groomingbuildingmaterialsandladdersroofing": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "groomingbuildingmaterialsandladderswallsandceilings||groomingbuildingmaterialsandladderswallsandceilings||groomingbuildingmaterialsandladderswallsandceilings": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "groomingcampingandoutdoorhydrationpacks||groomingcampingandoutdoorhydrationpacks||groomingcampingandoutdoorhydrationpacks": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "groomingcarandtruckpartsbatteriesfusesandrelays||groomingcarandtruckpartsbatteriesfusesandrelays||groomingcarandtruckpartsbatteriesfusesandrelays": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "groomingcarandtruckpartsbrakes||groomingcarandtruckpartsbrakes||groomingcarandtruckpartsbrakes": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "groomingcarandtruckpartsclimatecontrol||groomingcarandtruckpartsclimatecontrol||groomingcarandtruckpartsclimatecontrol": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "groomingcarandtruckpartsclutch||groomingcarandtruckpartsclutch||groomingcarandtruckpartsclutch": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "groomingcarandtruckpartsdrivetrainengineandtransmission||groomingcarandtruckpartsdrivetrainengineandtransmission||groomingcarandtruckpartsdrivetrainengineandtransmission": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "groomingcarandtruckpartselectricalandtechnology||groomingcarandtruckpartselectricalandtechnology||groomingcarandtruckpartselectricalandtechnology": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "groomingcarandtruckpartsexhaust||groomingcarandtruckpartsexhaust||groomingcarandtruckpartsexhaust": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "groomingcarandtruckpartsfilters||groomingcarandtruckpartsfilters||groomingcarandtruckpartsfilters": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "groomingcarandtruckpartsignitionplugs||groomingcarandtruckpartsignitionplugs||groomingcarandtruckpartsignitionplugs": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "groomingcarandtruckpartslighting||groomingcarandtruckpartslighting||groomingcarandtruckpartslighting": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "groomingcarandtruckpartssteering||groomingcarandtruckpartssteering||groomingcarandtruckpartssteering": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "groomingcarandtruckpartssuspensionandchassis||groomingcarandtruckpartssuspensionandchassis||groomingcarandtruckpartssuspensionandchassis": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "groomingcarandtruckpartsuncategorized||groomingcarandtruckpartsuncategorized||groomingcarandtruckpartsuncategorized": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "groomingcarandtruckpartswipermotorsblades||groomingcarandtruckpartswipermotorsblades||groomingcarandtruckpartswipermotorsblades": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "groomingcarcarechemicalsandfluidscarcarekits||groomingcarcarechemicalsandfluidscarcarekits||groomingcarcarechemicalsandfluidscarcarekits": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "groomingcarcarechemicalsandfluidsdrivetrainengineandtransmission||groomingcarcarechemicalsandfluidsdrivetrainengineandtransmission||groomingcarcarechemicalsandfluidsdrivetrainengineandtransmission": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "groomingcarcarechemicalsandfluidselectricalandtechnology||groomingcarcarechemicalsandfluidselectricalandtechnology||groomingcarcarechemicalsandfluidselectricalandtechnology": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "groomingcarcarechemicalsandfluidsexteriorcare||groomingcarcarechemicalsandfluidsexteriorcare||groomingcarcarechemicalsandfluidsexteriorcare": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "groomingcarcarechemicalsandfluidsmachinepolishers||groomingcarcarechemicalsandfluidsmachinepolishers||groomingcarcarechemicalsandfluidsmachinepolishers": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "groomingcarcarechemicalsandfluidspaintchemicalsfluidscoatings||groomingcarcarechemicalsandfluidspaintchemicalsfluidscoatings||groomingcarcarechemicalsandfluidspaintchemicalsfluidscoatings": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "groomingcarcarechemicalsandfluidssteering||groomingcarcarechemicalsandfluidssteering||groomingcarcarechemicalsandfluidssteering": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "groomingcarcarechemicalsandfluidsunknown||groomingcarcarechemicalsandfluidsunknown||groomingcarcarechemicalsandfluidsunknown": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "groomingcleaningtoolsbucketsandbowls||groomingcleaningtoolsbucketsandbowls||groomingcleaningtoolsbucketsandbowls": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "groomingcleaningtoolsscrubsandsponges||groomingcleaningtoolsscrubsandsponges||groomingcleaningtoolsscrubsandsponges": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "groomingcondimentsspreadsandcookingcookingingredients||groomingcondimentsspreadsandcookingcookingingredients||groomingcondimentsspreadsandcookingcookingingredients": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "groomingcondimentsspreadsandcookingherbsandspices||groomingcondimentsspreadsandcookingherbsandspices||groomingcondimentsspreadsandcookingherbsandspices": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "groomingcondimentsspreadsandcookingoils||groomingcondimentsspreadsandcookingoils||groomingcondimentsspreadsandcookingoils": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "groomingcondimentsspreadsandcookingpickledvegetableschutneyandrelish||groomingcondimentsspreadsandcookingpickledvegetableschutneyandrelish||groomingcondimentsspreadsandcookingpickledvegetableschutneyandrelish": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "groomingcondimentsspreadsandcookingspreads||groomingcondimentsspreadsandcookingspreads||groomingcondimentsspreadsandcookingspreads": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "groomingcondimentsspreadsandcookingvinegar||groomingcondimentsspreadsandcookingvinegar||groomingcondimentsspreadsandcookingvinegar": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "groomingcookwarepotsandpans||groomingcookwarepotsandpans||groomingcookwarepotsandpans": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "groomingcosmeticsbody||groomingcosmeticsbody||groomingcosmeticsbody": {
+      "L0": "Makeup and Fragrance",
+      "L1": "Make up",
+      "L2": "Body make-up"
+    },
+    "groomingcosmeticseyes||groomingcosmeticseyes||groomingcosmeticseyes": {
+      "L0": "Makeup and Fragrance",
+      "L1": "Make up",
+      "L2": "Eye make-up"
+    },
+    "groomingcosmeticsface||groomingcosmeticsface||groomingcosmeticsface": {
+      "L0": "Makeup and Fragrance",
+      "L1": "Make up",
+      "L2": "Face make-up"
+    },
+    "groomingcosmeticsgiftsets||groomingcosmeticsgiftsets||groomingcosmeticsgiftsets": {
+      "L0": "Makeup and Fragrance",
+      "L1": "Make up",
+      "L2": "Make up Others"
+    },
+    "groomingcosmeticsmakeupbrushesandtools||groomingcosmeticsmakeupbrushesandtools||groomingcosmeticsmakeupbrushesandtools": {
+      "L0": "Makeup and Fragrance",
+      "L1": "Make up",
+      "L2": "Make up Others"
+    },
+    "groomingcosmeticsmiscellaneousskincare||groomingcosmeticsmiscellaneousskincare||groomingcosmeticsmiscellaneousskincare": {
+      "L0": "Grooming",
+      "L1": "Face Skin",
+      "L2": "Face Skin Others"
+    },
+    "groomingcosmeticsna||groomingcosmeticsna||groomingcosmeticsna": {
+      "L0": "Makeup and Fragrance",
+      "L1": "Make up",
+      "L2": null
+    },
+    "groomingcyclingbrakepartsandaccessories||groomingcyclingbrakepartsandaccessories||groomingcyclingbrakepartsandaccessories": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "groomingdishwashersdishwasherpartsaccessoriesandfilters||groomingdishwashersdishwasherpartsaccessoriesandfilters||groomingdishwashersdishwasherpartsaccessoriesandfilters": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "groomingdrumsandpercussiondigitaldrums||groomingdrumsandpercussiondigitaldrums||groomingdrumsandpercussiondigitaldrums": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "groomingelectricalcordandpowermanagement||groomingelectricalcordandpowermanagement||groomingelectricalcordandpowermanagement": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "groomingelectricaldimmersandlightingcontrols||groomingelectricaldimmersandlightingcontrols||groomingelectricaldimmersandlightingcontrols": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "groomingelectricalplatingandcoverings||groomingelectricalplatingandcoverings||groomingelectricalplatingandcoverings": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "groomingelectricalsecurityandintrusionmonitoring||groomingelectricalsecurityandintrusionmonitoring||groomingelectricalsecurityandintrusionmonitoring": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "groomingelectricaltoolsandtesters||groomingelectricaltoolsandtesters||groomingelectricaltoolsandtesters": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "groomingexerciseandfitnessclothing||groomingexerciseandfitnessclothing||groomingexerciseandfitnessclothing": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "groomingexerciseandfitnessweightaccessories||groomingexerciseandfitnessweightaccessories||groomingexerciseandfitnessweightaccessories": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "groomingfamilyplanningmiscellaneousitems||groomingfamilyplanningmiscellaneousitems||groomingfamilyplanningmiscellaneousitems": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "groomingfamilyplanningpregnancytests||groomingfamilyplanningpregnancytests||groomingfamilyplanningpregnancytests": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "groomingfarmingplantsseedsandbulbs||groomingfarmingplantsseedsandbulbs||groomingfarmingplantsseedsandbulbs": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "groomingfloorcareironingboardsandaccessories||groomingfloorcareironingboardsandaccessories||groomingfloorcareironingboardsandaccessories": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "groomingflowcontrolandfiltrationvalves||groomingflowcontrolandfiltrationvalves||groomingflowcontrolandfiltrationvalves": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "groomingfoodservicebarandbeveragesupplies||groomingfoodservicebarandbeveragesupplies||groomingfoodservicebarandbeveragesupplies": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "groomingfoodservicecommercialkitchensuppliesandutensils||groomingfoodservicecommercialkitchensuppliesandutensils||groomingfoodservicecommercialkitchensuppliesandutensils": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "groomingfragranceunisexperfumes||groomingfragranceunisexperfumes||groomingfragranceunisexperfumes": {
+      "L0": "Makeup and Fragrance",
+      "L1": "Fragrance",
+      "L2": "Eau De Parfum"
+    },
+    "groomingfreshfoodsdairyandeggs||groomingfreshfoodsdairyandeggs||groomingfreshfoodsdairyandeggs": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "groomingfreshfoodssaucesandpizza||groomingfreshfoodssaucesandpizza||groomingfreshfoodssaucesandpizza": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "groomingfrozenfoodicecreamandfrozendesserts||groomingfrozenfoodicecreamandfrozendesserts||groomingfrozenfoodicecreamandfrozendesserts": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "groominggamesandpuzzlesfamilyboardaction||groominggamesandpuzzlesfamilyboardaction||groominggamesandpuzzlesfamilyboardaction": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "groominggamesandpuzzlesstationery||groominggamesandpuzzlesstationery||groominggamesandpuzzlesstationery": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "groominggiftbasketsandhampersgiftsandbasketswithoutalcohol||groominggiftbasketsandhampersgiftsandbasketswithoutalcohol||groominggiftbasketsandhampersgiftsandbasketswithoutalcohol": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "groominggiftsdecorandallotherothergifts||groominggiftsdecorandallotherothergifts||groominggiftsdecorandallotherothergifts": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "groominggirlsunderwearsets||groominggirlsunderwearsets||groominggirlsunderwearsets": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "groomingglasswareanddrinkwarebeerglassesandmugs||groomingglasswareanddrinkwarebeerglassesandmugs||groomingglasswareanddrinkwarebeerglassesandmugs": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "groomingglasswareanddrinkwarecupsandsaucers||groomingglasswareanddrinkwarecupsandsaucers||groomingglasswareanddrinkwarecupsandsaucers": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "groomingglasswareanddrinkwaredrinkwaresets||groomingglasswareanddrinkwaredrinkwaresets||groomingglasswareanddrinkwaredrinkwaresets": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "groomingglasswareanddrinkwaremisc||groomingglasswareanddrinkwaremisc||groomingglasswareanddrinkwaremisc": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "groomingglasswareanddrinkwaremugs||groomingglasswareanddrinkwaremugs||groomingglasswareanddrinkwaremugs": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "groomingglasswareanddrinkwarespecialtyglasswareanddrinkware||groomingglasswareanddrinkwarespecialtyglasswareanddrinkware||groomingglasswareanddrinkwarespecialtyglasswareanddrinkware": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "groomingglasswareanddrinkwarestemware||groomingglasswareanddrinkwarestemware||groomingglasswareanddrinkwarestemware": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "groomingglasswareanddrinkwaretumblers||groomingglasswareanddrinkwaretumblers||groomingglasswareanddrinkwaretumblers": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "groominggrillinggrilltoolsandaccessories||groominggrillinggrilltoolsandaccessories||groominggrillinggrilltoolsandaccessories": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "groominggroomingshowerbathsupplies||groominggroomingshowerbathsupplies||groominggroomingshowerbathsupplies": {
+      "L0": "Grooming",
+      "L1": "Hygiene",
+      "L2": "Body wash"
+    },
+    "groominghaircareandstylingcolourings||groominghaircareandstylingcolourings||groominghaircareandstylingcolourings": {
+      "L0": "Grooming",
+      "L1": "Hair colour",
+      "L2": "Creme"
+    },
+    "groominghaircareandstylinggiftsets||groominghaircareandstylinggiftsets||groominghaircareandstylinggiftsets": {
+      "L0": "Grooming",
+      "L1": "Hair Care",
+      "L2": "Hair Combo"
+    },
+    "groominghaircareandstylinghairdecoration||groominghaircareandstylinghairdecoration||groominghaircareandstylinghairdecoration": {
+      "L0": "Grooming",
+      "L1": "Hair Care",
+      "L2": "Hair Care Others"
+    },
+    "groominghaircareandstylinghairstyling||groominghaircareandstylinghairstyling||groominghaircareandstylinghairstyling": {
+      "L0": "Grooming",
+      "L1": "Hair Care Others",
+      "L2": "Styling"
+    },
+    "groominghaircareandstylingna||groominghaircareandstylingna||groominghaircareandstylingna": {
+      "L0": "Grooming",
+      "L1": "Hair Care Others",
+      "L2": "Styling"
+    },
+    "groominghaircareandstylingscalptreatments||groominghaircareandstylingscalptreatments||groominghaircareandstylingscalptreatments": {
+      "L0": "Grooming",
+      "L1": "Hair Care",
+      "L2": "Hair Serums"
+    },
+    "groominghaircareandstylingshampooandconditioner||groominghaircareandstylingshampooandconditioner||groominghaircareandstylingshampooandconditioner": {
+      "L0": "Grooming",
+      "L1": "Hair Care",
+      "L2": "Shampoo"
+    },
+    "groominghaircareandstylingstylinggelwaxandotherproducts||groominghaircareandstylingstylinggelwaxandotherproducts||groominghaircareandstylingstylinggelwaxandotherproducts": {
+      "L0": "Grooming",
+      "L1": "Hygiene",
+      "L2": "Shaving"
+    },
+    "groominghaircarehaircaretreatments||groominghaircarehaircaretreatments||groominghaircarehaircaretreatments": {
+      "L0": "Grooming",
+      "L1": "Hair Care",
+      "L2": "Rinse-Off Masks"
+    },
+    "groominghaircarehaircolor||groominghaircarehaircolor||groominghaircarehaircolor": {
+      "L0": "Grooming",
+      "L1": "Hair colour",
+      "L2": "Creme"
+    },
+    "groominghaircaremiscellaneoushaircare||groominghaircaremiscellaneoushaircare||groominghaircaremiscellaneoushaircare": {
+      "L0": "Grooming",
+      "L1": "Hair Care",
+      "L2": "Hair Care Others"
+    },
+    "groominghaircarena||groominghaircarena||groominghaircarena": {
+      "L0": "Grooming",
+      "L1": "Hair Care",
+      "L2": null
+    },
+    "groominghaircaresets||groominghaircaresets||groominghaircaresets": {
+      "L0": "Grooming",
+      "L1": "Hair Care",
+      "L2": "Hair Combo"
+    },
+    "groominghaircareshampooandconditioner||groominghaircareshampooandconditioner||groominghaircareshampooandconditioner": {
+      "L0": "Grooming",
+      "L1": "Hair Care",
+      "L2": "Shampoo"
+    },
+    "groominghaircareshampooconditioner||groominghaircareshampooconditioner||groominghaircareshampooconditioner": {
+      "L0": "Grooming",
+      "L1": "Hair Care",
+      "L2": "Shampoo"
+    },
+    "groominghaircarestylingaccessories||groominghaircarestylingaccessories||groominghaircarestylingaccessories": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "groominghaircarestylingcolourings||groominghaircarestylingcolourings||groominghaircarestylingcolourings": {
+      "L0": "Grooming",
+      "L1": "Hair colour",
+      "L2": "Creme"
+    },
+    "groominghaircarestylinggiftsets||groominghaircarestylinggiftsets||groominghaircarestylinggiftsets": {
+      "L0": "Grooming",
+      "L1": "Hair Care",
+      "L2": "Hair Combo"
+    },
+    "groominghaircarestylinghairdecoration||groominghaircarestylinghairdecoration||groominghaircarestylinghairdecoration": {
+      "L0": "Grooming",
+      "L1": "Hair Care",
+      "L2": "Hair Care Others"
+    },
+    "groominghaircarestylinghairstyling||groominghaircarestylinghairstyling||groominghaircarestylinghairstyling": {
+      "L0": "Grooming",
+      "L1": "Hair Care Others",
+      "L2": "Styling"
+    },
+    "groominghaircarestylingna||groominghaircarestylingna||groominghaircarestylingna": {
+      "L0": "Grooming",
+      "L1": "Hair Care Others",
+      "L2": "Styling"
+    },
+    "groominghaircarestylingproducts||groominghaircarestylingproducts||groominghaircarestylingproducts": {
+      "L0": "Grooming",
+      "L1": "Hair Care Others",
+      "L2": "Styling"
+    },
+    "groominghaircarestylingscalptreatments||groominghaircarestylingscalptreatments||groominghaircarestylingscalptreatments": {
+      "L0": "Grooming",
+      "L1": "Hair Care",
+      "L2": "Hair Serums"
+    },
+    "groominghaircarestylingshampooconditioner||groominghaircarestylingshampooconditioner||groominghaircarestylingshampooconditioner": {
+      "L0": "Grooming",
+      "L1": "Hair Care",
+      "L2": "Shampoo"
+    },
+    "groominghaircarestylingstylinggelwaxotherproducts||groominghaircarestylingstylinggelwaxotherproducts||groominghaircarestylingstylinggelwaxotherproducts": {
+      "L0": "Grooming",
+      "L1": "Hygiene",
+      "L2": "Shaving"
+    },
+    "groominghandbagsandwalletswristletsandpotlis||groominghandbagsandwalletswristletsandpotlis||groominghandbagsandwalletswristletsandpotlis": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "groominghardwarecastersandfloorprotection||groominghardwarecastersandfloorprotection||groominghardwarecastersandfloorprotection": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "groominghardwaredoorgateandwindowhardware||groominghardwaredoorgateandwindowhardware||groominghardwaredoorgateandwindowhardware": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "groominghardwarefastenersandhooks||groominghardwarefastenersandhooks||groominghardwarefastenersandhooks": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "groominghardwaregaragedooropenersandaccessories||groominghardwaregaragedooropenersandaccessories||groominghardwaregaragedooropenersandaccessories": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "groominghardwarehardwarereplacementparts||groominghardwarehardwarereplacementparts||groominghardwarehardwarereplacementparts": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "groominghardwarelettersnumbersandsigns||groominghardwarelettersnumbersandsigns||groominghardwarelettersnumbersandsigns": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "groominghardwareportablelocksandkeystorage||groominghardwareportablelocksandkeystorage||groominghardwareportablelocksandkeystorage": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "groominghealthcarefootcare(nondrugs)||groominghealthcarefootcare(nondrugs)||groominghealthcarefootcare(nondrugs)": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "groominghealthcarejointsupportbandages(nondrugs)licensed||groominghealthcarejointsupportbandages(nondrugs)licensed||groominghealthcarejointsupportbandages(nondrugs)licensed": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "groominghealthcarelivingandsafetyaids||groominghealthcarelivingandsafetyaids||groominghealthcarelivingandsafetyaids": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "groominghealthcaremischealthcare||groominghealthcaremischealthcare||groominghealthcaremischealthcare": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "groominghomedecorcandleholders||groominghomedecorcandleholders||groominghomedecorcandleholders": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "groominghomedecorcandles||groominghomedecorcandles||groominghomedecorcandles": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "groominghomedecorphotoframesandalbum||groominghomedecorphotoframesandalbum||groominghomedecorphotoframesandalbum": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "groominghomedecorvasesandvasefillers||groominghomedecorvasesandvasefillers||groominghomedecorvasesandvasefillers": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "groominghomeenvironmentwaterheaters||groominghomeenvironmentwaterheaters||groominghomeenvironmentwaterheaters": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "groominghomeenvironmentwaterpurifiersandaccessories||groominghomeenvironmentwaterpurifiersandaccessories||groominghomeenvironmentwaterpurifiersandaccessories": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "groominghomeimprovementkitchenandbathfixtures||groominghomeimprovementkitchenandbathfixtures||groominghomeimprovementkitchenandbathfixtures": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "groominghomeimprovementkitchenbathfixtures||groominghomeimprovementkitchenbathfixtures||groominghomeimprovementkitchenbathfixtures": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "groominghomeimprovementpaintingsuppliestoolsandwalltreatments||groominghomeimprovementpaintingsuppliestoolsandwalltreatments||groominghomeimprovementpaintingsuppliestoolsandwalltreatments": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "groominghomeimprovementpowerandhandtools||groominghomeimprovementpowerandhandtools||groominghomeimprovementpowerandhandtools": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "groominghomestorageandorganizationbathroomaccessoriesandorganization||groominghomestorageandorganizationbathroomaccessoriesandorganization||groominghomestorageandorganizationbathroomaccessoriesandorganization": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "groominghomestorageandorganizationclosetorganization||groominghomestorageandorganizationclosetorganization||groominghomestorageandorganizationclosetorganization": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "groominghomestorageandorganizationhomeofficestorage||groominghomestorageandorganizationhomeofficestorage||groominghomestorageandorganizationhomeofficestorage": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "groominghomestorageandorganizationlaundryorganization||groominghomestorageandorganizationlaundryorganization||groominghomestorageandorganizationlaundryorganization": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "groominghomestorageandorganizationstorage||groominghomestorageandorganizationstorage||groominghomestorageandorganizationstorage": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "groominghomestorageandorganizationwallhooksandkeyholders||groominghomestorageandorganizationwallhooksandkeyholders||groominghomestorageandorganizationwallhooksandkeyholders": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "groominghomestorageandorganizationwallshelves||groominghomestorageandorganizationwallshelves||groominghomestorageandorganizationwallshelves": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "groominghomestorageandorganizationwasteandrecycling||groominghomestorageandorganizationwasteandrecycling||groominghomestorageandorganizationwasteandrecycling": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "groominghouseholdconsumablesadultincontinence||groominghouseholdconsumablesadultincontinence||groominghouseholdconsumablesadultincontinence": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "groominghouseholdconsumablesfemininehygieneother||groominghouseholdconsumablesfemininehygieneother||groominghouseholdconsumablesfemininehygieneother": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "groominghouseholdconsumablesfemininehygienesanitarytowels||groominghouseholdconsumablesfemininehygienesanitarytowels||groominghouseholdconsumablesfemininehygienesanitarytowels": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "groominghouseholdconsumablesfemininehygienetampons||groominghouseholdconsumablesfemininehygienetampons||groominghouseholdconsumablesfemininehygienetampons": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "groominghouseholdconsumablespapertoiletandtissue||groominghouseholdconsumablespapertoiletandtissue||groominghouseholdconsumablespapertoiletandtissue": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "groomingindustrialelectricalsupplieswiringandconnecting||groomingindustrialelectricalsupplieswiringandconnecting||groomingindustrialelectricalsupplieswiringandconnecting": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "groomingindustrialtoolsandinstrumentscalibration||groomingindustrialtoolsandinstrumentscalibration||groomingindustrialtoolsandinstrumentscalibration": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "groomingindustrialtoolsandinstrumentsdimensionalmeasuring||groomingindustrialtoolsandinstrumentsdimensionalmeasuring||groomingindustrialtoolsandinstrumentsdimensionalmeasuring": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "groomingindustrialtoolsandinstrumentselectricaltesting||groomingindustrialtoolsandinstrumentselectricaltesting||groomingindustrialtoolsandinstrumentselectricaltesting": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "groomingindustrialtoolsandinstrumentsindustrialhandtools||groomingindustrialtoolsandinstrumentsindustrialhandtools||groomingindustrialtoolsandinstrumentsindustrialhandtools": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "groomingindustrialtoolsandinstrumentsother||groomingindustrialtoolsandinstrumentsother||groomingindustrialtoolsandinstrumentsother": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "groomingindustrialtoolsandinstrumentspressureandtemperature||groomingindustrialtoolsandinstrumentspressureandtemperature||groomingindustrialtoolsandinstrumentspressureandtemperature": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "groomingindustrialtoolsandinstrumentsscalesandbalances||groomingindustrialtoolsandinstrumentsscalesandbalances||groomingindustrialtoolsandinstrumentsscalesandbalances": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "groomingjanitorialandsanitationspongesandbrushes||groomingjanitorialandsanitationspongesandbrushes||groomingjanitorialandsanitationspongesandbrushes": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "groomingjanitorialsanitationspongesbrushes||groomingjanitorialsanitationspongesbrushes||groomingjanitorialsanitationspongesbrushes": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "groomingkitchenandbathfixturesbathfaucetsandaccessories||groomingkitchenandbathfixturesbathfaucetsandaccessories||groomingkitchenandbathfixturesbathfaucetsandaccessories": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "groomingkitchenandbathfixturesbathhardware||groomingkitchenandbathfixturesbathhardware||groomingkitchenandbathfixturesbathhardware": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "groomingkitchenandbathfixtureskitchenandbathfixtures||groomingkitchenandbathfixtureskitchenandbathfixtures||groomingkitchenandbathfixtureskitchenandbathfixtures": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "groomingkitchenandbathfixtureskitchenfaucetsandaccessories||groomingkitchenandbathfixtureskitchenfaucetsandaccessories||groomingkitchenandbathfixtureskitchenfaucetsandaccessories": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "groomingkitchenandbathfixturesna||groomingkitchenandbathfixturesna||groomingkitchenandbathfixturesna": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "groomingkitchenandbathfixturesotherfaucets||groomingkitchenandbathfixturesotherfaucets||groomingkitchenandbathfixturesotherfaucets": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "groomingkitchenandbathfixturessinksandvessels||groomingkitchenandbathfixturessinksandvessels||groomingkitchenandbathfixturessinksandvessels": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "groomingkitchenandbathfixturestoiletsandbidets||groomingkitchenandbathfixturestoiletsandbidets||groomingkitchenandbathfixturestoiletsandbidets": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "groomingkitchenandbathfixturestoiletseatsandbidetseats||groomingkitchenandbathfixturestoiletseatsandbidetseats||groomingkitchenandbathfixturestoiletseatsandbidetseats": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "groomingkitchenandbathfixturestubandshowerfaucetsandaccessories||groomingkitchenandbathfixturestubandshowerfaucetsandaccessories||groomingkitchenandbathfixturestubandshowerfaucetsandaccessories": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "groomingkitchenandbathfixturestubsandshowers||groomingkitchenandbathfixturestubsandshowers||groomingkitchenandbathfixturestubsandshowers": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "groomingkitchenandbathfixturesvanities||groomingkitchenandbathfixturesvanities||groomingkitchenandbathfixturesvanities": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "groomingkitchenlinennapkinsringsandholders||groomingkitchenlinennapkinsringsandholders||groomingkitchenlinennapkinsringsandholders": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "groomingkitchenstorageandorganisationcookiejarsnonmetallic||groomingkitchenstorageandorganisationcookiejarsnonmetallic||groomingkitchenstorageandorganisationcookiejarsnonmetallic": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "groomingkitchenstorageandorganisationdrizzlersandshakers||groomingkitchenstorageandorganisationdrizzlersandshakers||groomingkitchenstorageandorganisationdrizzlersandshakers": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "groomingkitchenstorageandorganisationlunchbagsandcoolers||groomingkitchenstorageandorganisationlunchbagsandcoolers||groomingkitchenstorageandorganisationlunchbagsandcoolers": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "groomingkitchenstorageandorganisationmisc||groomingkitchenstorageandorganisationmisc||groomingkitchenstorageandorganisationmisc": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "groomingkitchenstorageandorganisationracksandholders||groomingkitchenstorageandorganisationracksandholders||groomingkitchenstorageandorganisationracksandholders": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "groomingkitchenstorageandorganisationspecialtystorage||groomingkitchenstorageandorganisationspecialtystorage||groomingkitchenstorageandorganisationspecialtystorage": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "groomingkitchenstorageandorganisationstoragebags||groomingkitchenstorageandorganisationstoragebags||groomingkitchenstorageandorganisationstoragebags": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "groomingkitchenstorageandorganisationthermaldrinkware||groomingkitchenstorageandorganisationthermaldrinkware||groomingkitchenstorageandorganisationthermaldrinkware": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "groominglabequipmentandinstrumentsequipment||groominglabequipmentandinstrumentsequipment||groominglabequipmentandinstrumentsequipment": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "groominglabequipmentandinstrumentsliquidhandling||groominglabequipmentandinstrumentsliquidhandling||groominglabequipmentandinstrumentsliquidhandling": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "groominglaundrywashinganddryingmachineaccessories||groominglaundrywashinganddryingmachineaccessories||groominglaundrywashinganddryingmachineaccessories": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "groominglawnandgardengardening||groominglawnandgardengardening||groominglawnandgardengardening": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "groominglawnandgardenpestcontrol||groominglawnandgardenpestcontrol||groominglawnandgardenpestcontrol": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "groominglearningandexplorationeducationaltoys||groominglearningandexplorationeducationaltoys||groominglearningandexplorationeducationaltoys": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "groominglivingroomottomansandfootstoolslarge||groominglivingroomottomansandfootstoolslarge||groominglivingroomottomansandfootstoolslarge": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "groomingmakeupbody||groomingmakeupbody||groomingmakeupbody": {
+      "L0": "Makeup and Fragrance",
+      "L1": "Make up",
+      "L2": "Body make-up"
+    },
+    "groomingmakeupeyes||groomingmakeupeyes||groomingmakeupeyes": {
+      "L0": "Makeup and Fragrance",
+      "L1": "Make up",
+      "L2": "Eye make-up"
+    },
+    "groomingmakeupfaceother||groomingmakeupfaceother||groomingmakeupfaceother": {
+      "L0": "Makeup and Fragrance",
+      "L1": "Make up",
+      "L2": "Make up Others"
+    },
+    "groomingmakeupgiftsets||groomingmakeupgiftsets||groomingmakeupgiftsets": {
+      "L0": "Makeup and Fragrance",
+      "L1": "Make up",
+      "L2": "Make up Others"
+    },
+    "groomingmakeuplips||groomingmakeuplips||groomingmakeuplips": {
+      "L0": "Makeup and Fragrance",
+      "L1": "Make up",
+      "L2": "Lip make-up"
+    },
+    "groomingmassageandrelaxationappliancesbodymassage||groomingmassageandrelaxationappliancesbodymassage||groomingmassageandrelaxationappliancesbodymassage": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "groomingmassageandrelaxationappliancesfootmassagersandfootspas||groomingmassageandrelaxationappliancesfootmassagersandfootspas||groomingmassageandrelaxationappliancesfootmassagersandfootspas": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "groomingmassageandrelaxationapplianceshandheldmassage||groomingmassageandrelaxationapplianceshandheldmassage||groomingmassageandrelaxationapplianceshandheldmassage": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "groomingmassageandrelaxationappliancesna||groomingmassageandrelaxationappliancesna||groomingmassageandrelaxationappliancesna": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "groomingmassagerelaxationappliancesbodymassage||groomingmassagerelaxationappliancesbodymassage||groomingmassagerelaxationappliancesbodymassage": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "groomingmaterialhandlingbarcodingandlabeling||groomingmaterialhandlingbarcodingandlabeling||groomingmaterialhandlingbarcodingandlabeling": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "groomingmaterialhandlingcartsandtrucks||groomingmaterialhandlingcartsandtrucks||groomingmaterialhandlingcartsandtrucks": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "groomingmaterialhandlingpackagingandshippingsupplies||groomingmaterialhandlingpackagingandshippingsupplies||groomingmaterialhandlingpackagingandshippingsupplies": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "groomingmaterialhandlingpullingandliftingequipment||groomingmaterialhandlingpullingandliftingequipment||groomingmaterialhandlingpullingandliftingequipment": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "groomingmaterialhandlingrolling||groomingmaterialhandlingrolling||groomingmaterialhandlingrolling": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "groomingmechandisebadges||groomingmechandisebadges||groomingmechandisebadges": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "groomingmechandisekeyrings||groomingmechandisekeyrings||groomingmechandisekeyrings": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "groomingmechandisestickers||groomingmechandisestickers||groomingmechandisestickers": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "groomingmechandiseuncategorized||groomingmechandiseuncategorized||groomingmechandiseuncategorized": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "groomingmedicalappliancesmedicalsuppliesandequipment||groomingmedicalappliancesmedicalsuppliesandequipment||groomingmedicalappliancesmedicalsuppliesandequipment": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "groomingmedicalappliancesmiscellaneoushealthandwellness||groomingmedicalappliancesmiscellaneoushealthandwellness||groomingmedicalappliancesmiscellaneoushealthandwellness": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "groomingmedicalappliancesmiscellaneoushealthwellness||groomingmedicalappliancesmiscellaneoushealthwellness||groomingmedicalappliancesmiscellaneoushealthwellness": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "groomingmedicalsuppliesandequipmenthealthmonitorconsumables||groomingmedicalsuppliesandequipmenthealthmonitorconsumables||groomingmedicalsuppliesandequipmenthealthmonitorconsumables": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "groomingmedicalsuppliesandequipmentlivingandsafetyaids||groomingmedicalsuppliesandequipmentlivingandsafetyaids||groomingmedicalsuppliesandequipmentlivingandsafetyaids": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "groomingmedicalsuppliesandequipmentmobilityaidsothers||groomingmedicalsuppliesandequipmentmobilityaidsothers||groomingmedicalsuppliesandequipmentmobilityaidsothers": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "groomingmedicalsuppliesandequipmentna||groomingmedicalsuppliesandequipmentna||groomingmedicalsuppliesandequipmentna": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "groomingmensaccessoriesmenscapsandhats||groomingmensaccessoriesmenscapsandhats||groomingmensaccessoriesmenscapsandhats": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "groomingmensaccessoriesmenshandkerchiefs||groomingmensaccessoriesmenshandkerchiefs||groomingmensaccessoriesmenshandkerchiefs": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "groomingmobileelectronicscaraudioandvideoaccessories||groomingmobileelectronicscaraudioandvideoaccessories||groomingmobileelectronicscaraudioandvideoaccessories": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "groomingmotorbikeaccessoriesandpartsaccessories||groomingmotorbikeaccessoriesandpartsaccessories||groomingmotorbikeaccessoriesandpartsaccessories": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "groomingmotorbikeaccessoriesandpartsbrakes||groomingmotorbikeaccessoriesandpartsbrakes||groomingmotorbikeaccessoriesandpartsbrakes": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "groomingmotorbikeaccessoriesandpartsdriveandgears||groomingmotorbikeaccessoriesandpartsdriveandgears||groomingmotorbikeaccessoriesandpartsdriveandgears": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "groomingmotorbikeaccessoriesandpartsenginesandengineparts||groomingmotorbikeaccessoriesandpartsenginesandengineparts||groomingmotorbikeaccessoriesandpartsenginesandengineparts": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "groomingmotorbikeaccessoriesandpartsexhaustandexhaustsystems||groomingmotorbikeaccessoriesandpartsexhaustandexhaustsystems||groomingmotorbikeaccessoriesandpartsexhaustandexhaustsystems": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "groomingmotorbikeaccessoriesandpartsfilters||groomingmotorbikeaccessoriesandpartsfilters||groomingmotorbikeaccessoriesandpartsfilters": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "groomingmotorbikeaccessoriesandpartsframesandfittings||groomingmotorbikeaccessoriesandpartsframesandfittings||groomingmotorbikeaccessoriesandpartsframesandfittings": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "groomingmotorbikeaccessoriesandpartsfuelsupply||groomingmotorbikeaccessoriesandpartsfuelsupply||groomingmotorbikeaccessoriesandpartsfuelsupply": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "groomingmotorbikeaccessoriesandpartshandlebarsandforks||groomingmotorbikeaccessoriesandpartshandlebarsandforks||groomingmotorbikeaccessoriesandpartshandlebarsandforks": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "groomingmotorbikeaccessoriesandpartsinstruments||groomingmotorbikeaccessoriesandpartsinstruments||groomingmotorbikeaccessoriesandpartsinstruments": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "groomingmotorbikeaccessoriesandpartslightingandelectrical||groomingmotorbikeaccessoriesandpartslightingandelectrical||groomingmotorbikeaccessoriesandpartslightingandelectrical": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "groomingmotorbikeaccessoriesandpartsluggage||groomingmotorbikeaccessoriesandpartsluggage||groomingmotorbikeaccessoriesandpartsluggage": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "groomingmotorbikeaccessoriesandpartsna||groomingmotorbikeaccessoriesandpartsna||groomingmotorbikeaccessoriesandpartsna": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "groomingmotorbikeaccessoriesandpartsseatcovers||groomingmotorbikeaccessoriesandpartsseatcovers||groomingmotorbikeaccessoriesandpartsseatcovers": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "groomingmotorbikeaccessoriesandpartsseats||groomingmotorbikeaccessoriesandpartsseats||groomingmotorbikeaccessoriesandpartsseats": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "groomingmotorbikeaccessoriesandpartsuncategorized||groomingmotorbikeaccessoriesandpartsuncategorized||groomingmotorbikeaccessoriesandpartsuncategorized": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "groomingmotorcycleclothingandhelmetsglasses||groomingmotorcycleclothingandhelmetsglasses||groomingmotorcycleclothingandhelmetsglasses": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "groomingmotorcycleclothingandhelmetsprotectors||groomingmotorcycleclothingandhelmetsprotectors||groomingmotorcycleclothingandhelmetsprotectors": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "groomingnacorelettervitaminsnonlicensed||groomingnacorelettervitaminsnonlicensed||groomingnacorelettervitaminsnonlicensed": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "groomingnaface||groomingnaface||groomingnaface": {
+      "L0": "Grooming",
+      "L1": "Face Skin",
+      "L2": null
+    },
+    "groomingnailbathandshower||groomingnailbathandshower||groomingnailbathandshower": {
+      "L0": "Makeup and Fragrance",
+      "L1": "Make up",
+      "L2": "Nail make-up"
+    },
+    "groomingnailcarenailaccessories||groomingnailcarenailaccessories||groomingnailcarenailaccessories": {
+      "L0": "Makeup and Fragrance",
+      "L1": "Make up",
+      "L2": "Nail make-up"
+    },
+    "groomingnailcarenailpolish||groomingnailcarenailpolish||groomingnailcarenailpolish": {
+      "L0": "Makeup and Fragrance",
+      "L1": "Make up",
+      "L2": "Nail make-up"
+    },
+    "groomingnailcaresets||groomingnailcaresets||groomingnailcaresets": {
+      "L0": "Makeup and Fragrance",
+      "L1": "Make up",
+      "L2": "Nail make-up"
+    },
+    "groomingnailnailprimerandtopcoats||groomingnailnailprimerandtopcoats||groomingnailnailprimerandtopcoats": {
+      "L0": "Makeup and Fragrance",
+      "L1": "Make up",
+      "L2": "Nail make-up"
+    },
+    "groomingnailnailtreatmentandmoisturizer||groomingnailnailtreatmentandmoisturizer||groomingnailnailtreatmentandmoisturizer": {
+      "L0": "Makeup and Fragrance",
+      "L1": "Make up",
+      "L2": "Nail make-up"
+    },
+    "groomingnailnaircolor||groomingnailnaircolor||groomingnailnaircolor": {
+      "L0": "Makeup and Fragrance",
+      "L1": "Make up",
+      "L2": "Nail make-up"
+    },
+    "groomingnana||groomingnana||groomingnana": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "groomingnaprofessionalhaircare||groomingnaprofessionalhaircare||groomingnaprofessionalhaircare": {
+      "L0": "Grooming",
+      "L1": "Hair Care",
+      "L2": null
+    },
+    "groomingnastylinggelwaxandotherproducts||groomingnastylinggelwaxandotherproducts||groomingnastylinggelwaxandotherproducts": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "groomingnaunknown||groomingnaunknown||groomingnaunknown": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "groomingnutritionandfoodcorelettervitaminsnonlicensed||groomingnutritionandfoodcorelettervitaminsnonlicensed||groomingnutritionandfoodcorelettervitaminsnonlicensed": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "groomingnutritionandfoodmiscellaneousnutritionandfood||groomingnutritionandfoodmiscellaneousnutritionandfood||groomingnutritionandfoodmiscellaneousnutritionandfood": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "groomingnutritionandfoodmultivitaminsnonlicensed||groomingnutritionandfoodmultivitaminsnonlicensed||groomingnutritionandfoodmultivitaminsnonlicensed": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "groomingofficeorganizationlabelslabelingtapesindexesandstamps||groomingofficeorganizationlabelslabelingtapesindexesandstamps||groomingofficeorganizationlabelslabelingtapesindexesandstamps": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "groomingofficesuppliesbookendsdesktopwallandfloorliteratureholders||groomingofficesuppliesbookendsdesktopwallandfloorliteratureholders||groomingofficesuppliesbookendsdesktopwallandfloorliteratureholders": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "groomingofficesuppliesindividualbusinesscardandtraveldocumentholders||groomingofficesuppliesindividualbusinesscardandtraveldocumentholders||groomingofficesuppliesindividualbusinesscardandtraveldocumentholders": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "groomingofficesuppliesmessageboardsandsigns||groomingofficesuppliesmessageboardsandsigns||groomingofficesuppliesmessageboardsandsigns": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "groomingofficesuppliesnotebooksandcompositionbooks||groomingofficesuppliesnotebooksandcompositionbooks||groomingofficesuppliesnotebooksandcompositionbooks": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "groomingofficesuppliesnotecardsandpostcards||groomingofficesuppliesnotecardsandpostcards||groomingofficesuppliesnotecardsandpostcards": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "groomingoralcareappliancesna||groomingoralcareappliancesna||groomingoralcareappliancesna": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "groomingoralcaredentalfloss||groomingoralcaredentalfloss||groomingoralcaredentalfloss": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "groomingoralcaredentalkits||groomingoralcaredentalkits||groomingoralcaredentalkits": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "groomingoralcaredenturecare||groomingoralcaredenturecare||groomingoralcaredenturecare": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "groomingoralcaremanualtoothbrushes||groomingoralcaremanualtoothbrushes||groomingoralcaremanualtoothbrushes": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "groomingoralcareoralcareaccessories||groomingoralcareoralcareaccessories||groomingoralcareoralcareaccessories": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "groomingoralcaretoothpastewhitenersmouthwash||groomingoralcaretoothpastewhitenersmouthwash||groomingoralcaretoothpastewhitenersmouthwash": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "groomingoutdoorlivingwaterfountainsandaccessories||groomingoutdoorlivingwaterfountainsandaccessories||groomingoutdoorlivingwaterfountainsandaccessories": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "groomingoutdoorpowerblowersandvacs||groomingoutdoorpowerblowersandvacs||groomingoutdoorpowerblowersandvacs": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "groomingpaintingsuppliestoolsandwalltreatmentsabrasivesandsurfacepreparation||groomingpaintingsuppliestoolsandwalltreatmentsabrasivesandsurfacepreparation||groomingpaintingsuppliestoolsandwalltreatmentsabrasivesandsurfacepreparation": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "groomingpaintingsuppliestoolsandwalltreatmentsbrushesandrollers||groomingpaintingsuppliestoolsandwalltreatmentsbrushesandrollers||groomingpaintingsuppliestoolsandwalltreatmentsbrushesandrollers": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "groomingpaintingsuppliestoolsandwalltreatmentsdecorandcoverings||groomingpaintingsuppliestoolsandwalltreatmentsdecorandcoverings||groomingpaintingsuppliestoolsandwalltreatmentsdecorandcoverings": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "groomingpaintingsuppliestoolsandwalltreatmentsna||groomingpaintingsuppliestoolsandwalltreatmentsna||groomingpaintingsuppliestoolsandwalltreatmentsna": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "groomingpaintingsuppliestoolsandwalltreatmentspaintandstains||groomingpaintingsuppliestoolsandwalltreatmentspaintandstains||groomingpaintingsuppliestoolsandwalltreatmentspaintandstains": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "groomingpaintingsuppliestoolsandwalltreatmentspaintingtools||groomingpaintingsuppliestoolsandwalltreatmentspaintingtools||groomingpaintingsuppliestoolsandwalltreatmentspaintingtools": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "groomingpaintingsuppliestoolsandwalltreatmentspatchfillandrepair||groomingpaintingsuppliestoolsandwalltreatmentspatchfillandrepair||groomingpaintingsuppliestoolsandwalltreatmentspatchfillandrepair": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "groomingpaintingsuppliestoolsandwalltreatmentswallpapersborduresandwallpaintings||groomingpaintingsuppliestoolsandwalltreatmentswallpapersborduresandwallpaintings||groomingpaintingsuppliestoolsandwalltreatmentswallpapersborduresandwallpaintings": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "groomingpaperenvelopesandshippingsuppliesenvelopes||groomingpaperenvelopesandshippingsuppliesenvelopes||groomingpaperenvelopesandshippingsuppliesenvelopes": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "groomingpastaandgrainsdriedvegpulses||groomingpastaandgrainsdriedvegpulses||groomingpastaandgrainsdriedvegpulses": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "groomingpastaandgrainsrice||groomingpastaandgrainsrice||groomingpastaandgrainsrice": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "groomingpowerandhandtoolshandtools||groomingpowerandhandtoolshandtools||groomingpowerandhandtoolshandtools": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "groomingpowerandhandtoolsmeasuringandlayouttools||groomingpowerandhandtoolsmeasuringandlayouttools||groomingpowerandhandtoolsmeasuringandlayouttools": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "groomingpowerandhandtoolsna||groomingpowerandhandtoolsna||groomingpowerandhandtoolsna": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "groomingpowerandhandtoolspowertoolaccessories||groomingpowerandhandtoolspowertoolaccessories||groomingpowerandhandtoolspowertoolaccessories": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "groomingpowerandhandtoolspowertools||groomingpowerandhandtoolspowertools||groomingpowerandhandtoolspowertools": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "groomingpowerandhandtoolstoolorganizers||groomingpowerandhandtoolstoolorganizers||groomingpowerandhandtoolstoolorganizers": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "groomingprestigehaircarena||groomingprestigehaircarena||groomingprestigehaircarena": {
+      "L0": "Grooming",
+      "L1": "Hair Care",
+      "L2": null
+    },
+    "groomingprestigenailcarebathandshower||groomingprestigenailcarebathandshower||groomingprestigenailcarebathandshower": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "groomingprestigeskincarebody||groomingprestigeskincarebody||groomingprestigeskincarebody": {
+      "L0": "Grooming",
+      "L1": "Body Skin",
+      "L2": "Body care"
+    },
+    "groomingprestigeskincarena||groomingprestigeskincarena||groomingprestigeskincarena": {
+      "L0": "Grooming",
+      "L1": "Face Skin",
+      "L2": null
+    },
+    "groomingprofessionalmedicalna||groomingprofessionalmedicalna||groomingprofessionalmedicalna": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "groomingroughplumbingconnectorsvalvesandfittings||groomingroughplumbingconnectorsvalvesandfittings||groomingroughplumbingconnectorsvalvesandfittings": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "groomingroughplumbingdrainopenersandstops||groomingroughplumbingdrainopenersandstops||groomingroughplumbingdrainopenersandstops": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "groomingroughplumbingpartsandrepair||groomingroughplumbingpartsandrepair||groomingroughplumbingpartsandrepair": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "groomingroughplumbingpipeandconduit||groomingroughplumbingpipeandconduit||groomingroughplumbingpipeandconduit": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "groomingsafetyandsecurityalarmsandsirens||groomingsafetyandsecurityalarmsandsirens||groomingsafetyandsecurityalarmsandsirens": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "groomingsafetyandsecurityfiresafety||groomingsafetyandsecurityfiresafety||groomingsafetyandsecurityfiresafety": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "groomingsafetyandsecurityhomesecuritysystems||groomingsafetyandsecurityhomesecuritysystems||groomingsafetyandsecurityhomesecuritysystems": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "groomingsafetyandsecurityothersafetyequipmentsandkits||groomingsafetyandsecurityothersafetyequipmentsandkits||groomingsafetyandsecurityothersafetyequipmentsandkits": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "groomingsafetyandsecurityworksafetyequipmentandgear||groomingsafetyandsecurityworksafetyequipmentandgear||groomingsafetyandsecurityworksafetyequipmentandgear": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "groomingsamplinghaircaresample||groomingsamplinghaircaresample||groomingsamplinghaircaresample": {
+      "L0": "Grooming",
+      "L1": "Hair Care",
+      "L2": null
+    },
+    "groomingshavingandhairremovalappliancesbeardandhairtrimmers||groomingshavingandhairremovalappliancesbeardandhairtrimmers||groomingshavingandhairremovalappliancesbeardandhairtrimmers": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "groomingshavingandhairremovalappliancesladiesshavers||groomingshavingandhairremovalappliancesladiesshavers||groomingshavingandhairremovalappliancesladiesshavers": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "groomingshavingandhairremovalappliancesmensshavers||groomingshavingandhairremovalappliancesmensshavers||groomingshavingandhairremovalappliancesmensshavers": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "groomingshavingandhairremovalappliancesnoseandeartrimmers||groomingshavingandhairremovalappliancesnoseandeartrimmers||groomingshavingandhairremovalappliancesnoseandeartrimmers": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "groomingshavingandhairremovalface||groomingshavingandhairremovalface||groomingshavingandhairremovalface": {
+      "L0": "Grooming",
+      "L1": "Hygiene",
+      "L2": "Shaving"
+    },
+    "groomingshavingandhairremovalhairremoval||groomingshavingandhairremovalhairremoval||groomingshavingandhairremovalhairremoval": {
+      "L0": "Grooming",
+      "L1": "Hygiene",
+      "L2": "Shaving"
+    },
+    "groomingshavingandhairremovalmiscellaneousshavingandhairremoval||groomingshavingandhairremovalmiscellaneousshavingandhairremoval||groomingshavingandhairremovalmiscellaneousshavingandhairremoval": {
+      "L0": "Grooming",
+      "L1": "Hygiene",
+      "L2": "Shaving"
+    },
+    "groomingshavingandhairremovalna||groomingshavingandhairremovalna||groomingshavingandhairremovalna": {
+      "L0": "Grooming",
+      "L1": "Hygiene",
+      "L2": "Shaving"
+    },
+    "groomingshavingandhairremovalrazorsandsets||groomingshavingandhairremovalrazorsandsets||groomingshavingandhairremovalrazorsandsets": {
+      "L0": "Grooming",
+      "L1": "Hygiene",
+      "L2": "Shaving"
+    },
+    "groomingshavingandhairremovalshavingcreamgels||groomingshavingandhairremovalshavingcreamgels||groomingshavingandhairremovalshavingcreamgels": {
+      "L0": "Grooming",
+      "L1": "Hygiene",
+      "L2": "Shaving"
+    },
+    "groomingshavinghairremovalhairremoval||groomingshavinghairremovalhairremoval||groomingshavinghairremovalhairremoval": {
+      "L0": "Grooming",
+      "L1": "Hygiene",
+      "L2": "Shaving"
+    },
+    "groomingshavinghairremovalmiscellaneousshavinghairremoval||groomingshavinghairremovalmiscellaneousshavinghairremoval||groomingshavinghairremovalmiscellaneousshavinghairremoval": {
+      "L0": "Grooming",
+      "L1": "Hygiene",
+      "L2": "Shaving"
+    },
+    "groomingshavinghairremovalrazorssets||groomingshavinghairremovalrazorssets||groomingshavinghairremovalrazorssets": {
+      "L0": "Grooming",
+      "L1": "Hygiene",
+      "L2": "Shaving"
+    },
+    "groomingshavinghairremovalshavingcreamgels||groomingshavinghairremovalshavingcreamgels||groomingshavinghairremovalshavingcreamgels": {
+      "L0": "Grooming",
+      "L1": "Hygiene",
+      "L2": "Shaving"
+    },
+    "groomingshoecareandaccessoriesothershoecareandaccessories||groomingshoecareandaccessoriesothershoecareandaccessories||groomingshoecareandaccessoriesothershoecareandaccessories": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "groomingsilverjewelleryearrings||groomingsilverjewelleryearrings||groomingsilverjewelleryearrings": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "groomingskincarebathandshower||groomingskincarebathandshower||groomingskincarebathandshower": {
+      "L0": "Grooming",
+      "L1": "Hygiene",
+      "L2": "Body wash"
+    },
+    "groomingskincarebathshower||groomingskincarebathshower||groomingskincarebathshower": {
+      "L0": "Grooming",
+      "L1": "Hygiene",
+      "L2": "Body wash"
+    },
+    "groomingskincarebody||groomingskincarebody||groomingskincarebody": {
+      "L0": "Grooming",
+      "L1": "Body Skin",
+      "L2": "Body care"
+    },
+    "groomingskincareface||groomingskincareface||groomingskincareface": {
+      "L0": "Grooming",
+      "L1": "Face Skin",
+      "L2": "Face care"
+    },
+    "groomingskincarefeet||groomingskincarefeet||groomingskincarefeet": {
+      "L0": "Grooming",
+      "L1": "Body Skin",
+      "L2": "Foot care"
+    },
+    "groomingskincaregiftsets||groomingskincaregiftsets||groomingskincaregiftsets": {
+      "L0": "Grooming",
+      "L1": "Face Skin",
+      "L2": "Face Skin Others"
+    },
+    "groomingskincarehaircombs||groomingskincarehaircombs||groomingskincarehaircombs": {
+      "L0": "Grooming",
+      "L1": "Hair Care",
+      "L2": "Hair Care Others"
+    },
+    "groomingskincarehandsandfeet||groomingskincarehandsandfeet||groomingskincarehandsandfeet": {
+      "L0": "Grooming",
+      "L1": "Body Skin",
+      "L2": "Foot care"
+    },
+    "groomingskincarehandsandnails||groomingskincarehandsandnails||groomingskincarehandsandnails": {
+      "L0": "Makeup and Fragrance",
+      "L1": "Make up",
+      "L2": "Nail make-up"
+    },
+    "groomingskincarehomed√©coraccents||groomingskincarehomed√©coraccents||groomingskincarehomed√©coraccents": {
+      "L0": "Grooming",
+      "L1": "Face Skin",
+      "L2": null
+    },
+    "groomingskincarehsfeet||groomingskincarehsfeet||groomingskincarehsfeet": {
+      "L0": "Grooming",
+      "L1": "Body Skin",
+      "L2": "Foot care"
+    },
+    "groomingskincarehsnails||groomingskincarehsnails||groomingskincarehsnails": {
+      "L0": "Makeup and Fragrance",
+      "L1": "Make up",
+      "L2": "Nail make-up"
+    },
+    "groomingskincarematernity||groomingskincarematernity||groomingskincarematernity": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "groomingskincaremiscellaneousskincare||groomingskincaremiscellaneousskincare||groomingskincaremiscellaneousskincare": {
+      "L0": "Grooming",
+      "L1": "Face Skin",
+      "L2": null
+    },
+    "groomingskincarena||groomingskincarena||groomingskincarena": {
+      "L0": "Grooming",
+      "L1": "Face Skin",
+      "L2": null
+    },
+    "groomingskincaresets||groomingskincaresets||groomingskincaresets": {
+      "L0": "Grooming",
+      "L1": "Face Skin",
+      "L2": "Face Skin Others"
+    },
+    "groomingskincareshampooandconditioner||groomingskincareshampooandconditioner||groomingskincareshampooandconditioner": {
+      "L0": "Grooming",
+      "L1": "Hair Care",
+      "L2": "Shampoo"
+    },
+    "groomingskincareshampooconditioner||groomingskincareshampooconditioner||groomingskincareshampooconditioner": {
+      "L0": "Grooming",
+      "L1": "Hair Care",
+      "L2": "Shampoo"
+    },
+    "groomingskincaresuncare||groomingskincaresuncare||groomingskincaresuncare": {
+      "L0": "Grooming",
+      "L1": "Face Skin",
+      "L2": "Sun care"
+    },
+    "groomingsmallappliancesmicrowaveovens||groomingsmallappliancesmicrowaveovens||groomingsmallappliancesmicrowaveovens": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "groomingsnacksanddessertsbiscuits||groomingsnacksanddessertsbiscuits||groomingsnacksanddessertsbiscuits": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "groomingsnacksanddessertschocolate||groomingsnacksanddessertschocolate||groomingsnacksanddessertschocolate": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "groomingsnacksanddessertscrisps||groomingsnacksanddessertscrisps||groomingsnacksanddessertscrisps": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "groomingsnacksanddessertsdesserts||groomingsnacksanddessertsdesserts||groomingsnacksanddessertsdesserts": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "groomingsnacksanddessertsseedsanddriedfruit(exceptraisinsandcashewkernals)||groomingsnacksanddessertsseedsanddriedfruit(exceptraisinsandcashewkernals)||groomingsnacksanddessertsseedsanddriedfruit(exceptraisinsandcashewkernals)": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "groomingsnacksanddessertssnacks||groomingsnacksanddessertssnacks||groomingsnacksanddessertssnacks": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "groomingsnacksanddessertssportsnutritional||groomingsnacksanddessertssportsnutritional||groomingsnacksanddessertssportsnutritional": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "groomingsnacksanddessertssweets||groomingsnacksanddessertssweets||groomingsnacksanddessertssweets": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "groomingtapesadhesiveslubricantsandchemicalsadhesivetapes||groomingtapesadhesiveslubricantsandchemicalsadhesivetapes||groomingtapesadhesiveslubricantsandchemicalsadhesivetapes": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "groomingtiresandrimsalloyrims||groomingtiresandrimsalloyrims||groomingtiresandrimsalloyrims": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "groomingtiresandrimstiresonrims||groomingtiresandrimstiresonrims||groomingtiresandrimstiresonrims": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "groomingtiresandrimsuncategorized||groomingtiresandrimsuncategorized||groomingtiresandrimsuncategorized": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "groomingtiresandrimsvalvesadaptorsringswashersstuds||groomingtiresandrimsvalvesadaptorsringswashersstuds||groomingtiresandrimsvalvesadaptorsringswashersstuds": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "groomingtiresandrimswheelcoverscapsspinners||groomingtiresandrimswheelcoverscapsspinners||groomingtiresandrimswheelcoverscapsspinners": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "groomingtoolsaccessorieshairbrushes||groomingtoolsaccessorieshairbrushes||groomingtoolsaccessorieshairbrushes": {
+      "L0": "Grooming",
+      "L1": "Hair Care",
+      "L2": "Hair Care Others"
+    },
+    "groomingtoolsaccessorieshaircombs||groomingtoolsaccessorieshaircombs||groomingtoolsaccessorieshaircombs": {
+      "L0": "Grooming",
+      "L1": "Hair Care",
+      "L2": "Hair Care Others"
+    },
+    "groomingtoolsaccessoriesmakeuptoolsother||groomingtoolsaccessoriesmakeuptoolsother||groomingtoolsaccessoriesmakeuptoolsother": {
+      "L0": "Makeup and Fragrance",
+      "L1": "Make up",
+      "L2": "Make up Others"
+    },
+    "groomingtoolsaccessoriesmakeuptoolstweezers||groomingtoolsaccessoriesmakeuptoolstweezers||groomingtoolsaccessoriesmakeuptoolstweezers": {
+      "L0": "Makeup and Fragrance",
+      "L1": "Make up",
+      "L2": "Make up Others"
+    },
+    "groomingtoolsaccessoriesvanitycases||groomingtoolsaccessoriesvanitycases||groomingtoolsaccessoriesvanitycases": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "groomingtoolsandaccessoriesfeet||groomingtoolsandaccessoriesfeet||groomingtoolsandaccessoriesfeet": {
+      "L0": "Grooming",
+      "L1": "Body Skin",
+      "L2": "Foot care"
+    },
+    "groomingtoolsandaccessorieshairbrushes||groomingtoolsandaccessorieshairbrushes||groomingtoolsandaccessorieshairbrushes": {
+      "L0": "Grooming",
+      "L1": "Hair Care",
+      "L2": "Hair Care Others"
+    },
+    "groomingtoolsandaccessorieshaircombs||groomingtoolsandaccessorieshaircombs||groomingtoolsandaccessorieshaircombs": {
+      "L0": "Grooming",
+      "L1": "Hair Care",
+      "L2": "Hair Care Others"
+    },
+    "groomingtoolsandaccessorieshairscissors||groomingtoolsandaccessorieshairscissors||groomingtoolsandaccessorieshairscissors": {
+      "L0": "Grooming",
+      "L1": "Hair Care",
+      "L2": "Hair Care Others"
+    },
+    "groomingtoolsandaccessoriesmakeupbrushes||groomingtoolsandaccessoriesmakeupbrushes||groomingtoolsandaccessoriesmakeupbrushes": {
+      "L0": "Makeup and Fragrance",
+      "L1": "Make up",
+      "L2": "Make up Others"
+    },
+    "groomingtoolsandaccessoriesmakeupspongesorsimilar||groomingtoolsandaccessoriesmakeupspongesorsimilar||groomingtoolsandaccessoriesmakeupspongesorsimilar": {
+      "L0": "Makeup and Fragrance",
+      "L1": "Make up",
+      "L2": "Make up Others"
+    },
+    "groomingtoolsandaccessoriesmakeuptoolsother||groomingtoolsandaccessoriesmakeuptoolsother||groomingtoolsandaccessoriesmakeuptoolsother": {
+      "L0": "Makeup and Fragrance",
+      "L1": "Make up",
+      "L2": "Make up Others"
+    },
+    "groomingtoolsandaccessoriesmakeuptoolstweezers||groomingtoolsandaccessoriesmakeuptoolstweezers||groomingtoolsandaccessoriesmakeuptoolstweezers": {
+      "L0": "Makeup and Fragrance",
+      "L1": "Make up",
+      "L2": "Make up Others"
+    },
+    "groomingtoolsandaccessoriestoiletrybags||groomingtoolsandaccessoriestoiletrybags||groomingtoolsandaccessoriestoiletrybags": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "groomingtoolsandaccessoriesvanitycases||groomingtoolsandaccessoriesvanitycases||groomingtoolsandaccessoriesvanitycases": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "groomingtoolsgadgetsandbarwarebakingandpastry||groomingtoolsgadgetsandbarwarebakingandpastry||groomingtoolsgadgetsandbarwarebakingandpastry": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "groomingtoolsgadgetsandbarwarebarandwinetools||groomingtoolsgadgetsandbarwarebarandwinetools||groomingtoolsgadgetsandbarwarebarandwinetools": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "groomingtoolsgadgetsandbarwarecanopeners||groomingtoolsgadgetsandbarwarecanopeners||groomingtoolsgadgetsandbarwarecanopeners": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "groomingtoolsgadgetsandbarwarecolandersandstrainers||groomingtoolsgadgetsandbarwarecolandersandstrainers||groomingtoolsgadgetsandbarwarecolandersandstrainers": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "groomingtoolsgadgetsandbarwarecookingtongs||groomingtoolsgadgetsandbarwarecookingtongs||groomingtoolsgadgetsandbarwarecookingtongs": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "groomingtoolsgadgetsandbarwarecookingutensilsmetallic||groomingtoolsgadgetsandbarwarecookingutensilsmetallic||groomingtoolsgadgetsandbarwarecookingutensilsmetallic": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "groomingtoolsgadgetsandbarwarecuttingboards||groomingtoolsgadgetsandbarwarecuttingboards||groomingtoolsgadgetsandbarwarecuttingboards": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "groomingtoolsgadgetsandbarwareicecreamscoops||groomingtoolsgadgetsandbarwareicecreamscoops||groomingtoolsgadgetsandbarwareicecreamscoops": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "groomingtoolsgadgetsandbarwarejuicers||groomingtoolsgadgetsandbarwarejuicers||groomingtoolsgadgetsandbarwarejuicers": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "groomingtoolsgadgetsandbarwarekitchenknives||groomingtoolsgadgetsandbarwarekitchenknives||groomingtoolsgadgetsandbarwarekitchenknives": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "groomingtoolsgadgetsandbarwarekitchenscissors||groomingtoolsgadgetsandbarwarekitchenscissors||groomingtoolsgadgetsandbarwarekitchenscissors": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "groomingtoolsgadgetsandbarwareknifesharpeners||groomingtoolsgadgetsandbarwareknifesharpeners||groomingtoolsgadgetsandbarwareknifesharpeners": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "groomingtoolsgadgetsandbarwaremashersandmills||groomingtoolsgadgetsandbarwaremashersandmills||groomingtoolsgadgetsandbarwaremashersandmills": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "groomingtoolsgadgetsandbarwaremeasuringtools||groomingtoolsgadgetsandbarwaremeasuringtools||groomingtoolsgadgetsandbarwaremeasuringtools": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "groomingtoolsgadgetsandbarwaremeatandpoultrytools||groomingtoolsgadgetsandbarwaremeatandpoultrytools||groomingtoolsgadgetsandbarwaremeatandpoultrytools": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "groomingtoolsgadgetsandbarwaremisc||groomingtoolsgadgetsandbarwaremisc||groomingtoolsgadgetsandbarwaremisc": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "groomingtoolsgadgetsandbarwarepeelers||groomingtoolsgadgetsandbarwarepeelers||groomingtoolsgadgetsandbarwarepeelers": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "groomingtoolsgadgetsandbarwarepizzatools||groomingtoolsgadgetsandbarwarepizzatools||groomingtoolsgadgetsandbarwarepizzatools": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "groomingtoolsgadgetsandbarwarespecialtytools||groomingtoolsgadgetsandbarwarespecialtytools||groomingtoolsgadgetsandbarwarespecialtytools": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "groomingtoolsgadgetsandbarwarespoonrestsandtrivets||groomingtoolsgadgetsandbarwarespoonrestsandtrivets||groomingtoolsgadgetsandbarwarespoonrestsandtrivets": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "groomingtoolsgadgetsandbarwarestoppersandpourers||groomingtoolsgadgetsandbarwarestoppersandpourers||groomingtoolsgadgetsandbarwarestoppersandpourers": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "groomingtoolsgadgetsandbarwarethermometersandtimers||groomingtoolsgadgetsandbarwarethermometersandtimers||groomingtoolsgadgetsandbarwarethermometersandtimers": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "groomingtoolsgadgetsandbarwaretoolsgadgetsandbarwareother||groomingtoolsgadgetsandbarwaretoolsgadgetsandbarwareother||groomingtoolsgadgetsandbarwaretoolsgadgetsandbarwareother": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "groomingtoolsgadgetsandbarwarewhisks||groomingtoolsgadgetsandbarwarewhisks||groomingtoolsgadgetsandbarwarewhisks": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "groomingtravelaccessorieslocksandstraps||groomingtravelaccessorieslocksandstraps||groomingtravelaccessorieslocksandstraps": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "groomingtravelaccessoriestoiletrykitsandpouches||groomingtravelaccessoriestoiletrykitsandpouches||groomingtravelaccessoriestoiletrykitsandpouches": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "groomingwalletsandholderscasesandcardholders||groomingwalletsandholderscasesandcardholders||groomingwalletsandholderscasesandcardholders": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "groomingwalletsandholdersmenswallets||groomingwalletsandholdersmenswallets||groomingwalletsandholdersmenswallets": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "groomingwomensaccessoriesna||groomingwomensaccessoriesna||groomingwomensaccessoriesna": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "groomingwomensaccessorieswomenscapsandhats||groomingwomensaccessorieswomenscapsandhats||groomingwomensaccessorieswomenscapsandhats": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "groomingwritinginstrumentsandaccessoriespens||groomingwritinginstrumentsandaccessoriespens||groomingwritinginstrumentsandaccessoriespens": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "makeup and fragrancesadultcraftartsandcrafts||makeup and fragrancesadultcraftartsandcrafts||makeup and fragrancesadultcraftartsandcrafts": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "makeup and fragrancesallotheractiondressupsandaccessories||makeup and fragrancesallotheractiondressupsandaccessories||makeup and fragrancesallotheractiondressupsandaccessories": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "makeup and fragrancesallotherfashionroleplayandaccessories||makeup and fragrancesallotherfashionroleplayandaccessories||makeup and fragrancesallotherfashionroleplayandaccessories": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "makeup and fragrancesallothermakeup||makeup and fragrancesallothermakeup||makeup and fragrancesallothermakeup": {
+      "L0": "Makeup and Fragrance",
+      "L1": "Make up",
+      "L2": "Make up Others"
+    },
+    "makeup and fragrancesartscraftsandsewingartscraftsandsewingother||makeup and fragrancesartscraftsandsewingartscraftsandsewingother||makeup and fragrancesartscraftsandsewingartscraftsandsewingother": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "makeup and fragrancesartscraftsandsewingcraftsupplies||makeup and fragrancesartscraftsandsewingcraftsupplies||makeup and fragrancesartscraftsandsewingcraftsupplies": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "makeup and fragrancesartscraftsandsewingjewelrymaking||makeup and fragrancesartscraftsandsewingjewelrymaking||makeup and fragrancesartscraftsandsewingjewelrymaking": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "makeup and fragrancesartscraftsandsewingneedlearts||makeup and fragrancesartscraftsandsewingneedlearts||makeup and fragrancesartscraftsandsewingneedlearts": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "makeup and fragrancesartscraftsandsewingsewingmachineaccessories||makeup and fragrancesartscraftsandsewingsewingmachineaccessories||makeup and fragrancesartscraftsandsewingsewingmachineaccessories": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "makeup and fragrancesbackpacksandcasescamerabackpacks||makeup and fragrancesbackpacksandcasescamerabackpacks||makeup and fragrancesbackpacksandcasescamerabackpacks": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "makeup and fragrancesbakewarebakewaredishesplatesandbowlsmettalic||makeup and fragrancesbakewarebakewaredishesplatesandbowlsmettalic||makeup and fragrancesbakewarebakewaredishesplatesandbowlsmettalic": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "makeup and fragrancesbasicsuppliescuttingandmeasuringdevices||makeup and fragrancesbasicsuppliescuttingandmeasuringdevices||makeup and fragrancesbasicsuppliescuttingandmeasuringdevices": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "makeup and fragrancesbathandshowerbathadditives||makeup and fragrancesbathandshowerbathadditives||makeup and fragrancesbathandshowerbathadditives": {
+      "L0": "Grooming",
+      "L1": "Hygiene",
+      "L2": "Body wash"
+    },
+    "makeup and fragrancesbathandshowerbathingaccessories||makeup and fragrancesbathandshowerbathingaccessories||makeup and fragrancesbathandshowerbathingaccessories": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "makeup and fragrancesbathandshowercleansers||makeup and fragrancesbathandshowercleansers||makeup and fragrancesbathandshowercleansers": {
+      "L0": "Grooming",
+      "L1": "Hygiene",
+      "L2": "Body wash"
+    },
+    "makeup and fragrancesbathandshowergiftsets||makeup and fragrancesbathandshowergiftsets||makeup and fragrancesbathandshowergiftsets": {
+      "L0": "Grooming",
+      "L1": "Hygiene",
+      "L2": "Body wash"
+    },
+    "makeup and fragrancesbathandshowerscrubsandbodytreatments||makeup and fragrancesbathandshowerscrubsandbodytreatments||makeup and fragrancesbathandshowerscrubsandbodytreatments": {
+      "L0": "Grooming",
+      "L1": "Hygiene",
+      "L2": "Body scrub"
+    },
+    "makeup and fragrancesbathandshowersoaps||makeup and fragrancesbathandshowersoaps||makeup and fragrancesbathandshowersoaps": {
+      "L0": "Grooming",
+      "L1": "Hygiene",
+      "L2": "Soaps"
+    },
+    "makeup and fragrancesbathingandskincareaccessoriesbathmatsbathseats||makeup and fragrancesbathingandskincareaccessoriesbathmatsbathseats||makeup and fragrancesbathingandskincareaccessoriesbathmatsbathseats": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "makeup and fragrancesbathingandskincarena||makeup and fragrancesbathingandskincarena||makeup and fragrancesbathingandskincarena": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "makeup and fragrancesbathshowerbathingaccessories||makeup and fragrancesbathshowerbathingaccessories||makeup and fragrancesbathshowerbathingaccessories": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "makeup and fragrancesbeautyappliancesna||makeup and fragrancesbeautyappliancesna||makeup and fragrancesbeautyappliancesna": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "makeup and fragrancesboysaccessoriesboyshatsandcaps||makeup and fragrancesboysaccessoriesboyshatsandcaps||makeup and fragrancesboysaccessoriesboyshatsandcaps": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "makeup and fragrancescondimentsspreadsandcookingherbsandspices||makeup and fragrancescondimentsspreadsandcookingherbsandspices||makeup and fragrancescondimentsspreadsandcookingherbsandspices": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "makeup and fragrancescosmeticseyes||makeup and fragrancescosmeticseyes||makeup and fragrancescosmeticseyes": {
+      "L0": "Makeup and Fragrance",
+      "L1": "Make up",
+      "L2": "Eye make-up"
+    },
+    "makeup and fragrancescosmeticsgiftsets||makeup and fragrancescosmeticsgiftsets||makeup and fragrancescosmeticsgiftsets": {
+      "L0": "Makeup and Fragrance",
+      "L1": "Make up",
+      "L2": "Make up Others"
+    },
+    "makeup and fragrancescosmeticslips||makeup and fragrancescosmeticslips||makeup and fragrancescosmeticslips": {
+      "L0": "Makeup and Fragrance",
+      "L1": "Make up",
+      "L2": "Lip make-up"
+    },
+    "makeup and fragrancescosmeticsmakeupbrushesandtools||makeup and fragrancescosmeticsmakeupbrushesandtools||makeup and fragrancescosmeticsmakeupbrushesandtools": {
+      "L0": "Makeup and Fragrance",
+      "L1": "Make up",
+      "L2": "Make up Others"
+    },
+    "makeup and fragrancescosmeticsmakeupbrushestools||makeup and fragrancescosmeticsmakeupbrushestools||makeup and fragrancescosmeticsmakeupbrushestools": {
+      "L0": "Makeup and Fragrance",
+      "L1": "Make up",
+      "L2": "Make up Others"
+    },
+    "makeup and fragrancescosmeticsmakeupremover||makeup and fragrancescosmeticsmakeupremover||makeup and fragrancescosmeticsmakeupremover": {
+      "L0": "Makeup and Fragrance",
+      "L1": "Make up",
+      "L2": "Make up Cleansing"
+    },
+    "makeup and fragrancescosmeticsmiscellaneouscosmetics||makeup and fragrancescosmeticsmiscellaneouscosmetics||makeup and fragrancescosmeticsmiscellaneouscosmetics": {
+      "L0": "Makeup and Fragrance",
+      "L1": "Make up",
+      "L2": "Make up Others"
+    },
+    "makeup and fragrancescosmeticsstylingaccessories||makeup and fragrancescosmeticsstylingaccessories||makeup and fragrancescosmeticsstylingaccessories": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "makeup and fragrancescosmeticswomen||makeup and fragrancescosmeticswomen||makeup and fragrancescosmeticswomen": {
+      "L0": "Makeup and Fragrance",
+      "L1": "Make up",
+      "L2": null
+    },
+    "makeup and fragrancesfloorcareironingboardsandaccessories||makeup and fragrancesfloorcareironingboardsandaccessories||makeup and fragrancesfloorcareironingboardsandaccessories": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "makeup and fragrancesfragrancefragrancegiftsets||makeup and fragrancesfragrancefragrancegiftsets||makeup and fragrancesfragrancefragrancegiftsets": {
+      "L0": "Makeup and Fragrance",
+      "L1": "Fragrance",
+      "L2": "Perfume"
+    },
+    "makeup and fragrancesfragrancegiftsetsperfumes||makeup and fragrancesfragrancegiftsetsperfumes||makeup and fragrancesfragrancegiftsetsperfumes": {
+      "L0": "Makeup and Fragrance",
+      "L1": "Fragrance",
+      "L2": "Perfume"
+    },
+    "makeup and fragrancesfragrancehome||makeup and fragrancesfragrancehome||makeup and fragrancesfragrancehome": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "makeup and fragrancesfragrancehomeandwellnessagarbattiincense||makeup and fragrancesfragrancehomeandwellnessagarbattiincense||makeup and fragrancesfragrancehomeandwellnessagarbattiincense": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "makeup and fragrancesfragrancehomeandwellnessother||makeup and fragrancesfragrancehomeandwellnessother||makeup and fragrancesfragrancehomeandwellnessother": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "makeup and fragrancesfragrancehomewellnessother||makeup and fragrancesfragrancehomewellnessother||makeup and fragrancesfragrancehomewellnessother": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "makeup and fragrancesfragrancemen||makeup and fragrancesfragrancemen||makeup and fragrancesfragrancemen": {
+      "L0": "Makeup and Fragrance",
+      "L1": "Fragrance",
+      "L2": "Eau De Parfum"
+    },
+    "makeup and fragrancesfragrancemenperfumes||makeup and fragrancesfragrancemenperfumes||makeup and fragrancesfragrancemenperfumes": {
+      "L0": "Makeup and Fragrance",
+      "L1": "Fragrance",
+      "L2": "Eau De Parfum"
+    },
+    "makeup and fragrancesfragrancementoiletwaters||makeup and fragrancesfragrancementoiletwaters||makeup and fragrancesfragrancementoiletwaters": {
+      "L0": "Makeup and Fragrance",
+      "L1": "Fragrance",
+      "L2": "Eau De Toilette"
+    },
+    "makeup and fragrancesfragrancemiscellaneousfragrance||makeup and fragrancesfragrancemiscellaneousfragrance||makeup and fragrancesfragrancemiscellaneousfragrance": {
+      "L0": "Makeup and Fragrance",
+      "L1": "Fragrance",
+      "L2": "Perfume"
+    },
+    "makeup and fragrancesfragranceunisexperfumes||makeup and fragrancesfragranceunisexperfumes||makeup and fragrancesfragranceunisexperfumes": {
+      "L0": "Makeup and Fragrance",
+      "L1": "Fragrance",
+      "L2": "Eau De Parfum"
+    },
+    "makeup and fragrancesfragranceunisextoiletwaters||makeup and fragrancesfragranceunisextoiletwaters||makeup and fragrancesfragranceunisextoiletwaters": {
+      "L0": "Makeup and Fragrance",
+      "L1": "Fragrance",
+      "L2": "Eau De Toilette"
+    },
+    "makeup and fragrancesfragrancewomen||makeup and fragrancesfragrancewomen||makeup and fragrancesfragrancewomen": {
+      "L0": "Makeup and Fragrance",
+      "L1": "Fragrance",
+      "L2": "Eau De Parfum"
+    },
+    "makeup and fragrancesfragrancewomenperfumes||makeup and fragrancesfragrancewomenperfumes||makeup and fragrancesfragrancewomenperfumes": {
+      "L0": "Makeup and Fragrance",
+      "L1": "Fragrance",
+      "L2": "Eau De Parfum"
+    },
+    "makeup and fragrancesfragrancewomentoiletwaters||makeup and fragrancesfragrancewomentoiletwaters||makeup and fragrancesfragrancewomentoiletwaters": {
+      "L0": "Makeup and Fragrance",
+      "L1": "Fragrance",
+      "L2": "Eau De Toilette"
+    },
+    "makeup and fragrancesgiftbasketsandhampersgiftsandbasketswithoutalcohol||makeup and fragrancesgiftbasketsandhampersgiftsandbasketswithoutalcohol||makeup and fragrancesgiftbasketsandhampersgiftsandbasketswithoutalcohol": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "makeup and fragrancesgiftbasketshampersgiftsbasketswithoutalcohol||makeup and fragrancesgiftbasketshampersgiftsbasketswithoutalcohol||makeup and fragrancesgiftbasketshampersgiftsbasketswithoutalcohol": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "makeup and fragranceshaircareandstylinggiftsets||makeup and fragranceshaircareandstylinggiftsets||makeup and fragranceshaircareandstylinggiftsets": {
+      "L0": "Grooming",
+      "L1": "Hair Care",
+      "L2": "Hair Combo"
+    },
+    "makeup and fragranceshaircareandstylinghairdecoration||makeup and fragranceshaircareandstylinghairdecoration||makeup and fragranceshaircareandstylinghairdecoration": {
+      "L0": "Grooming",
+      "L1": "Hair Care",
+      "L2": "Hair Care Others"
+    },
+    "makeup and fragranceshaircareandstylinghairstyling||makeup and fragranceshaircareandstylinghairstyling||makeup and fragranceshaircareandstylinghairstyling": {
+      "L0": "Grooming",
+      "L1": "Hair Care Others",
+      "L2": "Styling"
+    },
+    "makeup and fragranceshaircareandstylingscalptreatments||makeup and fragranceshaircareandstylingscalptreatments||makeup and fragranceshaircareandstylingscalptreatments": {
+      "L0": "Grooming",
+      "L1": "Hair Care",
+      "L2": "Hair Serums"
+    },
+    "makeup and fragranceshaircareandstylingshampooandconditioner||makeup and fragranceshaircareandstylingshampooandconditioner||makeup and fragranceshaircareandstylingshampooandconditioner": {
+      "L0": "Grooming",
+      "L1": "Hair Care",
+      "L2": "Shampoo"
+    },
+    "makeup and fragranceshaircareandstylingstylinggelwaxandotherproducts||makeup and fragranceshaircareandstylingstylinggelwaxandotherproducts||makeup and fragranceshaircareandstylingstylinggelwaxandotherproducts": {
+      "L0": "Grooming",
+      "L1": "Hygiene",
+      "L2": "Shaving"
+    },
+    "makeup and fragranceshaircarelips||makeup and fragranceshaircarelips||makeup and fragranceshaircarelips": {
+      "L0": "Makeup and Fragrance",
+      "L1": "Make up",
+      "L2": "Lip make-up"
+    },
+    "makeup and fragranceshaircareshampooandconditioner||makeup and fragranceshaircareshampooandconditioner||makeup and fragranceshaircareshampooandconditioner": {
+      "L0": "Grooming",
+      "L1": "Hair Care",
+      "L2": "Shampoo"
+    },
+    "makeup and fragranceshandbagsandwalletscosmeticcasesandtravelpouches||makeup and fragranceshandbagsandwalletscosmeticcasesandtravelpouches||makeup and fragranceshandbagsandwalletscosmeticcasesandtravelpouches": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "makeup and fragranceshandbagsandwalletshandbags||makeup and fragranceshandbagsandwalletshandbags||makeup and fragranceshandbagsandwalletshandbags": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "makeup and fragranceshandbagsandwalletsslingbagsandcrossbodybags||makeup and fragranceshandbagsandwalletsslingbagsandcrossbodybags||makeup and fragranceshandbagsandwalletsslingbagsandcrossbodybags": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "makeup and fragranceshbagswalletscosmeticcasestravelpouches||makeup and fragranceshbagswalletscosmeticcasestravelpouches||makeup and fragranceshbagswalletscosmeticcasestravelpouches": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "makeup and fragranceshealthcarelipremedieslicensed||makeup and fragranceshealthcarelipremedieslicensed||makeup and fragranceshealthcarelipremedieslicensed": {
+      "L0": "Grooming",
+      "L1": "Face Skin",
+      "L2": "Face Skin Others"
+    },
+    "makeup and fragranceshomedecorvasesandvasefillers||makeup and fragranceshomedecorvasesandvasefillers||makeup and fragranceshomedecorvasesandvasefillers": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "makeup and fragranceshomestorageandorganizationbathroomaccessoriesandorganization||makeup and fragranceshomestorageandorganizationbathroomaccessoriesandorganization||makeup and fragranceshomestorageandorganizationbathroomaccessoriesandorganization": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "makeup and fragranceshomestorageandorganizationclosetorganization||makeup and fragranceshomestorageandorganizationclosetorganization||makeup and fragranceshomestorageandorganizationclosetorganization": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "makeup and fragranceshomestorageandorganizationlaundryorganization||makeup and fragranceshomestorageandorganizationlaundryorganization||makeup and fragranceshomestorageandorganizationlaundryorganization": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "makeup and fragranceshomestorageandorganizationstorage||makeup and fragranceshomestorageandorganizationstorage||makeup and fragranceshomestorageandorganizationstorage": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "makeup and fragranceshouseholdconsumablesfemininehygienesanitarytowels||makeup and fragranceshouseholdconsumablesfemininehygienesanitarytowels||makeup and fragranceshouseholdconsumablesfemininehygienesanitarytowels": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "makeup and fragranceskitchenstorageandorganisationmisc||makeup and fragranceskitchenstorageandorganisationmisc||makeup and fragranceskitchenstorageandorganisationmisc": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "makeup and fragranceskitchenstorageandorganisationracksandholders||makeup and fragranceskitchenstorageandorganisationracksandholders||makeup and fragranceskitchenstorageandorganisationracksandholders": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "makeup and fragranceskitchenstorageandorganisationspecialtystorage||makeup and fragranceskitchenstorageandorganisationspecialtystorage||makeup and fragranceskitchenstorageandorganisationspecialtystorage": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "makeup and fragranceslawnandgardengardening||makeup and fragranceslawnandgardengardening||makeup and fragranceslawnandgardengardening": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "makeup and fragranceslawnandgardenoutdoorpower||makeup and fragranceslawnandgardenoutdoorpower||makeup and fragranceslawnandgardenoutdoorpower": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "makeup and fragranceslicensedmerchandiseunknown||makeup and fragranceslicensedmerchandiseunknown||makeup and fragranceslicensedmerchandiseunknown": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "makeup and fragrancesmakeupbody||makeup and fragrancesmakeupbody||makeup and fragrancesmakeupbody": {
+      "L0": "Makeup and Fragrance",
+      "L1": "Make up",
+      "L2": "Body make-up"
+    },
+    "makeup and fragrancesmakeupcosmeticbags||makeup and fragrancesmakeupcosmeticbags||makeup and fragrancesmakeupcosmeticbags": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "makeup and fragrancesmakeupcosmeticmirrors||makeup and fragrancesmakeupcosmeticmirrors||makeup and fragrancesmakeupcosmeticmirrors": {
+      "L0": "Makeup and Fragrance",
+      "L1": "Make up",
+      "L2": "Make up Others"
+    },
+    "makeup and fragrancesmakeupcosmetictools||makeup and fragrancesmakeupcosmetictools||makeup and fragrancesmakeupcosmetictools": {
+      "L0": "Makeup and Fragrance",
+      "L1": "Make up",
+      "L2": "Make up Others"
+    },
+    "makeup and fragrancesmakeupeyes||makeup and fragrancesmakeupeyes||makeup and fragrancesmakeupeyes": {
+      "L0": "Makeup and Fragrance",
+      "L1": "Make up",
+      "L2": "Eye make-up"
+    },
+    "makeup and fragrancesmakeupfaceother||makeup and fragrancesmakeupfaceother||makeup and fragrancesmakeupfaceother": {
+      "L0": "Makeup and Fragrance",
+      "L1": "Make up",
+      "L2": "Face make-up"
+    },
+    "makeup and fragrancesmakeupfacepowders||makeup and fragrancesmakeupfacepowders||makeup and fragrancesmakeupfacepowders": {
+      "L0": "Makeup and Fragrance",
+      "L1": "Make up",
+      "L2": "Face make-up"
+    },
+    "makeup and fragrancesmakeupgiftsets||makeup and fragrancesmakeupgiftsets||makeup and fragrancesmakeupgiftsets": {
+      "L0": "Makeup and Fragrance",
+      "L1": "Make up",
+      "L2": "Make up Others"
+    },
+    "makeup and fragrancesmakeupheatcoldpadsandtherapy||makeup and fragrancesmakeupheatcoldpadsandtherapy||makeup and fragrancesmakeupheatcoldpadsandtherapy": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "makeup and fragrancesmakeuplips||makeup and fragrancesmakeuplips||makeup and fragrancesmakeuplips": {
+      "L0": "Makeup and Fragrance",
+      "L1": "Make up",
+      "L2": "Lip make-up"
+    },
+    "makeup and fragrancesmakeupminivehicles||makeup and fragrancesmakeupminivehicles||makeup and fragrancesmakeupminivehicles": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "makeup and fragrancesmassageandrelaxationappliancesfootmassagersandfootspas||makeup and fragrancesmassageandrelaxationappliancesfootmassagersandfootspas||makeup and fragrancesmassageandrelaxationappliancesfootmassagersandfootspas": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "makeup and fragrancesmassageandrelaxationapplianceshandheldmassage||makeup and fragrancesmassageandrelaxationapplianceshandheldmassage||makeup and fragrancesmassageandrelaxationapplianceshandheldmassage": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "makeup and fragrancesmedicalappliancesmiscellaneoushealthandwellness||makeup and fragrancesmedicalappliancesmiscellaneoushealthandwellness||makeup and fragrancesmedicalappliancesmiscellaneoushealthandwellness": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "makeup and fragrancesnaantiperspirantsdeodorants||makeup and fragrancesnaantiperspirantsdeodorants||makeup and fragrancesnaantiperspirantsdeodorants": {
+      "L0": "Grooming",
+      "L1": "Hygiene",
+      "L2": "Deos & Antiperspirants"
+    },
+    "makeup and fragrancesnailbathandshower||makeup and fragrancesnailbathandshower||makeup and fragrancesnailbathandshower": {
+      "L0": "Makeup and Fragrance",
+      "L1": "Make up",
+      "L2": "Nail make-up"
+    },
+    "makeup and fragrancesnailcarenailaccessories||makeup and fragrancesnailcarenailaccessories||makeup and fragrancesnailcarenailaccessories": {
+      "L0": "Makeup and Fragrance",
+      "L1": "Make up",
+      "L2": "Nail make-up"
+    },
+    "makeup and fragrancesnailcarenailcare||makeup and fragrancesnailcarenailcare||makeup and fragrancesnailcarenailcare": {
+      "L0": "Makeup and Fragrance",
+      "L1": "Make up",
+      "L2": "Nail make-up"
+    },
+    "makeup and fragrancesnailcarenailpolish||makeup and fragrancesnailcarenailpolish||makeup and fragrancesnailcarenailpolish": {
+      "L0": "Makeup and Fragrance",
+      "L1": "Make up",
+      "L2": "Nail make-up"
+    },
+    "makeup and fragrancesnailnailpolishremover||makeup and fragrancesnailnailpolishremover||makeup and fragrancesnailnailpolishremover": {
+      "L0": "Makeup and Fragrance",
+      "L1": "Make up",
+      "L2": "Nail make-up"
+    },
+    "makeup and fragrancesnailnailprimerandtopcoats||makeup and fragrancesnailnailprimerandtopcoats||makeup and fragrancesnailnailprimerandtopcoats": {
+      "L0": "Makeup and Fragrance",
+      "L1": "Make up",
+      "L2": "Nail make-up"
+    },
+    "makeup and fragrancesnailnailprimertopcoats||makeup and fragrancesnailnailprimertopcoats||makeup and fragrancesnailnailprimertopcoats": {
+      "L0": "Makeup and Fragrance",
+      "L1": "Make up",
+      "L2": "Nail make-up"
+    },
+    "makeup and fragrancesnailnailtreatmentandmoisturizer||makeup and fragrancesnailnailtreatmentandmoisturizer||makeup and fragrancesnailnailtreatmentandmoisturizer": {
+      "L0": "Makeup and Fragrance",
+      "L1": "Make up",
+      "L2": "Nail make-up"
+    },
+    "makeup and fragrancesnailnaircolor||makeup and fragrancesnailnaircolor||makeup and fragrancesnailnaircolor": {
+      "L0": "Makeup and Fragrance",
+      "L1": "Make up",
+      "L2": "Nail make-up"
+    },
+    "makeup and fragrancesnamakeupbrushesandtools||makeup and fragrancesnamakeupbrushesandtools||makeup and fragrancesnamakeupbrushesandtools": {
+      "L0": "Makeup and Fragrance",
+      "L1": "Make up",
+      "L2": "Make up Others"
+    },
+    "makeup and fragrancesnasalonandspanailcare||makeup and fragrancesnasalonandspanailcare||makeup and fragrancesnasalonandspanailcare": {
+      "L0": "Makeup and Fragrance",
+      "L1": "Make up",
+      "L2": "Nail make-up"
+    },
+    "makeup and fragrancesnasalonspanailcare||makeup and fragrancesnasalonspanailcare||makeup and fragrancesnasalonspanailcare": {
+      "L0": "Makeup and Fragrance",
+      "L1": "Make up",
+      "L2": "Nail make-up"
+    },
+    "makeup and fragrancesofficeorganizationfilefoldersportableandstorageboxfiles||makeup and fragrancesofficeorganizationfilefoldersportableandstorageboxfiles||makeup and fragrancesofficeorganizationfilefoldersportableandstorageboxfiles": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "makeup and fragrancesofficeorganizationlabelslabelingtapesindexesandstamps||makeup and fragrancesofficeorganizationlabelslabelingtapesindexesandstamps||makeup and fragrancesofficeorganizationlabelslabelingtapesindexesandstamps": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "makeup and fragrancesofficeorganizationplannersandpersonalorganizers||makeup and fragrancesofficeorganizationplannersandpersonalorganizers||makeup and fragrancesofficeorganizationplannersandpersonalorganizers": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "makeup and fragrancesofficesuppliestacksandpushpins||makeup and fragrancesofficesuppliestacksandpushpins||makeup and fragrancesofficesuppliestacksandpushpins": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "makeup and fragrancesoralcaredenturecare||makeup and fragrancesoralcaredenturecare||makeup and fragrancesoralcaredenturecare": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "makeup and fragrancespaintingsuppliestoolsandwalltreatmentspaintandstains||makeup and fragrancespaintingsuppliestoolsandwalltreatmentspaintandstains||makeup and fragrancespaintingsuppliestoolsandwalltreatmentspaintandstains": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "makeup and fragrancespaperenvelopesandshippingsuppliesna||makeup and fragrancespaperenvelopesandshippingsuppliesna||makeup and fragrancespaperenvelopesandshippingsuppliesna": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "makeup and fragrancesprestigebathandshowerna||makeup and fragrancesprestigebathandshowerna||makeup and fragrancesprestigebathandshowerna": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "makeup and fragrancessamplingcosmeticssample||makeup and fragrancessamplingcosmeticssample||makeup and fragrancessamplingcosmeticssample": {
+      "L0": "Makeup and Fragrance",
+      "L1": "Make up",
+      "L2": "Make up Others"
+    },
+    "makeup and fragrancessamplingfragrancesample||makeup and fragrancessamplingfragrancesample||makeup and fragrancessamplingfragrancesample": {
+      "L0": "Makeup and Fragrance",
+      "L1": "Fragrance",
+      "L2": "Perfume"
+    },
+    "makeup and fragrancessamplinghaircaresample||makeup and fragrancessamplinghaircaresample||makeup and fragrancessamplinghaircaresample": {
+      "L0": "Grooming",
+      "L1": "Hair Care",
+      "L2": null
+    },
+    "makeup and fragrancessamplingskincaresample||makeup and fragrancessamplingskincaresample||makeup and fragrancessamplingskincaresample": {
+      "L0": "Grooming",
+      "L1": "Face Skin",
+      "L2": "Face Skin Others"
+    },
+    "makeup and fragrancesshavingandhairremovalappliancesbeardandhairtrimmers||makeup and fragrancesshavingandhairremovalappliancesbeardandhairtrimmers||makeup and fragrancesshavingandhairremovalappliancesbeardandhairtrimmers": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "makeup and fragrancesshavingandhairremovalappliancesladiesshavers||makeup and fragrancesshavingandhairremovalappliancesladiesshavers||makeup and fragrancesshavingandhairremovalappliancesladiesshavers": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "makeup and fragrancesshavingandhairremovalappliancesmensshavers||makeup and fragrancesshavingandhairremovalappliancesmensshavers||makeup and fragrancesshavingandhairremovalappliancesmensshavers": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "makeup and fragrancesshavingandhairremovalappliancesnoseandeartrimmers||makeup and fragrancesshavingandhairremovalappliancesnoseandeartrimmers||makeup and fragrancesshavingandhairremovalappliancesnoseandeartrimmers": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "makeup and fragrancesshavingandhairremovalhairremoval||makeup and fragrancesshavingandhairremovalhairremoval||makeup and fragrancesshavingandhairremovalhairremoval": {
+      "L0": "Grooming",
+      "L1": "Hygiene",
+      "L2": "Shaving"
+    },
+    "makeup and fragrancesshavingandhairremovalmiscellaneousshavingandhairremoval||makeup and fragrancesshavingandhairremovalmiscellaneousshavingandhairremoval||makeup and fragrancesshavingandhairremovalmiscellaneousshavingandhairremoval": {
+      "L0": "Grooming",
+      "L1": "Hygiene",
+      "L2": "Shaving"
+    },
+    "makeup and fragrancesshoecareandaccessoriesothershoecareandaccessories||makeup and fragrancesshoecareandaccessoriesothershoecareandaccessories||makeup and fragrancesshoecareandaccessoriesothershoecareandaccessories": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "makeup and fragrancesshoecareandaccessoriesunknown||makeup and fragrancesshoecareandaccessoriesunknown||makeup and fragrancesshoecareandaccessoriesunknown": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "makeup and fragrancesskincareantiperspirantsdeodorants||makeup and fragrancesskincareantiperspirantsdeodorants||makeup and fragrancesskincareantiperspirantsdeodorants": {
+      "L0": "Grooming",
+      "L1": "Hygiene",
+      "L2": "Deos & Antiperspirants"
+    },
+    "makeup and fragrancesskincarebathandshower||makeup and fragrancesskincarebathandshower||makeup and fragrancesskincarebathandshower": {
+      "L0": "Grooming",
+      "L1": "Hygiene",
+      "L2": "Body wash"
+    },
+    "makeup and fragrancesskincarebody||makeup and fragrancesskincarebody||makeup and fragrancesskincarebody": {
+      "L0": "Grooming",
+      "L1": "Body Skin",
+      "L2": "Body care"
+    },
+    "makeup and fragrancesskincareface||makeup and fragrancesskincareface||makeup and fragrancesskincareface": {
+      "L0": "Grooming",
+      "L1": "Face Skin",
+      "L2": "Face care"
+    },
+    "makeup and fragrancesskincarehandsandnails||makeup and fragrancesskincarehandsandnails||makeup and fragrancesskincarehandsandnails": {
+      "L0": "Makeup and Fragrance",
+      "L1": "Make up",
+      "L2": "Nail make-up"
+    },
+    "makeup and fragrancesskincaremen||makeup and fragrancesskincaremen||makeup and fragrancesskincaremen": {
+      "L0": "Grooming",
+      "L1": "Face Skin",
+      "L2": "Face care"
+    },
+    "makeup and fragrancesskincaremiscellaneousfragrance||makeup and fragrancesskincaremiscellaneousfragrance||makeup and fragrancesskincaremiscellaneousfragrance": {
+      "L0": "Makeup and Fragrance",
+      "L1": "Fragrance",
+      "L2": "Perfume"
+    },
+    "makeup and fragrancessnacksanddessertssweets||makeup and fragrancessnacksanddessertssweets||makeup and fragrancessnacksanddessertssweets": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "makeup and fragrancestapesadhesiveslubricantsandchemicalsadhesivetapes||makeup and fragrancestapesadhesiveslubricantsandchemicalsadhesivetapes||makeup and fragrancestapesadhesiveslubricantsandchemicalsadhesivetapes": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "makeup and fragrancestoolsaccessorieshairbrushes||makeup and fragrancestoolsaccessorieshairbrushes||makeup and fragrancestoolsaccessorieshairbrushes": {
+      "L0": "Grooming",
+      "L1": "Hair Care",
+      "L2": "Hair Care Others"
+    },
+    "makeup and fragrancestoolsaccessoriesmakeupbrushes||makeup and fragrancestoolsaccessoriesmakeupbrushes||makeup and fragrancestoolsaccessoriesmakeupbrushes": {
+      "L0": "Makeup and Fragrance",
+      "L1": "Make up",
+      "L2": "Make up Others"
+    },
+    "makeup and fragrancestoolsaccessoriesmakeupspongesorsimilar||makeup and fragrancestoolsaccessoriesmakeupspongesorsimilar||makeup and fragrancestoolsaccessoriesmakeupspongesorsimilar": {
+      "L0": "Makeup and Fragrance",
+      "L1": "Make up",
+      "L2": "Make up Others"
+    },
+    "makeup and fragrancestoolsaccessoriesmakeuptoolsother||makeup and fragrancestoolsaccessoriesmakeuptoolsother||makeup and fragrancestoolsaccessoriesmakeuptoolsother": {
+      "L0": "Makeup and Fragrance",
+      "L1": "Make up",
+      "L2": "Make up Others"
+    },
+    "makeup and fragrancestoolsaccessoriesmakeuptoolstweezers||makeup and fragrancestoolsaccessoriesmakeuptoolstweezers||makeup and fragrancestoolsaccessoriesmakeuptoolstweezers": {
+      "L0": "Makeup and Fragrance",
+      "L1": "Make up",
+      "L2": "Make up Others"
+    },
+    "makeup and fragrancestoolsandaccessorieshairbrushes||makeup and fragrancestoolsandaccessorieshairbrushes||makeup and fragrancestoolsandaccessorieshairbrushes": {
+      "L0": "Grooming",
+      "L1": "Hair Care",
+      "L2": "Hair Care Others"
+    },
+    "makeup and fragrancestoolsandaccessorieshaircombs||makeup and fragrancestoolsandaccessorieshaircombs||makeup and fragrancestoolsandaccessorieshaircombs": {
+      "L0": "Grooming",
+      "L1": "Hair Care",
+      "L2": "Hair Care Others"
+    },
+    "makeup and fragrancestoolsandaccessorieshairscissors||makeup and fragrancestoolsandaccessorieshairscissors||makeup and fragrancestoolsandaccessorieshairscissors": {
+      "L0": "Grooming",
+      "L1": "Hair Care",
+      "L2": "Hair Care Others"
+    },
+    "makeup and fragrancestoolsandaccessoriesmakeupbrushes||makeup and fragrancestoolsandaccessoriesmakeupbrushes||makeup and fragrancestoolsandaccessoriesmakeupbrushes": {
+      "L0": "Makeup and Fragrance",
+      "L1": "Make up",
+      "L2": "Make up Others"
+    },
+    "makeup and fragrancestoolsandaccessoriesmakeupspongesorsimilar||makeup and fragrancestoolsandaccessoriesmakeupspongesorsimilar||makeup and fragrancestoolsandaccessoriesmakeupspongesorsimilar": {
+      "L0": "Makeup and Fragrance",
+      "L1": "Make up",
+      "L2": "Make up Others"
+    },
+    "makeup and fragrancestoolsandaccessoriesmakeuptoolsother||makeup and fragrancestoolsandaccessoriesmakeuptoolsother||makeup and fragrancestoolsandaccessoriesmakeuptoolsother": {
+      "L0": "Makeup and Fragrance",
+      "L1": "Make up",
+      "L2": "Make up Others"
+    },
+    "makeup and fragrancestoolsandaccessoriesmakeuptoolstweezers||makeup and fragrancestoolsandaccessoriesmakeuptoolstweezers||makeup and fragrancestoolsandaccessoriesmakeuptoolstweezers": {
+      "L0": "Makeup and Fragrance",
+      "L1": "Make up",
+      "L2": "Make up Others"
+    },
+    "makeup and fragrancestoolsandaccessoriesnailaccessories||makeup and fragrancestoolsandaccessoriesnailaccessories||makeup and fragrancestoolsandaccessoriesnailaccessories": {
+      "L0": "Makeup and Fragrance",
+      "L1": "Make up",
+      "L2": "Nail make-up"
+    },
+    "makeup and fragrancestoolsandaccessoriesnailcare||makeup and fragrancestoolsandaccessoriesnailcare||makeup and fragrancestoolsandaccessoriesnailcare": {
+      "L0": "Makeup and Fragrance",
+      "L1": "Make up",
+      "L2": "Nail make-up"
+    },
+    "makeup and fragrancestoolsandaccessoriestoiletrybags||makeup and fragrancestoolsandaccessoriestoiletrybags||makeup and fragrancestoolsandaccessoriestoiletrybags": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "makeup and fragrancestoolsgadgetsandbarwarebakingandpastry||makeup and fragrancestoolsgadgetsandbarwarebakingandpastry||makeup and fragrancestoolsgadgetsandbarwarebakingandpastry": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "makeup and fragrancestoolsgadgetsandbarwarepeelers||makeup and fragrancestoolsgadgetsandbarwarepeelers||makeup and fragrancestoolsgadgetsandbarwarepeelers": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "makeup and fragrancestravelaccessoriestoiletrykitsandpouches||makeup and fragrancestravelaccessoriestoiletrykitsandpouches||makeup and fragrancestravelaccessoriestoiletrykitsandpouches": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "makeup and fragrancestravelaccessoriesunknown||makeup and fragrancestravelaccessoriesunknown||makeup and fragrancestravelaccessoriesunknown": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "makeup and fragranceswalletsandholdersmenswallets||makeup and fragranceswalletsandholdersmenswallets||makeup and fragranceswalletsandholdersmenswallets": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    }
+  }
+}
