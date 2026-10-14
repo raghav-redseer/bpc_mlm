@@ -1,0 +1,1606 @@
+{
+  "platform": "Flipkart",
+  "source": "FK_Aug'26.xlsx working sheet, extracted 2026-10-08",
+  "mappings": {
+    "aftershave||aftershave||aftershave": {
+      "L0": "Grooming",
+      "L1": "Hygiene",
+      "L2": "Shaving"
+    },
+    "antiageing||body and face care||anti aging": {
+      "L0": "Grooming",
+      "L1": "Face Skin",
+      "L2": "Face care"
+    },
+    "attar||attar||attar": {
+      "L0": "Makeup and Fragrances",
+      "L1": "Fragrance",
+      "L2": "Perfume"
+    },
+    "babyhairbrush||hair accessory||hair accessory": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "babyhaircomb||hair accessory||hair accessory": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "bath & shower||bath accessory||bath accessory": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "bath & shower||bath essentials||bath essential oil": {
+      "L0": "Grooming",
+      "L1": "Hygiene",
+      "L2": "Body wash"
+    },
+    "bath & shower||bath essentials||bath soap": {
+      "L0": "Grooming",
+      "L1": "Hygiene",
+      "L2": "Soaps"
+    },
+    "bath & shower||bath essentials||body wash": {
+      "L0": "Grooming",
+      "L1": "Hygiene",
+      "L2": "Body wash"
+    },
+    "bathandspaaccessory||bath accessory||bath accessory": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "bathandspaaccessory||body and face care||electric tan sprayer": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "bathandspaaccessory||body and face care||tanning liquid": {
+      "L0": "Grooming",
+      "L1": "Body Skin",
+      "L2": "Body Care"
+    },
+    "bathbubble||bath accessory||bath accessory": {
+      "L0": "Grooming",
+      "L1": "Hygiene",
+      "L2": "Body wash"
+    },
+    "bathessentialoil||bath essentials||bath essential oil": {
+      "L0": "Grooming",
+      "L1": "Hygiene",
+      "L2": "Body wash"
+    },
+    "bathsalt||bath accessory||bath accessory": {
+      "L0": "Grooming",
+      "L1": "Hygiene",
+      "L2": "Body wash"
+    },
+    "beardoil||beard oil||beard oil": {
+      "L0": "Grooming",
+      "L1": "Hair Care Others",
+      "L2": "Hair Oils"
+    },
+    "bindi||makeup accessory||bindi": {
+      "L0": "Makeup and Fragrances",
+      "L1": "Make up",
+      "L2": "Body make-up"
+    },
+    "blush||face makeup||blush": {
+      "L0": "Makeup and Fragrances",
+      "L1": "Make up",
+      "L2": "Face make-up"
+    },
+    "body & face skin care||body and face accessory||blackhead remover": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "body & face skin care||body and face accessory||facial steamer": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "body & face skin care||body and face accessory||invisible ear lobe support": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "body & face skin care||body and face accessory||oil and wax heater": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "body & face skin care||body and face accessory||sweat pad": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "body & face skin care||body and face accessory||toe separator": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "body & face skin care||body and face care||anti aging": {
+      "L0": "Grooming",
+      "L1": "Face Skin",
+      "L2": "Face care"
+    },
+    "body & face skin care||body and face care||cleanser": {
+      "L0": "Grooming",
+      "L1": "Face Skin",
+      "L2": "Face cleansers"
+    },
+    "body & face skin care||body and face care||electric tan sprayer": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "body & face skin care||body and face care||face cream and gel": {
+      "L0": "Grooming",
+      "L1": "Face Skin",
+      "L2": "Face care"
+    },
+    "body & face skin care||body and face care||face pack": {
+      "L0": "Grooming",
+      "L1": "Face Skin",
+      "L2": "Face cleansers"
+    },
+    "body & face skin care||body and face care||face serums": {
+      "L0": "Grooming",
+      "L1": "Face Skin",
+      "L2": "Face care"
+    },
+    "body & face skin care||body and face care||face wash": {
+      "L0": "Grooming",
+      "L1": "Face Skin",
+      "L2": "Face cleansers"
+    },
+    "body & face skin care||body and face care||facial atomizer": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "body & face skin care||body and face care||facial kit": {
+      "L0": "Grooming",
+      "L1": "Face Skin",
+      "L2": "Face care"
+    },
+    "body & face skin care||body and face care||hair removal": {
+      "L0": "Grooming",
+      "L1": "Hygiene",
+      "L2": "Shaving"
+    },
+    "body & face skin care||body and face care||moisturizer": {
+      "L0": "Grooming",
+      "L1": "Body Skin",
+      "L2": "Body Care"
+    },
+    "body & face skin care||body and face care||scrub": {
+      "L0": "Grooming",
+      "L1": "Face Skin",
+      "L2": "Face cleansers"
+    },
+    "body & face skin care||body and face care||skin care combo": {
+      "L0": "Grooming",
+      "L1": "Face Skin",
+      "L2": "Face Skin Others"
+    },
+    "body & face skin care||body and face care||skin treatment": {
+      "L0": "Grooming",
+      "L1": "Face Skin",
+      "L2": "Face care"
+    },
+    "body & face skin care||body and face care||sunscreen": {
+      "L0": "Grooming",
+      "L1": "Face Skin",
+      "L2": "Sun care"
+    },
+    "body & face skin care||body and face care||talcum powder": {
+      "L0": "Grooming",
+      "L1": "Hygiene",
+      "L2": "Body care (Talc)"
+    },
+    "body & face skin care||body and face care||tanning liquid": {
+      "L0": "Grooming",
+      "L1": "Body Skin",
+      "L2": "Body Care"
+    },
+    "body & face skin care||body and face care||toner": {
+      "L0": "Grooming",
+      "L1": "Face Skin",
+      "L2": "Face care"
+    },
+    "body & face skin care||body and face care||wrinkle eraser": {
+      "L0": "Grooming",
+      "L1": "Face Skin",
+      "L2": "Face care"
+    },
+    "body & face skin care||eye care||eye cream": {
+      "L0": "Grooming",
+      "L1": "Face Skin",
+      "L2": "Face care"
+    },
+    "body & face skin care||eye care||eye gel": {
+      "L0": "Grooming",
+      "L1": "Face Skin",
+      "L2": "Face care"
+    },
+    "body & face skin care||eye care||eye mask": {
+      "L0": "Grooming",
+      "L1": "Face Skin",
+      "L2": "Face care"
+    },
+    "body & face skin care||eye care||eye serum": {
+      "L0": "Grooming",
+      "L1": "Face Skin",
+      "L2": "Face care"
+    },
+    "body & face skin care||hand & foot care||combo kit": {
+      "L0": "Grooming",
+      "L1": "Body Skin",
+      "L2": "Body Care"
+    },
+    "body & face skin care||hand & foot care||electronic foot filer": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "body & face skin care||hand & foot care||foot brush": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "body & face skin care||hand & foot care||foot filers": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "body & face skin care||hand & foot care||hand sanitizer": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "body & face skin care||hand & foot care||hand wash": {
+      "L0": "Grooming",
+      "L1": "Hygiene",
+      "L2": "Body wash"
+    },
+    "body & face skin care||hand & foot care||manicure kit": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "body & face skin care||hand & foot care||pedicure kit": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "bodyandskinaccessory||body and face accessory||blackhead remover": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "bodyandskinaccessory||body and face accessory||invisible ear lobe support": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "bodyandskinaccessory||body and face accessory||sweat pad": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "bodyandskinaccessory||body and face accessory||toe separator": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "bodyandskinaccessory||body and face care||facial atomizer": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "bodyandskinaccessory||body and face care||wrinkle eraser": {
+      "L0": "Grooming",
+      "L1": "Face Skin",
+      "L2": "Face care"
+    },
+    "bodyandskinaccessory||hand & foot care||electronic foot filer": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "bodyandskinaccessory||hand & foot care||foot brush": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "bodyandskinaccessory||hand & foot care||foot filers": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "bodyandskinaccessory||hand & foot care||pedicure kit": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "bodyandskinaccessory||makeup accessory||cuticle pusher": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "bodyandskinaccessory||makeup accessory||tweezer": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "bodyart||face makeup||shimmer and glitter": {
+      "L0": "Makeup and Fragrances",
+      "L1": "Make up",
+      "L2": "Face make-up"
+    },
+    "bodyart||makeup accessory||tattoo kit": {
+      "L0": "Makeup and Fragrances",
+      "L1": "Make up",
+      "L2": "Body make-up"
+    },
+    "bodyart||makeup accessory||tattoo needle": {
+      "L0": "Makeup and Fragrances",
+      "L1": "Make up",
+      "L2": "Body make-up"
+    },
+    "bodyart||makeup accessory||tattoos sticker": {
+      "L0": "Makeup and Fragrances",
+      "L1": "Make up",
+      "L2": "Body make-up"
+    },
+    "bodybutter||body and face care||moisturizer": {
+      "L0": "Grooming",
+      "L1": "Body Skin",
+      "L2": "Body Care"
+    },
+    "bodyessentialoil||bath essentials||bath essential oil": {
+      "L0": "Grooming",
+      "L1": "Hygiene",
+      "L2": "Body wash"
+    },
+    "bodylotion||body and face care||moisturizer": {
+      "L0": "Grooming",
+      "L1": "Body Skin",
+      "L2": "Body Care"
+    },
+    "bodyscrub||body and face care||scrub": {
+      "L0": "Grooming",
+      "L1": "Hygiene",
+      "L2": "Body scrub"
+    },
+    "bodyspray||deodorants||deodorants": {
+      "L0": "Grooming",
+      "L1": "Hygiene",
+      "L2": "Deos & Antiperspirants"
+    },
+    "bodywash||bath essentials||body wash": {
+      "L0": "Grooming",
+      "L1": "Hygiene",
+      "L2": "Body wash"
+    },
+    "breathfreshener||breath freshener||breath freshener": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "bronzer||face makeup||bronzer": {
+      "L0": "Makeup and Fragrances",
+      "L1": "Make up",
+      "L2": "Face make-up"
+    },
+    "brushapplicator||makeup accessory||makeup brush organizer": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "comboandkit||body and face care||skin care combo": {
+      "L0": "Grooming",
+      "L1": "Face Skin",
+      "L2": "Face Skin Others"
+    },
+    "comboandkit||fragrance combo||fragrance combo": {
+      "L0": "Makeup and Fragrances",
+      "L1": "Fragrance",
+      "L2": "Perfume"
+    },
+    "comboandkit||hair care||hair care combo": {
+      "L0": "Grooming",
+      "L1": "Hair Care",
+      "L2": "Hair Combo"
+    },
+    "comboandkit||hand & foot care||combo kit": {
+      "L0": "Grooming",
+      "L1": "Body Skin",
+      "L2": "Body Care"
+    },
+    "comboandkit||intimate care||comboandkit": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "comboandkit||makeup kits & combo||makeup combo": {
+      "L0": "Makeup and Fragrances",
+      "L1": "Make up",
+      "L2": "Make up Others"
+    },
+    "comboandkit||men's grooming combo kit||men's grooming combo kit": {
+      "L0": "Grooming",
+      "L1": "Hygiene",
+      "L2": "Shaving"
+    },
+    "comboandkit||oral care combo||oral care combo": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "compact||face makeup||compact": {
+      "L0": "Makeup and Fragrances",
+      "L1": "Make up",
+      "L2": "Face make-up"
+    },
+    "concealer||face makeup||concealer": {
+      "L0": "Makeup and Fragrances",
+      "L1": "Make up",
+      "L2": "Face make-up"
+    },
+    "conditioner||hair care||conditioner": {
+      "L0": "Grooming",
+      "L1": "Hair Care",
+      "L2": "Rinse-Off Conditioners"
+    },
+    "cottonballspads||makeup accessory||cotton ball": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "cottonbud||makeup accessory||cotton ball": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "dentalflossstick||dental floss||dental floss": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "deodorantformen||deodorants||deodorants": {
+      "L0": "Grooming",
+      "L1": "Hygiene",
+      "L2": "Deos & Antiperspirants"
+    },
+    "deodorantforwomen||deodorants||deodorants": {
+      "L0": "Grooming",
+      "L1": "Hygiene",
+      "L2": "Deos & Antiperspirants"
+    },
+    "diaperrashcream||body and face care||skin treatment": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "eyebrowaccessories||makeup accessory||eyebrow stencil": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "eyebrowaccessories||makeup accessory||eyebrow thread": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "eyebrowproduct||eye makeup||eyebrow enhancer": {
+      "L0": "Makeup and Fragrances",
+      "L1": "Make up",
+      "L2": "Eye make-up"
+    },
+    "eyebrowproduct||eye makeup||eyebrow pencil": {
+      "L0": "Makeup and Fragrances",
+      "L1": "Make up",
+      "L2": "Eye make-up"
+    },
+    "eyecare||eye care||eye cream": {
+      "L0": "Grooming",
+      "L1": "Face Skin",
+      "L2": "Face care"
+    },
+    "eyecare||eye care||eye gel": {
+      "L0": "Grooming",
+      "L1": "Face Skin",
+      "L2": "Face care"
+    },
+    "eyecare||eye care||eye mask": {
+      "L0": "Grooming",
+      "L1": "Face Skin",
+      "L2": "Face care"
+    },
+    "eyecare||eye care||eye serum": {
+      "L0": "Grooming",
+      "L1": "Face Skin",
+      "L2": "Face care"
+    },
+    "eyelashaccessories||makeup accessory||artificial eyelash": {
+      "L0": "Makeup and Fragrances",
+      "L1": "Make up",
+      "L2": "Make up Others"
+    },
+    "eyelashaccessories||makeup accessory||eyelash adhesive": {
+      "L0": "Makeup and Fragrances",
+      "L1": "Make up",
+      "L2": "Make up Others"
+    },
+    "eyelashaccessories||makeup accessory||eyelash curler": {
+      "L0": "Makeup and Fragrances",
+      "L1": "Make up",
+      "L2": "Make up Others"
+    },
+    "eyeliner||eye makeup||eyeliner": {
+      "L0": "Makeup and Fragrances",
+      "L1": "Make up",
+      "L2": "Eye make-up"
+    },
+    "eyeshadow||eye makeup||eyeshadow": {
+      "L0": "Makeup and Fragrances",
+      "L1": "Make up",
+      "L2": "Eye make-up"
+    },
+    "facecareaccessory||body and face care||facial atomizer": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "facecreamandgel||body and face care||face cream and gel": {
+      "L0": "Grooming",
+      "L1": "Face Skin",
+      "L2": "Face care"
+    },
+    "facecreamandgel||body and face care||skin treatment": {
+      "L0": "Grooming",
+      "L1": "Face Skin",
+      "L2": "Face care"
+    },
+    "facepack||body and face care||face pack": {
+      "L0": "Grooming",
+      "L1": "Face Skin",
+      "L2": "Face cleansers"
+    },
+    "facescrub||body and face care||scrub": {
+      "L0": "Grooming",
+      "L1": "Face Skin",
+      "L2": "Face cleansers"
+    },
+    "faceserums||body and face care||face serums": {
+      "L0": "Grooming",
+      "L1": "Face Skin",
+      "L2": "Face care"
+    },
+    "faceserums||body and face care||skin treatment": {
+      "L0": "Grooming",
+      "L1": "Face Skin",
+      "L2": "Face care"
+    },
+    "facewash||body and face care||cleanser": {
+      "L0": "Grooming",
+      "L1": "Face Skin",
+      "L2": "Face cleansers"
+    },
+    "facewash||body and face care||face wash": {
+      "L0": "Grooming",
+      "L1": "Face Skin",
+      "L2": "Face cleansers"
+    },
+    "facialkit||body and face care||facial kit": {
+      "L0": "Grooming",
+      "L1": "Face Skin",
+      "L2": "Face care"
+    },
+    "facialoil||body and face care||skin treatment": {
+      "L0": "Grooming",
+      "L1": "Face Skin",
+      "L2": "Face care"
+    },
+    "facialsteamers||body and face accessory||facial steamer": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "facialtissue||makeup accessory||facial wipe": {
+      "L0": "Makeup and Fragrances",
+      "L1": "Make up",
+      "L2": "Make-up cleansing"
+    },
+    "fairness||body and face care||face cream and gel": {
+      "L0": "Grooming",
+      "L1": "Face Skin",
+      "L2": "Face care"
+    },
+    "femaleurinationdevice||intimate care||femaleurinationdevice": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "footcream||body and face care||moisturizer": {
+      "L0": "Grooming",
+      "L1": "Body Skin",
+      "L2": "Foot care"
+    },
+    "foundation||face makeup||foundation": {
+      "L0": "Makeup and Fragrances",
+      "L1": "Make up",
+      "L2": "Face make-up"
+    },
+    "fragrancegiftset||fragrance combo||fragrance combo": {
+      "L0": "Makeup and Fragrances",
+      "L1": "Fragrance",
+      "L2": "Perfume"
+    },
+    "fragrances||attar||attar": {
+      "L0": "Makeup and Fragrances",
+      "L1": "Fragrance",
+      "L2": "Perfume"
+    },
+    "fragrances||deodorants||deodorants": {
+      "L0": "Grooming",
+      "L1": "Hygiene",
+      "L2": "Deos & Antiperspirants"
+    },
+    "fragrances||fragrance combo||fragrance combo": {
+      "L0": "Makeup and Fragrances",
+      "L1": "Fragrance",
+      "L2": "Perfume"
+    },
+    "fragrances||perfume||perfume": {
+      "L0": "Makeup and Fragrances",
+      "L1": "Fragrance",
+      "L2": "Perfume"
+    },
+    "grooming||hair care||hair oil": {
+      "L0": "Grooming",
+      "L1": "Hair Care Others",
+      "L2": "Hair Oils"
+    },
+    "hair care and accessory||hair accessory||hair accessory": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "hair care and accessory||hair care||conditioner": {
+      "L0": "Grooming",
+      "L1": "Hair Care",
+      "L2": "Rinse-Off Conditioners"
+    },
+    "hair care and accessory||hair care||hair care combo": {
+      "L0": "Grooming",
+      "L1": "Hair Care",
+      "L2": "Hair Combo"
+    },
+    "hair care and accessory||hair care||hair color": {
+      "L0": "Grooming",
+      "L1": "Hair colour",
+      "L2": "Creme"
+    },
+    "hair care and accessory||hair care||hair fragrance": {
+      "L0": "Grooming",
+      "L1": "Hair Care",
+      "L2": "Hair Care Others"
+    },
+    "hair care and accessory||hair care||hair oil": {
+      "L0": "Grooming",
+      "L1": "Hair Care Others",
+      "L2": "Hair Oils"
+    },
+    "hair care and accessory||hair care||hair serum": {
+      "L0": "Grooming",
+      "L1": "Hair Care",
+      "L2": "Hair Serums"
+    },
+    "hair care and accessory||hair care||hair styling": {
+      "L0": "Grooming",
+      "L1": "Hair Care Others",
+      "L2": "Styling"
+    },
+    "hair care and accessory||hair care||hair treatment": {
+      "L0": "Grooming",
+      "L1": "Hair Care",
+      "L2": "Hair Serums"
+    },
+    "hair care and accessory||hair care||hair volumizer": {
+      "L0": "Grooming",
+      "L1": "Hair Care Others",
+      "L2": "Styling"
+    },
+    "hair care and accessory||hair care||henna": {
+      "L0": "Grooming",
+      "L1": "Hair colour",
+      "L2": "Heenas"
+    },
+    "hair care and accessory||hair care||shampoo": {
+      "L0": "Grooming",
+      "L1": "Hair Care",
+      "L2": "Shampoo"
+    },
+    "haircareaccessory||hair accessory||hair accessory": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "haircolor||hair care||hair color": {
+      "L0": "Grooming",
+      "L1": "Hair colour",
+      "L2": "Creme"
+    },
+    "hairfragrance||hair care||hair fragrance": {
+      "L0": "Grooming",
+      "L1": "Hair Care",
+      "L2": "Hair Care Others"
+    },
+    "hairmask||hair care||hair treatment": {
+      "L0": "Grooming",
+      "L1": "Hair Care",
+      "L2": "Rinse-Off Masks"
+    },
+    "hairoil||hair care||hair oil": {
+      "L0": "Grooming",
+      "L1": "Hair Care Others",
+      "L2": "Hair Oils"
+    },
+    "hairremoval||body and face care||hair removal": {
+      "L0": "Grooming",
+      "L1": "Hygiene",
+      "L2": "Shaving"
+    },
+    "hairserum||hair care||hair serum": {
+      "L0": "Grooming",
+      "L1": "Hair Care",
+      "L2": "Hair Serums"
+    },
+    "hairsteamer||bath accessory||bath accessory": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "hairstyling||hair care||hair styling": {
+      "L0": "Grooming",
+      "L1": "Hair Care Others",
+      "L2": "Styling"
+    },
+    "hairtreatment||hair care||hair treatment": {
+      "L0": "Grooming",
+      "L1": "Hair Care",
+      "L2": "Hair Serums"
+    },
+    "hairvolumizer||hair care||hair volumizer": {
+      "L0": "Grooming",
+      "L1": "Hair Care Others",
+      "L2": "Styling"
+    },
+    "handcream||body and face care||moisturizer": {
+      "L0": "Grooming",
+      "L1": "Body Skin",
+      "L2": "Body Care"
+    },
+    "handsanitizer||hand & foot care||hand sanitizer": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "handwash||hand & foot care||hand wash": {
+      "L0": "Grooming",
+      "L1": "Hygiene",
+      "L2": "Body wash"
+    },
+    "henna||hair care||henna": {
+      "L0": "Grooming",
+      "L1": "Hair colour",
+      "L2": "Heenas"
+    },
+    "highlighter||face makeup||highlighter": {
+      "L0": "Makeup and Fragrances",
+      "L1": "Make up",
+      "L2": "Face make-up"
+    },
+    "kajal||eye makeup||kajal": {
+      "L0": "Makeup and Fragrances",
+      "L1": "Make up",
+      "L2": "Eye make-up"
+    },
+    "kidsskintreatment||body and face care||skin treatment": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "lipbalm||lips||lip balm": {
+      "L0": "Grooming",
+      "L1": "Face Skin",
+      "L2": "Face Skin Others"
+    },
+    "lipcream||lips||lip balm": {
+      "L0": "Grooming",
+      "L1": "Face Skin",
+      "L2": "Face Skin Others"
+    },
+    "lipgloss||lips||lip gloss": {
+      "L0": "Makeup and Fragrances",
+      "L1": "Make up",
+      "L2": "Lip make-up"
+    },
+    "lipliner||lips||lip liner": {
+      "L0": "Makeup and Fragrances",
+      "L1": "Make up",
+      "L2": "Lip make-up"
+    },
+    "lipplumper||lips||lip plumper": {
+      "L0": "Makeup and Fragrances",
+      "L1": "Make up",
+      "L2": "Lip make-up"
+    },
+    "lipscrub||body and face care||scrub": {
+      "L0": "Grooming",
+      "L1": "Face Skin",
+      "L2": "Face Skin Others"
+    },
+    "lipstain||lips||lip stain": {
+      "L0": "Makeup and Fragrances",
+      "L1": "Make up",
+      "L2": "Lip make-up"
+    },
+    "lipstick||lips||lipstick": {
+      "L0": "Makeup and Fragrances",
+      "L1": "Make up",
+      "L2": "Lip make-up"
+    },
+    "loofah||bath accessory||bath accessory": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "lotioncream||body and face care||moisturizer": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "makeupaccessory||makeup accessory||makeup pencil sharpener": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "makeupbrushorganizer||makeup accessory||makeup brush organizer": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "makeup||eye makeup||eyebrow enhancer": {
+      "L0": "Makeup and Fragrances",
+      "L1": "Make up",
+      "L2": "Eye make-up"
+    },
+    "makeup||eye makeup||eyebrow pencil": {
+      "L0": "Makeup and Fragrances",
+      "L1": "Make up",
+      "L2": "Eye make-up"
+    },
+    "makeup||eye makeup||eyeliner": {
+      "L0": "Makeup and Fragrances",
+      "L1": "Make up",
+      "L2": "Eye make-up"
+    },
+    "makeup||eye makeup||eyeshadow": {
+      "L0": "Makeup and Fragrances",
+      "L1": "Make up",
+      "L2": "Eye make-up"
+    },
+    "makeup||eye makeup||kajal": {
+      "L0": "Makeup and Fragrances",
+      "L1": "Make up",
+      "L2": "Eye make-up"
+    },
+    "makeup||eye makeup||mascara": {
+      "L0": "Makeup and Fragrances",
+      "L1": "Make up",
+      "L2": "Eye make-up"
+    },
+    "makeup||face makeup||blush": {
+      "L0": "Makeup and Fragrances",
+      "L1": "Make up",
+      "L2": "Face make-up"
+    },
+    "makeup||face makeup||bronzer": {
+      "L0": "Makeup and Fragrances",
+      "L1": "Make up",
+      "L2": "Face make-up"
+    },
+    "makeup||face makeup||compact": {
+      "L0": "Makeup and Fragrances",
+      "L1": "Make up",
+      "L2": "Face make-up"
+    },
+    "makeup||face makeup||concealer": {
+      "L0": "Makeup and Fragrances",
+      "L1": "Make up",
+      "L2": "Face make-up"
+    },
+    "makeup||face makeup||foundation": {
+      "L0": "Makeup and Fragrances",
+      "L1": "Make up",
+      "L2": "Face make-up"
+    },
+    "makeup||face makeup||highlighter": {
+      "L0": "Makeup and Fragrances",
+      "L1": "Make up",
+      "L2": "Face make-up"
+    },
+    "makeup||face makeup||makeup remover": {
+      "L0": "Makeup and Fragrances",
+      "L1": "Make up",
+      "L2": "Make-up cleansing"
+    },
+    "makeup||face makeup||primer": {
+      "L0": "Makeup and Fragrances",
+      "L1": "Make up",
+      "L2": "Face make-up"
+    },
+    "makeup||face makeup||shimmer and glitter": {
+      "L0": "Makeup and Fragrances",
+      "L1": "Make up",
+      "L2": "Face make-up"
+    },
+    "makeupkit||makeup kits & combo||makeup kits": {
+      "L0": "Makeup and Fragrances",
+      "L1": "Make up",
+      "L2": "Make up Others"
+    },
+    "makeup||lips||lip balm": {
+      "L0": "Makeup and Fragrances",
+      "L1": "Make up",
+      "L2": "Lip make-up"
+    },
+    "makeup||lips||lip gloss": {
+      "L0": "Makeup and Fragrances",
+      "L1": "Make up",
+      "L2": "Lip make-up"
+    },
+    "makeup||lips||lip liner": {
+      "L0": "Makeup and Fragrances",
+      "L1": "Make up",
+      "L2": "Lip make-up"
+    },
+    "makeup||lips||lip plumper": {
+      "L0": "Makeup and Fragrances",
+      "L1": "Make up",
+      "L2": "Lip make-up"
+    },
+    "makeup||lips||lip stain": {
+      "L0": "Makeup and Fragrances",
+      "L1": "Make up",
+      "L2": "Lip make-up"
+    },
+    "makeup||lips||lipstick": {
+      "L0": "Makeup and Fragrances",
+      "L1": "Make up",
+      "L2": "Lip make-up"
+    },
+    "makeup||makeup accessory||artificial eyelash": {
+      "L0": "Makeup and Fragrances",
+      "L1": "Make up",
+      "L2": "Make up Others"
+    },
+    "makeup||makeup accessory||artificial nail": {
+      "L0": "Makeup and Fragrances",
+      "L1": "Make up",
+      "L2": "Nail make-up"
+    },
+    "makeup||makeup accessory||bindi": {
+      "L0": "Makeup and Fragrances",
+      "L1": "Make up",
+      "L2": "Body make-up"
+    },
+    "makeup||makeup accessory||cotton ball": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "makeup||makeup accessory||cuticle pusher": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "makeup||makeup accessory||eyebrow stencil": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "makeup||makeup accessory||eyebrow thread": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "makeup||makeup accessory||eyelash adhesive": {
+      "L0": "Makeup and Fragrances",
+      "L1": "Make up",
+      "L2": "Make up Others"
+    },
+    "makeup||makeup accessory||eyelash curler": {
+      "L0": "Makeup and Fragrances",
+      "L1": "Make up",
+      "L2": "Make up Others"
+    },
+    "makeup||makeup accessory||facial wipe": {
+      "L0": "Makeup and Fragrances",
+      "L1": "Make up",
+      "L2": "Make-up cleansing"
+    },
+    "makeup||makeup accessory||hand mirror": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "makeup||makeup accessory||makeup apron": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "makeup||makeup accessory||makeup brush organizer": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "makeup||makeup accessory||makeup headband": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "makeup||makeup accessory||makeup pencil sharpener": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "makeup||makeup accessory||mehendi": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "makeup||makeup accessory||nail brush": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "makeup||makeup accessory||nail cutter": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "makeup||makeup accessory||nail dust cleaner": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "makeup||makeup accessory||nail filer": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "makeup||makeup accessory||sindoor": {
+      "L0": "Makeup and Fragrances",
+      "L1": "Make up",
+      "L2": "Face make-up"
+    },
+    "makeup||makeup accessory||soak clip": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "makeup||makeup accessory||sponge": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "makeup||makeup accessory||tattoo kit": {
+      "L0": "Makeup and Fragrances",
+      "L1": "Make up",
+      "L2": "Body make-up"
+    },
+    "makeup||makeup accessory||tattoo needle": {
+      "L0": "Makeup and Fragrances",
+      "L1": "Make up",
+      "L2": "Body make-up"
+    },
+    "makeup||makeup accessory||tattoos sticker": {
+      "L0": "Makeup and Fragrances",
+      "L1": "Make up",
+      "L2": "Body make-up"
+    },
+    "makeup||makeup accessory||tweezer": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "makeup||makeup accessory||vanity box": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "makeup||makeup kits & combo||makeup combo": {
+      "L0": "Makeup and Fragrances",
+      "L1": "Make up",
+      "L2": "Make up Others"
+    },
+    "makeup||makeup kits & combo||makeup kits": {
+      "L0": "Makeup and Fragrances",
+      "L1": "Make up",
+      "L2": "Make up Others"
+    },
+    "makeup||nails||nail art": {
+      "L0": "Makeup and Fragrances",
+      "L1": "Make up",
+      "L2": "Nail make-up"
+    },
+    "makeup||nails||nail crystal powder": {
+      "L0": "Makeup and Fragrances",
+      "L1": "Make up",
+      "L2": "Nail make-up"
+    },
+    "makeup||nails||nail polish": {
+      "L0": "Makeup and Fragrances",
+      "L1": "Make up",
+      "L2": "Nail make-up"
+    },
+    "makeup||nails||nail polish dryer": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "makeup||nails||nail polish remover": {
+      "L0": "Makeup and Fragrances",
+      "L1": "Make up",
+      "L2": "Nail make-up"
+    },
+    "makeupremover||face makeup||makeup remover": {
+      "L0": "Makeup and Fragrances",
+      "L1": "Make up",
+      "L2": "Make-up cleansing"
+    },
+    "manicurekit||hand & foot care||manicure kit": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "mascara||eye makeup||mascara": {
+      "L0": "Makeup and Fragrances",
+      "L1": "Make up",
+      "L2": "Eye make-up"
+    },
+    "massageoil||bath essentials||bath essential oil": {
+      "L0": "Grooming",
+      "L1": "Hygiene",
+      "L2": "Body wash"
+    },
+    "mehendi||makeup accessory||mehendi": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "menstrualcups||intimate care||menstrualcups": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "mirror||makeup accessory||hand mirror": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "mouthwash||mouthwash||mouthwash": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "na||bath accessory||bath accessory": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "na||body and face care||moisturizer": {
+      "L0": "Grooming",
+      "L1": "Body Skin",
+      "L2": "Body Care"
+    },
+    "nail polish remover||nails||nail polish remover": {
+      "L0": "Makeup and Fragrances",
+      "L1": "Make up",
+      "L2": "Nail make-up"
+    },
+    "nailaccessories||makeup accessory||artificial nail": {
+      "L0": "Makeup and Fragrances",
+      "L1": "Make up",
+      "L2": "Nail make-up"
+    },
+    "nailaccessories||makeup accessory||nail brush": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "nailaccessories||makeup accessory||nail cutter": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "nailaccessories||makeup accessory||nail filer": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "nailaccessories||nails||nail art": {
+      "L0": "Makeup and Fragrances",
+      "L1": "Make up",
+      "L2": "Nail make-up"
+    },
+    "nailaccessories||nails||nail crystal powder": {
+      "L0": "Makeup and Fragrances",
+      "L1": "Make up",
+      "L2": "Nail make-up"
+    },
+    "nailaccessories||nails||nail polish dryer": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "nailcutter||makeup accessory||nail cutter": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "nailpolish||nails||nail polish": {
+      "L0": "Makeup and Fragrances",
+      "L1": "Make up",
+      "L2": "Nail make-up"
+    },
+    "na||intimate care||na": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "na||makeup accessory||nail dust cleaner": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "oilwaxheater||body and face accessory||oil and wax heater": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "oral care||breath freshener||breath freshener": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "oral care||dental floss||dental floss": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "oral care||mouthwash||mouthwash": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "oral care||oral care combo||oral care combo": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "oral care||teeth whitening||teeth whitening": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "oral care||teeth wipe||teeth wipe": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "oral care||tongue cleaner||tongue cleaner": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "oral care||toothbrush sanitizer||toothbrush sanitizer": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "oral care||toothbrush||toothbrush": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "oral care||toothpaste||toothpaste": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "pantyliner||pantyliner||pantyliner": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "pedicurekit||hand & foot care||pedicure kit": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "perfumeformen||perfume||perfume": {
+      "L0": "Makeup and Fragrances",
+      "L1": "Fragrance",
+      "L2": "Perfume"
+    },
+    "perfumeforwomen||perfume||perfume": {
+      "L0": "Makeup and Fragrances",
+      "L1": "Fragrance",
+      "L2": "Perfume"
+    },
+    "powderpuff||makeup accessory||sponge": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "primer||face makeup||primer": {
+      "L0": "Makeup and Fragrances",
+      "L1": "Make up",
+      "L2": "Face make-up"
+    },
+    "puffsponges||makeup accessory||sponge": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "razorsandcartrdige||shaving blades||shaving blades": {
+      "L0": "Grooming",
+      "L1": "Hygiene",
+      "L2": "Shaving"
+    },
+    "razorsandcartrdige||shaving razors||shaving razors": {
+      "L0": "Grooming",
+      "L1": "Hygiene",
+      "L2": "Shaving"
+    },
+    "rollon||deodorants||deodorants": {
+      "L0": "Grooming",
+      "L1": "Hygiene",
+      "L2": "Deos & Antiperspirants"
+    },
+    "safeapplication||makeup accessory||makeup apron": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "safeapplication||makeup accessory||makeup headband": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "safeapplication||makeup accessory||soak clip": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "sanitarypad||sanitary pad||sanitary pad": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "shampoo||hair care||shampoo": {
+      "L0": "Grooming",
+      "L1": "Hair Care",
+      "L2": "Shampoo"
+    },
+    "shaveoil||beard oil||beard oil": {
+      "L0": "Grooming",
+      "L1": "Hair Care Others",
+      "L2": "Hair Oils"
+    },
+    "shaving & beard care||aftershave||aftershave": {
+      "L0": "Grooming",
+      "L1": "Hygiene",
+      "L2": "Shaving"
+    },
+    "shaving & beard care||beard oil||beard oil": {
+      "L0": "Grooming",
+      "L1": "Hair Care Others",
+      "L2": "Hair Oils"
+    },
+    "shaving & beard care||men's grooming combo kit||men's grooming combo kit": {
+      "L0": "Grooming",
+      "L1": "Hygiene",
+      "L2": "Shaving"
+    },
+    "shaving & beard care||shaving blades||shaving blades": {
+      "L0": "Grooming",
+      "L1": "Hygiene",
+      "L2": "Shaving"
+    },
+    "shaving & beard care||shaving brushes||shaving brushes": {
+      "L0": "Grooming",
+      "L1": "Hygiene",
+      "L2": "Shaving"
+    },
+    "shaving & beard care||shaving creams||shaving creams": {
+      "L0": "Grooming",
+      "L1": "Hygiene",
+      "L2": "Shaving"
+    },
+    "shaving & beard care||shaving foam||shaving foam": {
+      "L0": "Grooming",
+      "L1": "Hygiene",
+      "L2": "Shaving"
+    },
+    "shaving & beard care||shaving gel||shaving gel": {
+      "L0": "Grooming",
+      "L1": "Hygiene",
+      "L2": "Shaving"
+    },
+    "shaving & beard care||shaving razors||shaving razors": {
+      "L0": "Grooming",
+      "L1": "Hygiene",
+      "L2": "Shaving"
+    },
+    "shaving & beard care||shaving soap||shaving soap": {
+      "L0": "Grooming",
+      "L1": "Hygiene",
+      "L2": "Shaving"
+    },
+    "shavingbrush||shaving brushes||shaving brushes": {
+      "L0": "Grooming",
+      "L1": "Hygiene",
+      "L2": "Shaving"
+    },
+    "shavingcreamfoamandgel||shaving creams||shaving creams": {
+      "L0": "Grooming",
+      "L1": "Hygiene",
+      "L2": "Shaving"
+    },
+    "shavingcreamfoamandgel||shaving foam||shaving foam": {
+      "L0": "Grooming",
+      "L1": "Hygiene",
+      "L2": "Shaving"
+    },
+    "shavingcreamfoamandgel||shaving gel||shaving gel": {
+      "L0": "Grooming",
+      "L1": "Hygiene",
+      "L2": "Shaving"
+    },
+    "shavingsoap||shaving soap||shaving soap": {
+      "L0": "Grooming",
+      "L1": "Hygiene",
+      "L2": "Shaving"
+    },
+    "shimmerglitter||face makeup||shimmer and glitter": {
+      "L0": "Makeup and Fragrances",
+      "L1": "Make up",
+      "L2": "Face make-up"
+    },
+    "sindoor||makeup accessory||sindoor": {
+      "L0": "Makeup and Fragrances",
+      "L1": "Make up",
+      "L2": "Face make-up"
+    },
+    "skintreatment||body and face care||skin treatment": {
+      "L0": "Grooming",
+      "L1": "Face Skin",
+      "L2": "Face care"
+    },
+    "soap||bath essentials||bath soap": {
+      "L0": "Grooming",
+      "L1": "Hygiene",
+      "L2": "Soaps"
+    },
+    "sunscreen||body and face care||sunscreen": {
+      "L0": "Grooming",
+      "L1": "Face Skin",
+      "L2": "Sun care"
+    },
+    "talc||body and face care||talcum powder": {
+      "L0": "Grooming",
+      "L1": "Hygiene",
+      "L2": "Body care (Talc)"
+    },
+    "tampon||intimate care||tampon": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "teethwhitening||teeth whitening||teeth whitening": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "teethwipe||teeth wipe||teeth wipe": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "toner||body and face care||toner": {
+      "L0": "Grooming",
+      "L1": "Face Skin",
+      "L2": "Face care"
+    },
+    "tonguecleaner||tongue cleaner||tongue cleaner": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "toothbrushsanitizer||toothbrush sanitizer||toothbrush sanitizer": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "toothbrush||toothbrush||toothbrush": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "toothpaste||toothpaste||toothpaste": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "vanitybox||makeup accessory||vanity box": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "womenintimatecare||intimate care||intimate care": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "women's personal hygiene||intimate care||comboandkit": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "women's personal hygiene||intimate care||femaleurinationdevice": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "women's personal hygiene||intimate care||intimate care": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "women's personal hygiene||intimate care||menstrualcups": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "women's personal hygiene||intimate care||na": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "women's personal hygiene||intimate care||tampon": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "women's personal hygiene||pantyliner||pantyliner": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    },
+    "women's personal hygiene||sanitary pad||sanitary pad": {
+      "L0": "Others",
+      "L1": "Others",
+      "L2": "Others"
+    }
+  }
+}
